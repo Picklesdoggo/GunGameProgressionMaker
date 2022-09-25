@@ -1,0 +1,8700 @@
+{
+	"fileLocations": [],
+	"guns": [
+		{
+			"GunName": "1860Rifle",
+			"DefaultMagName": "44HenryRimfire",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Lever Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"44HenryRimfire"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "1873Carbine",
+			"DefaultMagName": "45LongColtCartridgeSP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Lever Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"45LongColtCartridgeSP",
+				"45LongColtCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "1873Chopshop",
+			"DefaultMagName": "45LongColtCartridgeSP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Lever Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"45LongColtCartridgeSP",
+				"45LongColtCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "1873Rifle",
+			"DefaultMagName": "45LongColtCartridgeSP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Lever Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"45LongColtCartridgeSP",
+				"45LongColtCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "1887FullLength",
+			"DefaultMagName": "12GaugeShellSlug",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Lever Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "1887Shorty",
+			"DefaultMagName": "12GaugeShell00Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Lever Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "1887ShortyT2",
+			"DefaultMagName": "12GaugeShell00Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Lever Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "1894Rifle",
+			"DefaultMagName": "Cartridge_44Magnum_Penetrator",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Lever Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"Cartridge_44Magnum_FMJ",
+				"Cartridge_44Magnum_JHP",
+				"Cartridge_44Magnum_Penetrator",
+				"Cartridge_44Magnum_SoftPoint",
+				"Cartridge_44Magnum_Tracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "AA12",
+			"DefaultMagName": "MagazineAA12",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Mag-Fed Automatic Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"MagazineAA12",
+				"MagazineAA12Drum"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "AEK919k",
+			"DefaultMagName": "MagazineAEK919k",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineAEK919k"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "Agram2000",
+			"DefaultMagName": "MagazineAgram2000_32rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineAgram2000_15rnd",
+				"MagazineAgram2000_32rnd"
+			],
+			"NationOfOrigin": "Croatian"
+		},
+		{
+			"GunName": "AK101",
+			"DefaultMagName": "MagazineAK102",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK102"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "AK12",
+			"DefaultMagName": "MagazineAK74N",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK12",
+				"MagazineAK74_10rnd",
+				"MagazineAK74_20rnd",
+				"MagazineAK74Drum",
+				"MagazineAK74N",
+				"MagazineAKS74U",
+				"MagazineAKS74U2"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "AK12Prototype",
+			"DefaultMagName": "MagazineAK12",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK12",
+				"MagazineAK74_10rnd",
+				"MagazineAK74_20rnd",
+				"MagazineAK74Drum",
+				"MagazineAK74N",
+				"MagazineAKS74U",
+				"MagazineAKS74U2"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "AK5c",
+			"DefaultMagName": "MagazineH416D60",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "Swedish"
+		},
+		{
+			"GunName": "AK74N",
+			"DefaultMagName": "MagazineAK74Drum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK12",
+				"MagazineAK74_10rnd",
+				"MagazineAK74_20rnd",
+				"MagazineAK74Drum",
+				"MagazineAK74N",
+				"MagazineAKS74U",
+				"MagazineAKS74U2"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "AKM",
+			"DefaultMagName": "MagazineAKMTactical20rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAKM",
+				"MagazineAKMDrum",
+				"MagazineAKMGold",
+				"MagazineAKMHeirloom",
+				"MagazineAKMTactical10rnd",
+				"MagazineAKMTactical20rnd",
+				"MagazineAKMTactical",
+				"MagazineRPK"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "AKMTactical",
+			"DefaultMagName": "MagazineAKM",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAKM",
+				"MagazineAKMDrum",
+				"MagazineAKMGold",
+				"MagazineAKMHeirloom",
+				"MagazineAKMTactical10rnd",
+				"MagazineAKMTactical20rnd",
+				"MagazineAKMTactical",
+				"MagazineRPK"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "AKS74U",
+			"DefaultMagName": "MagazineAK12",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK12",
+				"MagazineAK74_10rnd",
+				"MagazineAK74_20rnd",
+				"MagazineAK74Drum",
+				"MagazineAK74N",
+				"MagazineAKS74U",
+				"MagazineAKS74U2"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "AKS74UTactical",
+			"DefaultMagName": "MagazineAKS74U2",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK12",
+				"MagazineAK74_10rnd",
+				"MagazineAK74_20rnd",
+				"MagazineAK74Drum",
+				"MagazineAK74N",
+				"MagazineAKS74U",
+				"MagazineAKS74U2"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "American180",
+			"DefaultMagName": "MagazineAmerican90",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineAmerican180",
+				"MagazineAmerican90"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "American90",
+			"DefaultMagName": "MagazineAmerican180",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineAmerican180",
+				"MagazineAmerican90"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "APC45",
+			"DefaultMagName": "MagazineAPC45",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Carbine",
+				"PCC"
+			],
+			"CompatableAmmo": [
+				"MagazineAPC45"
+			],
+			"NationOfOrigin": "Swiss"
+		},
+		{
+			"GunName": "APC9",
+			"DefaultMagName": "MagazineQC9Drum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Carbine",
+				"PCC"
+			],
+			"CompatableAmmo": [
+				"MagazineAPC9",
+				"MagazineQC9Drum",
+				"MagazineQC9Standard",
+				"MagazineQC9Waffle"
+			],
+			"NationOfOrigin": "Swiss"
+		},
+		{
+			"GunName": "APS",
+			"DefaultMagName": "MagazineAPS",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineAPS"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "AR10",
+			"DefaultMagName": "MagazineAR10_20rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAR10_20rnd"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "AR15SBR",
+			"DefaultMagName": "MagazineStanag1",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Carbine",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "AR18",
+			"DefaultMagName": "MagazineAR1820rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAR1820rnd",
+				"MagazineAR1830rnd",
+				"MagazineAR1840rnd"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "AR180",
+			"DefaultMagName": "MagazineAR1830rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Carbine",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAR1820rnd",
+				"MagazineAR1830rnd",
+				"MagazineAR1840rnd"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "AR18c",
+			"DefaultMagName": "MagazineAR1830rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Carbine",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAR1820rnd",
+				"MagazineAR1830rnd",
+				"MagazineAR1840rnd"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "AR18p",
+			"DefaultMagName": "MagazineAR1830rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Carbine",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAR1820rnd",
+				"MagazineAR1830rnd",
+				"MagazineAR1840rnd"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "AR50a",
+			"DefaultMagName": "50BMGCartridgeTracer",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Anti-Material",
+				"Bolt-Action Rifle"
+			],
+			"CompatableAmmo": [
+				"50BMGCartridgeTracer",
+				"50BMGCartridgeAP",
+				"50BMGCartridgeAPIncendiary",
+				"50BMGCartridgeFMJ",
+				"50BMGCartridgeIncendiary",
+				"50BMGCartridgeMk211",
+				"50BMGCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "ASVAL",
+			"DefaultMagName": "MagazineSR3M30rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineASVal20Rnd",
+				"MagazineSR3M30rnd",
+				"MagazineVSSVintorez10rnd"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "AugA1",
+			"DefaultMagName": "MagazineAugA1",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAugA1",
+				"MagazineAugA3"
+			],
+			"NationOfOrigin": "Austrian"
+		},
+		{
+			"GunName": "AugA3",
+			"DefaultMagName": "MagazineAugA1",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAugA1",
+				"MagazineAugA3"
+			],
+			"NationOfOrigin": "Austrian"
+		},
+		{
+			"GunName": "Auto5",
+			"DefaultMagName": "12GaugeShellSlug",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Semi-Auto Tube-Fed Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "AWM",
+			"DefaultMagName": "MagazineAWM",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAWM"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "B600",
+			"DefaultMagName": "Cartridge_600MagnumBolt_JHP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Futuristic",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"Cartridge_600MagnumBolt_AP",
+				"Cartridge_600MagnumBolt_HE",
+				"Cartridge_600MagnumBolt_JHP"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "BergmannNo5",
+			"DefaultMagName": "MagazineBergmannNo520Rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineBergmannNo510Rnd",
+				"MagazineBergmannNo520Rnd"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "BergmannNo5Carbine",
+			"DefaultMagName": "MagazineBergmannNo510Rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"PCC",
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineBergmannNo510Rnd",
+				"MagazineBergmannNo520Rnd"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "BergmannSimplex",
+			"DefaultMagName": "MagazineBergmannSimplex",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Pistol",
+				"Pocket Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineBergmannSimplex"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "BerthierCarbine",
+			"DefaultMagName": "MagazineBerthierCarbine",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWI",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineBerthierCarbine"
+			],
+			"NationOfOrigin": "French"
+		},
+		{
+			"GunName": "BFB",
+			"DefaultMagName": "Cartridge12GaugeShortNo1Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cursed",
+			"Categories": [
+				"Semi-Auto Tube-Fed Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "BFR",
+			"DefaultMagName": "45_70Govt_JHP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"45_70Govt_HighGrain",
+				"45_70Govt_JHP",
+				"45_70Govt_Penetrator",
+				"45_70Govt_SoftPoint",
+				"45_70Govt_Tracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Blyskawica",
+			"DefaultMagName": "MagazineBlyskawica",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineBlyskawica"
+			],
+			"NationOfOrigin": "Polish"
+		},
+		{
+			"GunName": "Bodyguard38",
+			"DefaultMagName": "38SpecialCartridgeTracer",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Pocket Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"38SpecialCartridgeFMJ",
+				"38SpecialCartridgeJHP",
+				"38SpecialCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "BreakActionShorty",
+			"DefaultMagName": "12GaugeShellSWAG12FA",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "BreakActionSuperShorty",
+			"DefaultMagName": "12GaugeShellSWAG12FA",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "BreakActionTheOG",
+			"DefaultMagName": "Cartridge3Gauge00Buck",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"Cartridge3Gauge00Buck"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "Bren806",
+			"DefaultMagName": "MagazineH416D60",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "Czech"
+		},
+		{
+			"GunName": "Bren807",
+			"DefaultMagName": "MagazineBren807",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineBren807"
+			],
+			"NationOfOrigin": "Czech"
+		},
+		{
+			"GunName": "BrenLMG",
+			"DefaultMagName": "MagazineBrenLMG",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineBrenLMG"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "BrenShortyLMG",
+			"DefaultMagName": "MagazineBrenLMG",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineBrenLMG"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "BrowningHP",
+			"DefaultMagName": "MagazineBrowningHP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineBrowningHP"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Bubba15",
+			"DefaultMagName": "MagazineStanag1",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Carbine",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Bull454",
+			"DefaultMagName": "454Casull_Tracer",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"454Casull_HighGrain",
+				"454Casull_JHP",
+				"454Casull_Penetrator",
+				"454Casull_Softpoint",
+				"454Casull_Tracer"
+			],
+			"NationOfOrigin": "Brazilian"
+		},
+		{
+			"GunName": "C1851Conversion",
+			"DefaultMagName": "Cartridge_38Rimfire_JHP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"Cartridge_38Rimfire_JHP",
+				"Cartridge_38Rimfire_SP",
+				"Cartridge_38Rimfire_Tracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "C93Borchardt",
+			"DefaultMagName": "MagazineC93Borchardt",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineC93Borchardt"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "C96Mauser",
+			"DefaultMagName": "C96MauserStripperClip",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"763x25mmMauserCartridgeFMJ",
+				"763x25mmMauserCartridgeJHP",
+				"763x25mmMauserCartridgeTracer",
+				"C96MauserStripperClip"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "Carcano1891",
+			"DefaultMagName": "MagazineEnbloc1891",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineEnbloc1891"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "CAWS",
+			"DefaultMagName": "MagazineCAWS20Rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Mag-Fed Automatic Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"MagazineCAWS10Rnd",
+				"MagazineCAWS20Rnd"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "CAWS_TacMod",
+			"DefaultMagName": "MagazineCAWS20Rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Mag-Fed Automatic Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"MagazineCAWS10Rnd",
+				"MagazineCAWS20Rnd"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "ChinaLake",
+			"DefaultMagName": "Cartridge_40x46Grenade_M381",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Grenade Launcher",
+				"Ordnance"
+			],
+			"CompatableAmmo": [
+				"Cartridge_40x46Grenade_M381",
+				"Cartridge_40x46Grenade_M397",
+				"Cartridge_40x46Grenade_M576",
+				"Cartridge_40x46Grenade_M651",
+				"Cartridge_40x46Grenade_M781",
+				"Cartridge_40x46Grenade_X1776",
+				"Cartridge_40x46Grenade_X214",
+				"Cartridge_40x46Grenade_X477",
+				"Cartridge_40x46Grenade_X666"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "ClericM9",
+			"DefaultMagName": "MagazinePX4",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Futuristic",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineM93R",
+				"MagazineM9A1",
+				"MagazineM9A3",
+				"MagazinePX4",
+				"MagazineCX4"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "CobrayM11_9",
+			"DefaultMagName": "MagazineCobrayM119_72rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineCobrayM119_16rnd",
+				"MagazineCobrayM119_32rnd",
+				"MagazineCobrayM119_72rnd"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Commando552",
+			"DefaultMagName": "MagazineSG550",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineCommando552",
+				"MagazineSG550"
+			],
+			"NationOfOrigin": "Swiss"
+		},
+		{
+			"GunName": "Commando552Tactical",
+			"DefaultMagName": "MagazineCommando552",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineCommando552",
+				"MagazineSG550"
+			],
+			"NationOfOrigin": "Swiss"
+		},
+		{
+			"GunName": "CompoundPistol",
+			"DefaultMagName": "MagazineFrontierMosesB",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Futuristic",
+			"Categories": [
+				"Machine Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineFrontierMosesB"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "Contender4570",
+			"DefaultMagName": "45_70Govt_JHP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Breechloader Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"45_70Govt_HighGrain",
+				"45_70Govt_JHP",
+				"45_70Govt_Penetrator",
+				"45_70Govt_SoftPoint",
+				"45_70Govt_Tracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "COP357",
+			"DefaultMagName": "357MagnumCartridgeTracer",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Derringer",
+				"Pistol",
+				"Pocket Pistol"
+			],
+			"CompatableAmmo": [
+				"357MagnumCartridgeFMJ",
+				"357MagnumCartridgeJHP",
+				"357MagnumCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "CQB870",
+			"DefaultMagName": "MagazineCQB87012Rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"MagazineCQB87012Rnd",
+				"MagazineCQB8706Rnd"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "CX4",
+			"DefaultMagName": "MagazineM93R",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Carbine",
+				"PCC"
+			],
+			"CompatableAmmo": [
+				"MagazineM93R",
+				"MagazineM9A1",
+				"MagazineM9A3",
+				"MagazinePX4",
+				"MagazineCX4"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "CyberHandgun",
+			"DefaultMagName": "MagazineCyberHandgun",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Futuristic",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineCyberHandgun"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "CZ75Shadow",
+			"DefaultMagName": "MagazineCZ75Shadow",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineCZ75Shadow"
+			],
+			"NationOfOrigin": "Czech"
+		},
+		{
+			"GunName": "DardickCarbine",
+			"DefaultMagName": "38TroundClip",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Carbine"
+			],
+			"CompatableAmmo": [
+				"Cartridge38TroundFlechette",
+				"Cartridge38TroundFMJ",
+				"38TroundClip"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "DardickRevolver",
+			"DefaultMagName": "38TroundClip",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"Cartridge38TroundFlechette",
+				"Cartridge38TroundFMJ",
+				"38TroundClip"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Deaglov",
+			"DefaultMagName": "MagazineDeaglov",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cursed",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineDeaglov"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "Defender45",
+			"DefaultMagName": "MagazineM1911Dillinger",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineDefender45",
+				"MagazineM1911Stamped",
+				"MagazineM1911",
+				"MagazineM1911Dillinger",
+				"MagazineM1911Tactical",
+				"MagazineM1911OG",
+				"MagazineDeLisleCarbine"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "DeLisleCarbine",
+			"DefaultMagName": "MagazineM1911Stamped",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineDefender45",
+				"MagazineM1911Stamped",
+				"MagazineM1911",
+				"MagazineM1911Dillinger",
+				"MagazineM1911Tactical",
+				"MagazineM1911OG",
+				"MagazineDeLisleCarbine"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "DesertEagle357",
+			"DefaultMagName": "MagazineDesertEagle357",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineDesertEagle357"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "DesertEagle44",
+			"DefaultMagName": "MagazineDeagle44",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineDeagle44"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "DesertEagle50",
+			"DefaultMagName": "MagazineDeagle50",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineDeagle50"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Detective Special 38",
+			"DefaultMagName": "38SpecialCartridgeFMJ",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"38SpecialCartridgeFMJ",
+				"38SpecialCartridgeJHP",
+				"38SpecialCartridgeTracer",
+				"Speedloader38Special6Shot"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "DoubleBarrel1882",
+			"DefaultMagName": "12GaugeShellNo2Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "DoubleDown",
+			"DefaultMagName": "9x19mmCartridge+PJHP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Derringer",
+				"Pistol",
+				"Pocket Pistol"
+			],
+			"CompatableAmmo": [
+				"9x19mmCartridge+PAPI",
+				"9x19mmCartridge+PFMJ",
+				"9x19mmCartridge+PJHP",
+				"9x19mmCartridgeFMJ",
+				"9x19mmCartridgeJHP",
+				"9x19mmCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "DP28LMG",
+			"DefaultMagName": "MagazineDP28",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineDP28"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "DP28ShortyLMG",
+			"DefaultMagName": "MagazineDP28",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineDP28"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "DracoAk",
+			"DefaultMagName": "MagazineAKMTactical20rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAKM",
+				"MagazineAKMDrum",
+				"MagazineAKMGold",
+				"MagazineAKMHeirloom",
+				"MagazineAKMTactical10rnd",
+				"MagazineAKMTactical20rnd",
+				"MagazineAKMTactical",
+				"MagazineRPK"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "Dragonuv",
+			"DefaultMagName": "MagazineDragonuv",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"DMR",
+				"Rifle",
+				"Semi-Auto Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineDragonuv"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "DT11",
+			"DefaultMagName": "12GaugeShellNo4Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "DT11ChopShop",
+			"DefaultMagName": "12GaugeShell00Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "DT11Shorty",
+			"DefaultMagName": "12GaugeShellSWAG12FA",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "EM2",
+			"DefaultMagName": "MagazineEM2",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineEM2"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "Evo3",
+			"DefaultMagName": "MagazineEvo350rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineEvo3",
+				"MagazineEvo315rnd",
+				"MagazineEvo350rnd"
+			],
+			"NationOfOrigin": "Czech"
+		},
+		{
+			"GunName": "Explorer22",
+			"DefaultMagName": "MagazineExplorer22",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineExplorer22"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Express870",
+			"DefaultMagName": "12GaugeShellNo4Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "F12",
+			"DefaultMagName": "MagazineF12",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Pocket Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineF12"
+			],
+			"NationOfOrigin": "Ukrainian"
+		},
+		{
+			"GunName": "FA83",
+			"DefaultMagName": "454Casull_Softpoint",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"454Casull_HighGrain",
+				"454Casull_JHP",
+				"454Casull_Penetrator",
+				"454Casull_Softpoint",
+				"454Casull_Tracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Fal",
+			"DefaultMagName": "MagazineFal30rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineFal10rnd",
+				"MagazineFal20rnd",
+				"MagazineFal30rnd",
+				"MagazineMk17Mod020rnd",
+				"MagazineX25DrumMk17"
+			],
+			"NationOfOrigin": "Belgian"
+		},
+		{
+			"GunName": "FalPara",
+			"DefaultMagName": "MagazineMk17Mod020rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineFal10rnd",
+				"MagazineFal20rnd",
+				"MagazineFal30rnd",
+				"MagazineMk17Mod020rnd",
+				"MagazineX25DrumMk17"
+			],
+			"NationOfOrigin": "Belgian"
+		},
+		{
+			"GunName": "FamasF1",
+			"DefaultMagName": "MagazineFamasF1",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineFamasF1"
+			],
+			"NationOfOrigin": "French"
+		},
+		{
+			"GunName": "FamasG2",
+			"DefaultMagName": "MagazineAK5c",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "French"
+		},
+		{
+			"GunName": "FaTactical",
+			"DefaultMagName": "MagazineFal10rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineFal10rnd",
+				"MagazineFal20rnd",
+				"MagazineFal30rnd",
+				"MagazineMk17Mod020rnd",
+				"MagazineX25DrumMk17"
+			],
+			"NationOfOrigin": "Belgian"
+		},
+		{
+			"GunName": "FiveSevenFDE",
+			"DefaultMagName": "MagazineFiveSeven30rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineFiveSeven",
+				"MagazineFiveSeven30rnd"
+			],
+			"NationOfOrigin": "Belgian"
+		},
+		{
+			"GunName": "FlaregunHighPressure",
+			"DefaultMagName": "12GaugeShellSlug",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "FourLetterWord",
+			"DefaultMagName": "12GaugeShellNo4Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cursed",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "FRF2",
+			"DefaultMagName": "MagazineFRF2",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineFRF2"
+			],
+			"NationOfOrigin": "French"
+		},
+		{
+			"GunName": "FrontierModelB",
+			"DefaultMagName": "MagazineFrontierMosesB",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Futuristic",
+			"Categories": [
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineFrontierMosesB"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "G11",
+			"DefaultMagName": "MagazineG11",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineG11"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "G11TacMod",
+			"DefaultMagName": "MagazineG11",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineG11"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "G17",
+			"DefaultMagName": "MagazineMax9",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineG17Standard",
+				"MagazineG17Custom",
+				"MagazineG17Drum",
+				"MagazineG18Standard",
+				"MagazineG19_19rnd",
+				"MagazineG19_33rnd",
+				"MagazineMax9"
+			],
+			"NationOfOrigin": "Austrian"
+		},
+		{
+			"GunName": "G17Custom",
+			"DefaultMagName": "MagazineG17Standard",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineG17Standard",
+				"MagazineG17Custom",
+				"MagazineG17Drum",
+				"MagazineG18Standard",
+				"MagazineG19_19rnd",
+				"MagazineG19_33rnd",
+				"MagazineMax9"
+			],
+			"NationOfOrigin": "Austrian"
+		},
+		{
+			"GunName": "G18",
+			"DefaultMagName": "MagazineG19_19rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineG17Standard",
+				"MagazineG17Custom",
+				"MagazineG17Drum",
+				"MagazineG18Standard",
+				"MagazineG19_19rnd",
+				"MagazineG19_33rnd",
+				"MagazineMax9"
+			],
+			"NationOfOrigin": "Austrian"
+		},
+		{
+			"GunName": "G18C",
+			"DefaultMagName": "MagazineG17Custom",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineG17Standard",
+				"MagazineG17Custom",
+				"MagazineG17Drum",
+				"MagazineG18Standard",
+				"MagazineG19_19rnd",
+				"MagazineG19_33rnd",
+				"MagazineMax9"
+			],
+			"NationOfOrigin": "Austrian"
+		},
+		{
+			"GunName": "G19",
+			"DefaultMagName": "MagazineG17Custom",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineG17Standard",
+				"MagazineG17Custom",
+				"MagazineG17Drum",
+				"MagazineG18Standard",
+				"MagazineG19_19rnd",
+				"MagazineG19_33rnd",
+				"MagazineMax9"
+			],
+			"NationOfOrigin": "Austrian"
+		},
+		{
+			"GunName": "G22",
+			"DefaultMagName": "MagazineG22HighCapacity",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineG22HighCapacity",
+				"MagazineG22Standard"
+			],
+			"NationOfOrigin": "Austrian"
+		},
+		{
+			"GunName": "G22FullAutoMod",
+			"DefaultMagName": "MagazineG22HighCapacity",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineG22HighCapacity",
+				"MagazineG22Standard"
+			],
+			"NationOfOrigin": "Austrian"
+		},
+		{
+			"GunName": "G36",
+			"DefaultMagName": "MagazineG36Drum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineG36Drum",
+				"MagazineG36Standard"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "G36C",
+			"DefaultMagName": "MagazineG36Standard",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineG36Drum",
+				"MagazineG36Standard"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "G3A3",
+			"DefaultMagName": "MagazineG3Drum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineG320rnd",
+				"MagazineG3Drum",
+				"MagazinePSG110rnd",
+				"MagazinePSG120rnd",
+				"MagazinePSG15rnd"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "G3SG1",
+			"DefaultMagName": "MagazinePSG120rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineG320rnd",
+				"MagazineG3Drum",
+				"MagazinePSG110rnd",
+				"MagazinePSG120rnd",
+				"MagazinePSG15rnd"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "GalilSAR",
+			"DefaultMagName": "MagazineGalil",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineGalil"
+			],
+			"NationOfOrigin": "Israeli"
+		},
+		{
+			"GunName": "Gepard",
+			"DefaultMagName": "MagazineGepard40rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"PDW",
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineGepard20rnd",
+				"MagazineGepard40rnd"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "gl",
+			"DefaultMagName": "MagazineG19_19rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cursed",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineG17Standard",
+				"MagazineG17Custom",
+				"MagazineG17Drum",
+				"MagazineG18Standard",
+				"MagazineG19_19rnd",
+				"MagazineG19_33rnd",
+				"MagazineMax9"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "GSh18",
+			"DefaultMagName": "MagazineGSh18",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineGSh18"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "H416",
+			"DefaultMagName": "MagazineH416D60",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "H51A1",
+			"DefaultMagName": "MagazineG3Drum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineG320rnd",
+				"MagazineG3Drum",
+				"MagazinePSG110rnd",
+				"MagazinePSG120rnd",
+				"MagazinePSG15rnd"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "H51A2",
+			"DefaultMagName": "MagazinePSG15rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineG320rnd",
+				"MagazineG3Drum",
+				"MagazinePSG110rnd",
+				"MagazinePSG120rnd",
+				"MagazinePSG15rnd"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "H51A3",
+			"DefaultMagName": "MagazinePSG120rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineG320rnd",
+				"MagazineG3Drum",
+				"MagazinePSG110rnd",
+				"MagazinePSG120rnd",
+				"MagazinePSG15rnd"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "H51K",
+			"DefaultMagName": "MagazinePSG120rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineG320rnd",
+				"MagazineG3Drum",
+				"MagazinePSG110rnd",
+				"MagazinePSG120rnd",
+				"MagazinePSG15rnd"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "H69A1",
+			"DefaultMagName": "Cartridge_40x46Grenade_M381",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Grenade Launcher",
+				"Ordnance"
+			],
+			"CompatableAmmo": [
+				"Cartridge_40x46Grenade_M381",
+				"Cartridge_40x46Grenade_M397",
+				"Cartridge_40x46Grenade_M576",
+				"Cartridge_40x46Grenade_M651",
+				"Cartridge_40x46Grenade_M781",
+				"Cartridge_40x46Grenade_X1776",
+				"Cartridge_40x46Grenade_X214",
+				"Cartridge_40x46Grenade_X477",
+				"Cartridge_40x46Grenade_X666"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "Hammerless520",
+			"DefaultMagName": "12GaugeShellSWAG12HE",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Hammerless520Short",
+			"DefaultMagName": "12GaugeShellSWAG12HE",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "HammerlessLong",
+			"DefaultMagName": "12GaugeShellFlechette",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "HandCrankFrank",
+			"DefaultMagName": "MagazineHandCrankFrank",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Machine Gun",
+				"Rotary Machinegun"
+			],
+			"CompatableAmmo": [
+				"MagazineHandCrankFrank"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Hawk357",
+			"DefaultMagName": "357MagnumCartridgeJHP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"357MagnumCartridgeFMJ",
+				"357MagnumCartridgeJHP",
+				"357MagnumCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Hecate2",
+			"DefaultMagName": "MagazineHecate2",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Anti-Material",
+				"Bolt-Action Rifle",
+				"Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineHecate2"
+			],
+			"NationOfOrigin": "French"
+		},
+		{
+			"GunName": "HoneyBadger",
+			"DefaultMagName": "MagazineHoneyBadger20rnds",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"PDW"
+			],
+			"CompatableAmmo": [
+				"MagazineHoneyBadger20rnds"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Hunter44",
+			"DefaultMagName": "Cartridge_44Magnum_FMJ",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"Cartridge_44Magnum_FMJ",
+				"Cartridge_44Magnum_JHP",
+				"Cartridge_44Magnum_Penetrator",
+				"Cartridge_44Magnum_SoftPoint",
+				"Cartridge_44Magnum_Tracer",
+				"SpeedloaderSW29"
+			],
+			"NationOfOrigin": "Brazilian"
+		},
+		{
+			"GunName": "HydeLightRifle",
+			"DefaultMagName": "MagazineHydeLightRifle",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Carbine",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineHydeLightRifle"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "IA2",
+			"DefaultMagName": "MagazineStanagDrum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "Brazilian"
+		},
+		{
+			"GunName": "IPSICK2011",
+			"DefaultMagName": "50BMGCartridgeMk211",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cursed",
+			"Categories": [
+				"Anti-Material",
+				"Breechloader Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"50BMGCartridgeAP",
+				"50BMGCartridgeAPIncendiary",
+				"50BMGCartridgeFMJ",
+				"50BMGCartridgeIncendiary",
+				"50BMGCartridgeMk211",
+				"50BMGCartridgeTracer"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "IZh18_12g",
+			"DefaultMagName": "12GaugeShell00Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "IZh18_12g_Short",
+			"DefaultMagName": "12GaugeShellDragonsBreath",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "IZh18_20g",
+			"DefaultMagName": "20GaugeShellSlug",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"20GaugeShellBuckshot",
+				"20GaugeShellDragonsBreath",
+				"20GaugeShellFreedomfetti",
+				"20GaugeShellSlug"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "Jetfire950MOP",
+			"DefaultMagName": "MagazineJetfire950STD",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pistol",
+				"Pocket Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineJetfire950MOP",
+				"MagazineJetfire950STD"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "Jetfire950STD",
+			"DefaultMagName": "MagazineJetfire950STD",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pistol",
+				"Pocket Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineJetfire950MOP",
+				"MagazineJetfire950STD"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "Johnson1941",
+			"DefaultMagName": "3006SpringfieldStripperClip",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"3006SpringfieldCartridgeAP",
+				"3006SpringfieldCartridgeAPIncendiary",
+				"3006SpringfieldCartridgeFMJ",
+				"3006SpringfieldCartridgeIncendiary",
+				"3006SpringfieldCartridgeJHP",
+				"3006SpringfieldCartridgeTracer",
+				"3006SpringfieldStripperClip"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "K50M",
+			"DefaultMagName": "MagazineK50M",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineK50M",
+				"MagazinePPSH41",
+				"MagazinePPSH41Drum",
+				"MagazinePPSH41TechDrum"
+			],
+			"NationOfOrigin": "Vietnamese"
+		},
+		{
+			"GunName": "K98k",
+			"DefaultMagName": "792x57mmStripperClip",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"792x57mmCartridgeFMJ",
+				"792x57CartridgeTracer",
+				"792x57mmStripperClip"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "KalishniLuger",
+			"DefaultMagName": "MagazineP08LugerDrum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineP08Luger",
+				"MagazineP08LugerDrum",
+				"MagazineMP18"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "Kolibri9001",
+			"DefaultMagName": "MagazineKolibri9001",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Futuristic",
+			"Categories": [
+				"Cannon",
+				"Exotic Ordnance",
+				"Ordnance"
+			],
+			"CompatableAmmo": [
+				"MagazineKolibri9001"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "KP31",
+			"DefaultMagName": "MagazineKP31",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineKP31"
+			],
+			"NationOfOrigin": "Finnish"
+		},
+		{
+			"GunName": "KS23",
+			"DefaultMagName": "23x75mmR_Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"23x75mmR_Barricade",
+				"23x75mmR_Buckshot",
+				"23x75mmR_CSGas",
+				"23x75mmR_Flash"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "KSG",
+			"DefaultMagName": "12GaugeShellSWAG12FA",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Kuularuisku",
+			"DefaultMagName": "KuularuiskuDrum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"25ACPCartridgeFMJ",
+				"25ACPCartridgeJHP",
+				"25ACPCartridgeTracer",
+				"KuularuiskuDrum"
+			],
+			"NationOfOrigin": "Finnish"
+		},
+		{
+			"GunName": "KWG1",
+			"DefaultMagName": "MagazineKWG",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cursed",
+			"Categories": [
+				"Mag-Fed Automatic Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"MagazineKWG"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "L85A2",
+			"DefaultMagName": "MagazineStanag60rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "LadiesPepperbox",
+			"DefaultMagName": "22LRCartridgeTracer",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Pocket Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"22LRCartridgeHVHP",
+				"22LRCartridgeSP",
+				"22LRCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "LAPDModel2019",
+			"DefaultMagName": "10mmDSMCartridgeSlugger",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Futuristic",
+			"Categories": [
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"10mmDSMCartridgeFrag",
+				"10mmDSMCartridgeMag",
+				"10mmDSMCartridgeMine",
+				"10mmDSMCartridgeSlugger",
+				"10mmDSMCartridgeSwarm",
+				"10mmDSMCartridgeTracer",
+				"10mmDSMCartridgeTruboPenetrator",
+				"10mmDSMCartridgeVolt"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "LC22r",
+			"DefaultMagName": "22LRCartridgeTracer",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Pocket Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"22LRCartridgeHVHP",
+				"22LRCartridgeSP",
+				"22LRCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "LeeEnfieldJungleCarbine",
+			"DefaultMagName": "MagazineLeeEnfield",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"303BritishStripperClip",
+				"MagazineLeeEnfield"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "LeeEnfieldNo4Mk1",
+			"DefaultMagName": "MagazineLeeEnfield",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"303BritishStripperClip",
+				"MagazineLeeEnfield"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "LeeEnfieldObrez",
+			"DefaultMagName": "MagazineLeeEnfield",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Bolt-Action Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"303BritishStripperClip",
+				"MagazineLeeEnfield"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "LeeEnfieldSwedeMod",
+			"DefaultMagName": "MagazineLeeEnfield",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"303BritishStripperClip",
+				"MagazineLeeEnfield"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "LilGreasy",
+			"DefaultMagName": "MagazineLilGreasy",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineLilGreasy"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "ll",
+			"DefaultMagName": "MagazineP08LugerDrum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cursed",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineP08Luger",
+				"MagazineP08LugerDrum",
+				"MagazineMP18"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "Luger1902Carbine",
+			"DefaultMagName": "MagazineP08Luger",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Carbine",
+				"PCC"
+			],
+			"CompatableAmmo": [
+				"MagazineP08Luger",
+				"MagazineP08LugerDrum",
+				"MagazineMP18"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "LugerLP08Artillery",
+			"DefaultMagName": "MagazineP08LugerDrum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWI",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineP08Luger",
+				"MagazineP08LugerDrum",
+				"MagazineMP18"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "LugerP08",
+			"DefaultMagName": "MagazineMP18Drum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWI",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineP08Luger",
+				"MagazineP08LugerDrum",
+				"MagazineMP18"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "M1014",
+			"DefaultMagName": "12GaugeShellTripleHit",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Semi-Auto Tube-Fed Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "M107A1",
+			"DefaultMagName": "MagazineM107A1",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Anti-Material",
+				"Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineM107A1"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M134Minigun",
+			"DefaultMagName": "MagazineM134",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Machine Gun",
+				"Rotary Machinegun"
+			],
+			"CompatableAmmo": [
+				"MagazineM134"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M14",
+			"DefaultMagName": "MagazineM1420rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"762x51mmStripperClip",
+				"MagazineM1420rnd",
+				"MagazineM1430rnd",
+				"MagazineM1Shorty1610rnd"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1600",
+			"DefaultMagName": "MagazineM1600",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Carbine"
+			],
+			"CompatableAmmo": [
+				"MagazineM1600",
+				"MagazineM1600Drum"
+			],
+			"NationOfOrigin": "Philippine"
+		},
+		{
+			"GunName": "M1600A3000",
+			"DefaultMagName": "MagazineM1600Drum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Carbine",
+				"PCC"
+			],
+			"CompatableAmmo": [
+				"MagazineM1600",
+				"MagazineM1600Drum"
+			],
+			"NationOfOrigin": "Philippine"
+		},
+		{
+			"GunName": "M16A1",
+			"DefaultMagName": "MagazineStanag3",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M16A4",
+			"DefaultMagName": "MagazineAK5c",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1879",
+			"DefaultMagName": "106x25mmRCartridgeTracer",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"106x25mmRCartridgeSP",
+				"106x25mmRCartridgeTracer"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "M1895Nagant",
+			"DefaultMagName": "762x38mmRCartridgeFMJ",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"762x38mmRCartridgeFMJ"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "M1897Trench",
+			"DefaultMagName": "12GaugeShellSWAG12FA",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1911",
+			"DefaultMagName": "MagazineM1911Tactical",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWI",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineDefender45",
+				"MagazineM1911Stamped",
+				"MagazineM1911",
+				"MagazineM1911Dillinger",
+				"MagazineM1911Tactical",
+				"MagazineM1911OG",
+				"MagazineDeLisleCarbine"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1911Classic",
+			"DefaultMagName": "MagazineM1911OG",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWI",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineDefender45",
+				"MagazineM1911Stamped",
+				"MagazineM1911",
+				"MagazineM1911Dillinger",
+				"MagazineM1911Tactical",
+				"MagazineM1911OG",
+				"MagazineDeLisleCarbine"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1911Dillinger",
+			"DefaultMagName": "MagazineM1911Dillinger",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Gangster",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineDefender45",
+				"MagazineM1911Stamped",
+				"MagazineM1911",
+				"MagazineM1911Dillinger",
+				"MagazineM1911Tactical",
+				"MagazineM1911OG",
+				"MagazineDeLisleCarbine"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1911Gold",
+			"DefaultMagName": "MagazineM1911Dillinger",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineDefender45",
+				"MagazineM1911Stamped",
+				"MagazineM1911",
+				"MagazineM1911Dillinger",
+				"MagazineM1911Tactical",
+				"MagazineM1911OG",
+				"MagazineDeLisleCarbine"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1911Longflop",
+			"DefaultMagName": "MagazineM1911Stamped",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cursed",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineDefender45",
+				"MagazineM1911Stamped",
+				"MagazineM1911",
+				"MagazineM1911Dillinger",
+				"MagazineM1911Tactical",
+				"MagazineM1911OG",
+				"MagazineDeLisleCarbine"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "M1911Modern",
+			"DefaultMagName": "MagazineM1911OG",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineDefender45",
+				"MagazineM1911Stamped",
+				"MagazineM1911",
+				"MagazineM1911Dillinger",
+				"MagazineM1911Tactical",
+				"MagazineM1911OG",
+				"MagazineDeLisleCarbine"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1911Operator",
+			"DefaultMagName": "MagazineM1911Dillinger",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineDefender45",
+				"MagazineM1911Stamped",
+				"MagazineM1911",
+				"MagazineM1911Dillinger",
+				"MagazineM1911Tactical",
+				"MagazineM1911OG",
+				"MagazineDeLisleCarbine"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1911Oversize",
+			"DefaultMagName": "MagazineM1911Oversize",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cursed",
+			"Categories": [
+				"Cannon",
+				"Exotic Ordnance"
+			],
+			"CompatableAmmo": [
+				"MagazineM1911Oversize"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "M1911Stamped",
+			"DefaultMagName": "MagazineM1911Dillinger",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineDefender45",
+				"MagazineM1911Stamped",
+				"MagazineM1911",
+				"MagazineM1911Dillinger",
+				"MagazineM1911Tactical",
+				"MagazineM1911OG",
+				"MagazineDeLisleCarbine"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1911Tactical",
+			"DefaultMagName": "MagazineDefender45",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineDefender45",
+				"MagazineM1911Stamped",
+				"MagazineM1911",
+				"MagazineM1911Dillinger",
+				"MagazineM1911Tactical",
+				"MagazineM1911OG",
+				"MagazineDeLisleCarbine"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1912",
+			"DefaultMagName": "StripperClipM1912",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWI",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"Cartridge9x23mmFMJ",
+				"StripperClipM1912"
+			],
+			"NationOfOrigin": "Austrian"
+		},
+		{
+			"GunName": "M1912P16",
+			"DefaultMagName": "StripperClipM1912",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWI",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"Cartridge9x23mmFMJ",
+				"StripperClipM1912"
+			],
+			"NationOfOrigin": "Austrian"
+		},
+		{
+			"GunName": "M1918BAR",
+			"DefaultMagName": "MagazineM1918BAR",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineM1918BAR"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1918ShortyBAR",
+			"DefaultMagName": "MagazineM1918BAR",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineM1918BAR"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1A1Bazooka",
+			"DefaultMagName": "M1A1Rocket",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Ordnance",
+				"Rocket Launcher"
+			],
+			"CompatableAmmo": [
+				"M1A1Rocket"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1Carbine",
+			"DefaultMagName": "MagazineM2Carbine",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Carbine",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineM1Carbine",
+				"MagazineM2Carbine"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1Garand",
+			"DefaultMagName": "MagazineM1Garand",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Battle Rifle",
+				"Carbine",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineM1Garand"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M1Shorty16",
+			"DefaultMagName": "MagazineM1430rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"762x51mmStripperClip",
+				"MagazineM1420rnd",
+				"MagazineM1430rnd",
+				"MagazineM1Shorty1610rnd"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M200",
+			"DefaultMagName": "MagazineM200",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Anti-Material",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineM200"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M240B",
+			"DefaultMagName": "MagazineM240",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineM240"
+			],
+			"NationOfOrigin": "Belgian"
+		},
+		{
+			"GunName": "M249",
+			"DefaultMagName": "MagazineBren806",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "Belgian"
+		},
+		{
+			"GunName": "M2Carbine",
+			"DefaultMagName": "MagazineM1Carbine",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineM1Carbine",
+				"MagazineM2Carbine"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M2Tactical",
+			"DefaultMagName": "12GaugeShellDragonsBreath",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Semi-Auto Tube-Fed Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "M2ThreeGun",
+			"DefaultMagName": "12GaugeShellNo2Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Semi-Auto Tube-Fed Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "M2Tombstone",
+			"DefaultMagName": "MagazineM2Tombstone",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineM2Tombstone"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M3Greasegun",
+			"DefaultMagName": "MagazineM3Greasegun",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineM3Greasegun"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M3GreasegunSuppressed",
+			"DefaultMagName": "MagazineM3Greasegun",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineM3Greasegun"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M40A1",
+			"DefaultMagName": "762x51mmCartridgeAP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"762x51mmCartridgeAP",
+				"762x51mmCartridgeAPIncendiary",
+				"762x51mmCartridgeFMJ",
+				"762x51mmCartridgeIncendiary",
+				"762x51mmCartridgeJHP",
+				"762x51mmCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M4A1Classic",
+			"DefaultMagName": "MagazineStoner63AR",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M4A1Shorty",
+			"DefaultMagName": "MagazineStanag3",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M4A1v2Leftie",
+			"DefaultMagName": "MagazineBren806",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M4A1v2Rightie",
+			"DefaultMagName": "MagazineH416PMAG",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M60",
+			"DefaultMagName": "MagazineM60Box",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineM60Box"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M60E3",
+			"DefaultMagName": "MagazineM60Box",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineM60Box"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M60E4",
+			"DefaultMagName": "MagazineM60Box",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineM60Box"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M712Mauser",
+			"DefaultMagName": "MagazineMauser30Rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Machine Pistol"
+			],
+			"CompatableAmmo": [
+				"C96MauserStripperClip",
+				"MagazineMauser10Rnd",
+				"MagazineMauser20Rnd",
+				"MagazineMauser30Rnd",
+				"MagazineMauser40Rnd"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "M79GrenadeLauncher",
+			"DefaultMagName": "Cartridge_40x46Grenade_X214",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Grenade Launcher",
+				"Ordnance"
+			],
+			"CompatableAmmo": [
+				"Cartridge_40x46Grenade_M381",
+				"Cartridge_40x46Grenade_M397",
+				"Cartridge_40x46Grenade_M576",
+				"Cartridge_40x46Grenade_M651",
+				"Cartridge_40x46Grenade_M781",
+				"Cartridge_40x46Grenade_X1776",
+				"Cartridge_40x46Grenade_X214",
+				"Cartridge_40x46Grenade_X477",
+				"Cartridge_40x46Grenade_X666"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "M9",
+			"DefaultMagName": "MagazinePX4",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineM93R",
+				"MagazineM9A1",
+				"MagazineM9A3",
+				"MagazinePX4",
+				"MagazineCX4"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "M92fs",
+			"DefaultMagName": "MagazineM9A1",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineM93R",
+				"MagazineM9A1",
+				"MagazineM9A3",
+				"MagazinePX4",
+				"MagazineCX4"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "M93R",
+			"DefaultMagName": "MagazineM9A1",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineM93R",
+				"MagazineM9A1",
+				"MagazineM9A3",
+				"MagazinePX4",
+				"MagazineCX4"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "M93RA9",
+			"DefaultMagName": "MagazineCX4",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineM93R",
+				"MagazineM9A1",
+				"MagazineM9A3",
+				"MagazinePX4",
+				"MagazineCX4"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "M9A1",
+			"DefaultMagName": "MagazinePX4",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineM93R",
+				"MagazineM9A1",
+				"MagazineM9A3",
+				"MagazinePX4",
+				"MagazineCX4"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "M9A3",
+			"DefaultMagName": "MagazineCX4",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineM93R",
+				"MagazineM9A1",
+				"MagazineM9A3",
+				"MagazinePX4",
+				"MagazineCX4"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "Mac10",
+			"DefaultMagName": "MagazineMac10",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMac10"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Mac11",
+			"DefaultMagName": "MagazineMac11",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMac11"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "MadsenLAR",
+			"DefaultMagName": "MagazineMadsenLAR30rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineMadsenLAR10rnd",
+				"MagazineMadsenLAR20rnd",
+				"MagazineMadsenLAR30rnd"
+			],
+			"NationOfOrigin": "Danish"
+		},
+		{
+			"GunName": "Mag7",
+			"DefaultMagName": "MagazineMag7",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"MagazineMag7"
+			],
+			"NationOfOrigin": "South African"
+		},
+		{
+			"GunName": "Makarov",
+			"DefaultMagName": "MagazineMakarov",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pistol",
+				"Pocket Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMakarov",
+				"MagazineMakarovDrum"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "Malyuk",
+			"DefaultMagName": "MagazineAKMDrum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAKM",
+				"MagazineAKMDrum",
+				"MagazineAKMGold",
+				"MagazineAKMHeirloom",
+				"MagazineAKMTactical10rnd",
+				"MagazineAKMTactical20rnd",
+				"MagazineAKMTactical",
+				"MagazineRPK"
+			],
+			"NationOfOrigin": "Ukrainian"
+		},
+		{
+			"GunName": "MarshallUltrashort",
+			"DefaultMagName": "12GaugeShellNo2Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "MartiniHenry",
+			"DefaultMagName": "577_450_MartiniHenry",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Lever Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"577_450_MartiniHenry"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "MAS49/56",
+			"DefaultMagName": "MagazineMAS4956",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"75x54mmFrenchStripperClip",
+				"MagazineMAS4956"
+			],
+			"NationOfOrigin": "French"
+		},
+		{
+			"GunName": "Match22",
+			"DefaultMagName": "MagazineMatch22",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMatch22"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "MauserAssaultCarbine",
+			"DefaultMagName": "MagazineMauser20Rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Carbine",
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"C96MauserStripperClip",
+				"MagazineMauser10Rnd",
+				"MagazineMauser20Rnd",
+				"MagazineMauser30Rnd",
+				"MagazineMauser40Rnd"
+			],
+			"NationOfOrigin": "Brazilian"
+		},
+		{
+			"GunName": "MauserTrenchCarbine",
+			"DefaultMagName": "MagazineMauser10Rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWI",
+			"Categories": [
+				"Carbine",
+				"PCC"
+			],
+			"CompatableAmmo": [
+				"C96MauserStripperClip",
+				"MagazineMauser10Rnd",
+				"MagazineMauser20Rnd",
+				"MagazineMauser30Rnd",
+				"MagazineMauser40Rnd"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "Max9",
+			"DefaultMagName": "MagazineG17Drum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineG17Standard",
+				"MagazineG17Custom",
+				"MagazineG17Drum",
+				"MagazineG18Standard",
+				"MagazineG19_19rnd",
+				"MagazineG19_33rnd",
+				"MagazineMax9"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "MB500Chopped",
+			"DefaultMagName": "12GaugeShellSWAG12HE",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "MB500Long",
+			"DefaultMagName": "12GaugeShellNo2Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "MB500Shorty",
+			"DefaultMagName": "12GaugeShellSWAG12FA",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "MB590A1",
+			"DefaultMagName": "12GaugeShellSWAG12FA",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "MCS870",
+			"DefaultMagName": "12GaugeShellFlechette",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "MF_AerialDenier",
+			"DefaultMagName": "MF_AerialDenier_Magazine",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Rotary Machinegun",
+				"Meat Fortress"
+			],
+			"CompatableAmmo": [
+				"MF_AerialDenier_Magazine"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_AllRounder",
+			"DefaultMagName": "MF_AllRounder_Magazine",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Battle Rifle",
+				"Meat Fortress",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"MF_Clip_AllRounder"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_Backfield",
+			"DefaultMagName": "MF_Pistol_Magazine_Extended",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Machine Pistol",
+				"Meat Fortress"
+			],
+			"CompatableAmmo": [
+				"MF_Pistol_Magazine_Extended",
+				"MF_Pistol_Magazine"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_BigBoomer",
+			"DefaultMagName": "2Gauge_TripleHit",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Break Action Shotgun",
+				"Meat Fortress",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"2Gauge_TripleHit"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_BushrangersBoon",
+			"DefaultMagName": "MF_SMG_Magazine",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Meat Fortress",
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MF_SMG_Magazine"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_Duckhunter",
+			"DefaultMagName": "Cartridge13GaugeSlugger",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Lever Action Shotgun",
+				"Meat Fortress",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"Cartridge13GaugeSlugger"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_FireWalker",
+			"DefaultMagName": "MF_Firewalker_Magazine",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Machine Gun",
+				"Meat Fortress"
+			],
+			"CompatableAmmo": [
+				"MF_Firewalker_Magazine"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_GrenadeLauncher",
+			"DefaultMagName": "42mmDemonade",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Grenade Launcher",
+				"Meat Fortress",
+				"Ordnance"
+			],
+			"CompatableAmmo": [
+				"42mmDemonade"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_Minigun",
+			"DefaultMagName": "MF_Minigun_Magazine",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Machine Gun",
+				"Meat Fortress",
+				"Rotary Machinegun"
+			],
+			"CompatableAmmo": [
+				"MF_Minigun_Magazine"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_OlReliable",
+			"DefaultMagName": "7Gauge_TripleHit",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Meat Fortress",
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"7Gauge_TripleHit"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_PetiteLiasion",
+			"DefaultMagName": "366UltraMagnumFMJ",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Meat Fortress",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"366UltraMagnumFMJ"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_Pistol",
+			"DefaultMagName": "MF_Pistol_Magazine",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Machine Pistol",
+				"Meat Fortress",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MF_Pistol_Magazine_Extended",
+				"MF_Pistol_Magazine"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_Revolver",
+			"DefaultMagName": "366UltraMagnumFMJ",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Meat Fortress",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"366UltraMagnumFMJ"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_RocketLauncher",
+			"DefaultMagName": "Cartridge_RPGMF_Rocket_WrongAmmo",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Meat Fortress",
+				"Rocket Launcher"
+			],
+			"CompatableAmmo": [
+				"Cartridge_RPGMF_Rocket_WrongAmmo"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_Rosie",
+			"DefaultMagName": "MF_Rosie_Magazine",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Meat Fortress",
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MF_Rosie_Magazine"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_Scattergun",
+			"DefaultMagName": "Cartridge13GaugeSlugger",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Lever Action Shotgun",
+				"Meat Fortress",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"Cartridge13GaugeSlugger"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_Shotgun",
+			"DefaultMagName": "7Gauge_TripleHit",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Meat Fortress",
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"7Gauge_TripleHit"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_SnagSnager",
+			"DefaultMagName": "18x50mmPackawhallop_FMJ",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Meat Fortress",
+				"Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"18x50mmPackawhallop_FMJ"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_SniperRifle",
+			"DefaultMagName": "18x50mmPackawhallop_Drongo",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Meat Fortress",
+				"Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"18x50mmPackawhallop_Drongo"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_SoundCheck",
+			"DefaultMagName": "MF_SoundCheck_Magazine",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Meat Fortress",
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MF_SoundCheck_Magazine"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_StickyLauncher",
+			"DefaultMagName": "MF_Clip_StickyShell",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Grenade Launcher",
+				"Meat Fortress"
+			],
+			"CompatableAmmo": [
+				"MF_Clip_StickyShell"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_Submachinegun",
+			"DefaultMagName": "MF_SMG_Drum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Meat Fortress",
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MF_SMG_Drum"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MF_TheLastBit",
+			"DefaultMagName": "18x50mmPackawhallop_Drongo",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Meat Fortress",
+			"Categories": [
+				"Bolt-Action Pistol",
+				"Meat Fortress"
+			],
+			"CompatableAmmo": [
+				"18x50mmPackawhallop_Drongo"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MG42",
+			"DefaultMagName": "Magazine_Mg42",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"Magazine_Mg42",
+				"MagazineMG42Giant"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MGLGrenadeLauncher",
+			"DefaultMagName": "Cartridge_40x46Grenade_X666",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Grenade Launcher",
+				"Ordnance"
+			],
+			"CompatableAmmo": [
+				"Cartridge_40x46Grenade_M381",
+				"Cartridge_40x46Grenade_M397",
+				"Cartridge_40x46Grenade_M576",
+				"Cartridge_40x46Grenade_M651",
+				"Cartridge_40x46Grenade_M781",
+				"Cartridge_40x46Grenade_X1776",
+				"Cartridge_40x46Grenade_X214",
+				"Cartridge_40x46Grenade_X477",
+				"Cartridge_40x46Grenade_X666"
+			],
+			"NationOfOrigin": "South African"
+		},
+		{
+			"GunName": "MicroUzi",
+			"DefaultMagName": "MagazineMicroUzi32rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMicroUzi20rnd",
+				"MagazineMicroUzi32rnd"
+			],
+			"NationOfOrigin": "Israeli"
+		},
+		{
+			"GunName": "Mini14Classic",
+			"DefaultMagName": "MagazineMini1430rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Carbine",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineMini1410rnd",
+				"MagazineMini1430rnd",
+				"MagazineMini145rnd"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Mini14GB",
+			"DefaultMagName": "MagazineMini1430rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Carbine",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineMini1410rnd",
+				"MagazineMini1430rnd",
+				"MagazineMini145rnd"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "MK12",
+			"DefaultMagName": "MagazineMk1210rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Mag-Fed Automatic Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"MagazineMk1210rnd",
+				"MagazineMk125rnd"
+			],
+			"NationOfOrigin": "Turkish"
+		},
+		{
+			"GunName": "Mk16Mod0",
+			"DefaultMagName": "MagazineH416D60",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "Belgian"
+		},
+		{
+			"GunName": "Mk17",
+			"DefaultMagName": "MagazineMk17Mod020rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineFal10rnd",
+				"MagazineFal20rnd",
+				"MagazineFal30rnd",
+				"MagazineMk17Mod020rnd",
+				"MagazineX25DrumMk17"
+			],
+			"NationOfOrigin": "Belgian"
+		},
+		{
+			"GunName": "Mk17CQC",
+			"DefaultMagName": "MagazineFal20rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineFal10rnd",
+				"MagazineFal20rnd",
+				"MagazineFal30rnd",
+				"MagazineMk17Mod020rnd",
+				"MagazineX25DrumMk17"
+			],
+			"NationOfOrigin": "Belgian"
+		},
+		{
+			"GunName": "Mk18",
+			"DefaultMagName": "MagazineH416PMAG",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Mk19",
+			"DefaultMagName": "Magazine_Mk19",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Grenade Launcher"
+			],
+			"CompatableAmmo": [
+				"Magazine_Mk19"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Mk22Mod0",
+			"DefaultMagName": "MagazineMk22Mod0",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMk22Mod0"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "MK23",
+			"DefaultMagName": "MagazineMK23",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMK23"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "Mk3",
+			"DefaultMagName": "MagazineMk3",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMk3"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Mk4_Hunter",
+			"DefaultMagName": "MagazineMk4",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMk4"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Mk4_Whisper",
+			"DefaultMagName": "MagazineMk4",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMk4"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Model38",
+			"DefaultMagName": "MagazineModel38_20rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineModel38_10rnd",
+				"MagazineModel38_20rnd",
+				"MagazineModel38_30rnd"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "Model70",
+			"DefaultMagName": "3006SpringfieldStripperClip",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"3006SpringfieldCartridgeAP",
+				"3006SpringfieldCartridgeAPIncendiary",
+				"3006SpringfieldCartridgeFMJ",
+				"3006SpringfieldCartridgeIncendiary",
+				"3006SpringfieldCartridgeJHP",
+				"3006SpringfieldCartridgeTracer",
+				"3006SpringfieldStripperClip"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Model8",
+			"DefaultMagName": "35RemingtonStripperClip",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Carbine",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"35RemingtonCartridgeFMJ",
+				"35RemingtonStripperClip"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Model81",
+			"DefaultMagName": "MagazineModel81",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"35RemingtonStripperClip",
+				"MagazineModel81"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Model95",
+			"DefaultMagName": "41ShortSP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Derringer",
+				"Pistol",
+				"Pocket Pistol"
+			],
+			"CompatableAmmo": [
+				"41ShortSP"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Mosin91_30",
+			"DefaultMagName": "762x54mmRStripperClip",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"762x54mmRCartridgeAP",
+				"762x54mmRCartridgeAPIncendiary",
+				"762x54mmRCartridgeFMJ",
+				"762x54mmRCartridgeIncendiary",
+				"762x54mmRCartridgeSP",
+				"762x54mmRCartridgeTracer",
+				"762x54mmRStripperClip"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "MosinM1891",
+			"DefaultMagName": "762x54mmRStripperClip",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"762x54mmRCartridgeAP",
+				"762x54mmRCartridgeAPIncendiary",
+				"762x54mmRCartridgeFMJ",
+				"762x54mmRCartridgeIncendiary",
+				"762x54mmRCartridgeSP",
+				"762x54mmRCartridgeTracer",
+				"762x54mmRStripperClip"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "MosinM38",
+			"DefaultMagName": "762x54mmRStripperClip",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"762x54mmRCartridgeAP",
+				"762x54mmRCartridgeAPIncendiary",
+				"762x54mmRCartridgeFMJ",
+				"762x54mmRCartridgeIncendiary",
+				"762x54mmRCartridgeSP",
+				"762x54mmRCartridgeTracer",
+				"762x54mmRStripperClip"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "MosinMini",
+			"DefaultMagName": "22LRCartridgeTracer",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"22LRCartridgeHVHP",
+				"22LRCartridgeSP",
+				"22LRCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "MosinObrez",
+			"DefaultMagName": "762x54mmRStripperClip",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Bolt-Action Pistol"
+			],
+			"CompatableAmmo": [
+				"762x54mmRCartridgeAP",
+				"762x54mmRCartridgeAPIncendiary",
+				"762x54mmRCartridgeFMJ",
+				"762x54mmRCartridgeIncendiary",
+				"762x54mmRCartridgeSP",
+				"762x54mmRCartridgeTracer",
+				"762x54mmRStripperClip"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "MP155k",
+			"DefaultMagName": "MagazineMP155k",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Mag-Fed Automatic Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"MagazineMP155k"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "MP18",
+			"DefaultMagName": "MagazineMP18",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWI",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineP08Luger",
+				"MagazineP08LugerDrum",
+				"MagazineMP18"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP203",
+			"DefaultMagName": "MagazineMP203",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Futuristic",
+			"Categories": [
+				"Mag-Fed Automatic Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"MagazineMP203"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "MP34",
+			"DefaultMagName": "MagazineMP34",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMP34"
+			],
+			"NationOfOrigin": "Austrian"
+		},
+		{
+			"GunName": "MP40",
+			"DefaultMagName": "MagazineMP40",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMP40"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP412REX",
+			"DefaultMagName": "357MagnumCartridgeFMJ",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"357MagnumCartridgeFMJ",
+				"357MagnumCartridgeJHP",
+				"357MagnumCartridgeTracer",
+				"Speedloader3576Shot"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "MP510A5",
+			"DefaultMagName": "MagazineMp510_30rndStraight",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp510_30rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP540A5",
+			"DefaultMagName": "MagazineMp540_30rndStraight",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp540_30rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5A1",
+			"DefaultMagName": "MagazineMp530rndStraight",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5A5",
+			"DefaultMagName": "MagazineMp530rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5KA4",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5KPDW",
+			"DefaultMagName": "MagazineMp530rndStraight",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5SD6",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5SFA3",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Carbine",
+				"PCC"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5WoodFurniture",
+			"DefaultMagName": "MagazineMp530rndStraight",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "Mp7a1",
+			"DefaultMagName": "MagazineMp7",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"PDW"
+			],
+			"CompatableAmmo": [
+				"MagazineMp7"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "Mp7HL",
+			"DefaultMagName": "MagazineMp7",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"PDW"
+			],
+			"CompatableAmmo": [
+				"MagazineMp7"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "Mp9",
+			"DefaultMagName": "MagazineMp9",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp9"
+			],
+			"NationOfOrigin": "Swiss"
+		},
+		{
+			"GunName": "MPK",
+			"DefaultMagName": "MagazineMPK",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMPK"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MRAD",
+			"DefaultMagName": "MagazineMRAD",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineMRAD"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "MTs255",
+			"DefaultMagName": "12GaugeShellSlug",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Revolver Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "MTs255Shorty",
+			"DefaultMagName": "12GaugeShellTripleHit",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Revolver Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "MX4",
+			"DefaultMagName": "MagazinePX4",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineM93R",
+				"MagazineM9A1",
+				"MagazineM9A3",
+				"MagazinePX4",
+				"MagazineCX4"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "NTW20",
+			"DefaultMagName": "MagazineNTW20",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Anti-Material",
+				"Bolt-Action Rifle",
+				"Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineNTW20"
+			],
+			"NationOfOrigin": "South African"
+		},
+		{
+			"GunName": "P22",
+			"DefaultMagName": "MagazineP22",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineP22"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "P226",
+			"DefaultMagName": "MagazineP226Extended",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineP226",
+				"MagazineP226Extended"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "P250",
+			"DefaultMagName": "MagazineP250",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineP250"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "P38",
+			"DefaultMagName": "MagazineP38",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineP38"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "P38Snub",
+			"DefaultMagName": "MagazineP38",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineP38"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "P5Compact",
+			"DefaultMagName": "MagazineP5",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineP5"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "P762",
+			"DefaultMagName": "MagazineP76220rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Battle Rifle",
+				"DMR",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineP76220rnd"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "P90",
+			"DefaultMagName": "MagazineP90",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"PDW",
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineP90"
+			],
+			"NationOfOrigin": "Belgian"
+		},
+		{
+			"GunName": "PanzerSchreck54",
+			"DefaultMagName": "RPzBGr4322Rocket",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Ordnance",
+				"Rocket Launcher"
+			],
+			"CompatableAmmo": [
+				"RPzBGr4322Rocket"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "Phantom9",
+			"DefaultMagName": "MagazineG17Standard",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Carbine",
+				"PCC"
+			],
+			"CompatableAmmo": [
+				"MagazineG17Standard",
+				"MagazineG17Custom",
+				"MagazineG17Drum",
+				"MagazineG18Standard",
+				"MagazineG19_19rnd",
+				"MagazineG19_33rnd",
+				"MagazineMax9"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "PK1",
+			"DefaultMagName": "762x39mmCartridgeIncendiary",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Derringer",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"762x39mmCartridgeAP",
+				"762x39mmCartridgeAPIncendiary",
+				"762x39mmCartridgeFMJ",
+				"762x39mmCartridgeIncendiary",
+				"762x39mmCartridgeJHP",
+				"762x39mmCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "PL14",
+			"DefaultMagName": "MagazinePL14",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazinePL14"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "PMM",
+			"DefaultMagName": "MagazineMakarovModern",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMakarovModern"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "PMR30",
+			"DefaultMagName": "MagazinePMR30",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazinePMR30"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "PP19Vityaz",
+			"DefaultMagName": "MagazinePP19Vityaz30rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazinePP19Vityaz30rnd",
+				"MagazinePP19Vityaz50rnd"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "PP2000",
+			"DefaultMagName": "MagazinePP2000",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"PDW",
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazinePP2000"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "PP91KEDR",
+			"DefaultMagName": "MagazinePP91",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"PDW",
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazinePP91"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "PPBizon",
+			"DefaultMagName": "MagazinePPBizon",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazinePPBizon"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "PPK",
+			"DefaultMagName": "MagazinePPK",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Pistol",
+				"Pocket Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazinePPK"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "PPSh41",
+			"DefaultMagName": "MagazineK50M",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineK50M",
+				"MagazinePPSH41",
+				"MagazinePPSH41Drum",
+				"MagazinePPSH41TechDrum"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "PPSh41Modern",
+			"DefaultMagName": "MagazinePPSH41Drum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineK50M",
+				"MagazinePPSH41",
+				"MagazinePPSH41Drum",
+				"MagazinePPSH41TechDrum"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "PSG1",
+			"DefaultMagName": "MagazineG320rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"DMR",
+				"Rifle",
+				"Semi-Auto Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineG320rnd",
+				"MagazineG3Drum",
+				"MagazinePSG110rnd",
+				"MagazinePSG120rnd",
+				"MagazinePSG15rnd"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "PX4Storm",
+			"DefaultMagName": "MagazineM9A3",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineM93R",
+				"MagazineM9A1",
+				"MagazineM9A3",
+				"MagazinePX4",
+				"MagazineCX4"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "Python",
+			"DefaultMagName": "357MagnumCartridgeJHP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"357MagnumCartridgeFMJ",
+				"357MagnumCartridgeJHP",
+				"357MagnumCartridgeTracer",
+				"Speedloader3576Shot"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "QBZ95",
+			"DefaultMagName": "MagazineQBZ95",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineQBZ95"
+			],
+			"NationOfOrigin": "Chinese"
+		},
+		{
+			"GunName": "QC9",
+			"DefaultMagName": "MagazineAPC9",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"PDW",
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineAPC9",
+				"MagazineQC9Drum",
+				"MagazineQC9Standard",
+				"MagazineQC9Waffle"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Quackenbush1886",
+			"DefaultMagName": "22LRCartridgeTracer",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Carbine",
+				"PCC"
+			],
+			"CompatableAmmo": [
+				"22LRCartridgeHVHP",
+				"22LRCartridgeSP",
+				"22LRCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "R8",
+			"DefaultMagName": "357MagnumCartridgeJHP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"357MagnumCartridgeFMJ",
+				"357MagnumCartridgeJHP",
+				"357MagnumCartridgeTracer",
+				"SpeedloaderR8"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "RayGun",
+			"DefaultMagName": "MagazineFrontierMosesB",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Futuristic",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineFrontierMosesB"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "RemingtonRollingBlockNavy",
+			"DefaultMagName": "50RemingtonBlackPowderCartridgeJHP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Breechloader Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"50RemingtonBlackPowderCartridgeJHP",
+				"50RemingtonBlackPowderCartridgeSP",
+				"50RemingtonBlackPowderCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "RemoteMissileLauncher",
+			"DefaultMagName": "RemoteMissile",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Guided Missile",
+				"Ordnance",
+				"Rocket Launcher"
+			],
+			"CompatableAmmo": [
+				"RemoteMissile"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "RG6",
+			"DefaultMagName": "Cartridge_40mmCaseless_HEFJ",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Grenade Launcher"
+			],
+			"CompatableAmmo": [
+				"Cartridge_40mmCaseless_HEF",
+				"Cartridge_40mmCaseless_HEFJ",
+				"Cartridge_40mmCaseless_SF1",
+				"Cartridge_40mmCaseless_SMK",
+				"Cartridge_40mmCaseless_TPM"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "RGM40_Kastet",
+			"DefaultMagName": "Cartridge_40mmCaseless_HEF",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Grenade Launcher"
+			],
+			"CompatableAmmo": [
+				"Cartridge_40mmCaseless_HEF",
+				"Cartridge_40mmCaseless_HEFJ",
+				"Cartridge_40mmCaseless_SF1",
+				"Cartridge_40mmCaseless_SMK",
+				"Cartridge_40mmCaseless_TPM"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "Rhino 20DS",
+			"DefaultMagName": "357MagnumCartridgeJHP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"357MagnumCartridgeFMJ",
+				"357MagnumCartridgeJHP",
+				"357MagnumCartridgeTracer",
+				"Speedloader3576Shot"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "Rhino 40",
+			"DefaultMagName": "357MagnumCartridgeTracer",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"357MagnumCartridgeFMJ",
+				"357MagnumCartridgeJHP",
+				"357MagnumCartridgeTracer",
+				"Speedloader3576Shot"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "Rhino 50",
+			"DefaultMagName": "357MagnumCartridgeJHP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"357MagnumCartridgeFMJ",
+				"357MagnumCartridgeJHP",
+				"357MagnumCartridgeTracer",
+				"Speedloader3576Shot"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "Rhino 60",
+			"DefaultMagName": "357MagnumCartridgeTracer",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"357MagnumCartridgeFMJ",
+				"357MagnumCartridgeJHP",
+				"357MagnumCartridgeTracer",
+				"Speedloader3576Shot"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "RioBigBore",
+			"DefaultMagName": "45_70Govt_SoftPoint",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Lever Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"45_70Govt_HighGrain",
+				"45_70Govt_JHP",
+				"45_70Govt_Penetrator",
+				"45_70Govt_SoftPoint",
+				"45_70Govt_Tracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "RioBigBoreSalvaged",
+			"DefaultMagName": "45_70Govt_SoftPoint",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Lever Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"45_70Govt_HighGrain",
+				"45_70Govt_JHP",
+				"45_70Govt_Penetrator",
+				"45_70Govt_SoftPoint",
+				"45_70Govt_Tracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "RollingBlockRifle",
+			"DefaultMagName": "Cartridge8x50mmRFMJ",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Breechloader Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"Cartridge8x50mmRFMJ",
+				"Cartridge8x50mmRMBalle",
+				"Cartridge8x50mmRIncendiary"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "RollingBlockRifleCreedmoor",
+			"DefaultMagName": "45_70Govt_SoftPoint",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Breechloader Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"45_70Govt_HighGrain",
+				"45_70Govt_JHP",
+				"45_70Govt_Penetrator",
+				"45_70Govt_SoftPoint",
+				"45_70Govt_Tracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "RPD",
+			"DefaultMagName": "MagazineRPD",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineRPD"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "RPG7",
+			"DefaultMagName": "RPG7Rocket",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Ordnance",
+				"Rocket Launcher"
+			],
+			"CompatableAmmo": [
+				"RPG7Rocket"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "RPK",
+			"DefaultMagName": "MagazineAKMTactical20rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineAKM",
+				"MagazineAKMDrum",
+				"MagazineAKMGold",
+				"MagazineAKMHeirloom",
+				"MagazineAKMTactical10rnd",
+				"MagazineAKMTactical20rnd",
+				"MagazineAKMTactical",
+				"MagazineRPK"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "RS15",
+			"DefaultMagName": "22WMCartridgeHVHP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Futuristic",
+			"Categories": [
+				"Pistol",
+				"Pocket Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"22WMCartridgeHVHP",
+				"22WMCartridgeSP",
+				"22WMCartridgeTracer",
+				"Speedloader22WM6Shot"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "Ruby",
+			"DefaultMagName": "MagazineRuby",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWI",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineRuby"
+			],
+			"NationOfOrigin": "Spanish"
+		},
+		{
+			"GunName": "Saiga12k",
+			"DefaultMagName": "MagazineSaiga12k12rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Mag-Fed Automatic Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"MagazineSaiga12k12rnd",
+				"MagazineSaiga12k20rnd",
+				"MagazineSaiga12k5rnd"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "Sako85",
+			"DefaultMagName": "MagazineSako85",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineSako85"
+			],
+			"NationOfOrigin": "Finnish"
+		},
+		{
+			"GunName": "Sako85Obrez",
+			"DefaultMagName": "MagazineSako85",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Bolt-Action Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineSako85"
+			],
+			"NationOfOrigin": "Finnish"
+		},
+		{
+			"GunName": "ScalpelLE",
+			"DefaultMagName": "MagazineScalpelLE",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Futuristic",
+			"Categories": [
+				"Mag-Fed Automatic Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"MagazineScalpelLE"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "SchofieldModel3",
+			"DefaultMagName": "Cartridge_44_40_Tracer",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"Cartridge_44_40_HighGrain",
+				"Cartridge_44_40_JHP",
+				"Cartridge_44_40_Penetrator",
+				"Cartridge_44_40_SoftPoint",
+				"Cartridge_44_40_Tracer",
+				"Speedloader44-406Shot"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Scout",
+			"DefaultMagName": "MagazineScout",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineScout"
+			],
+			"NationOfOrigin": "Austrian"
+		},
+		{
+			"GunName": "SCRPistol",
+			"DefaultMagName": "MagazineStanag1",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "SCX",
+			"DefaultMagName": "MagazineSCX",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Futuristic",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineSCX"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "SG550",
+			"DefaultMagName": "MagazineCommando552",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineCommando552",
+				"MagazineSG550"
+			],
+			"NationOfOrigin": "Swiss"
+		},
+		{
+			"GunName": "Sharps1874",
+			"DefaultMagName": "Cartridge45110SharpsPenetrator",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Breechloader Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"Cartridge45110SharpsHighGrain",
+				"Cartridge45110SharpsJHP",
+				"Cartridge45110SharpsPenetrator",
+				"Cartridge45110SharpsSoftPoint",
+				"Cartridge45110SharpsTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "SingleActionArmy",
+			"DefaultMagName": "45LongColtCartridgeTracer",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"45LongColtCartridgeSP",
+				"45LongColtCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "SjogrenInertial",
+			"DefaultMagName": "12GaugeShellDragonsBreath",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Semi-Auto Tube-Fed Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Swedish"
+		},
+		{
+			"GunName": "SjogrenShorty",
+			"DefaultMagName": "12GaugeShellNo4Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Semi-Auto Tube-Fed Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Swedish"
+		},
+		{
+			"GunName": "SKSClassic",
+			"DefaultMagName": "762x39mmStripperClip",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Carbine",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"762x39mmCartridgeAP",
+				"762x39mmCartridgeAPIncendiary",
+				"762x39mmCartridgeFMJ",
+				"762x39mmCartridgeIncendiary",
+				"762x39mmCartridgeJHP",
+				"762x39mmCartridgeTracer",
+				"762x39mmStripperClip"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "SKSModern",
+			"DefaultMagName": "MagazineSKSModern20rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Carbine",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"762x39mmStripperClip",
+				"MagazineSKSModern20rnd"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "SP5KFolding",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "SPAS12",
+			"DefaultMagName": "12GaugeShellDragonsBreath",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Semi-Auto Tube-Fed Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "SPAS12Tactical",
+			"DefaultMagName": "12GaugeShellSWAG12HE",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Semi-Auto Tube-Fed Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "SpectreM4",
+			"DefaultMagName": "MagazineSpectreM4",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineSpectreM4"
+			],
+			"NationOfOrigin": "Italian"
+		},
+		{
+			"GunName": "SportACR",
+			"DefaultMagName": "MagazineH416PMAG",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Carbine",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Springfield1903",
+			"DefaultMagName": "3006SpringfieldStripperClip",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"3006SpringfieldCartridgeAP",
+				"3006SpringfieldCartridgeAPIncendiary",
+				"3006SpringfieldCartridgeFMJ",
+				"3006SpringfieldCartridgeIncendiary",
+				"3006SpringfieldCartridgeJHP",
+				"3006SpringfieldCartridgeTracer",
+				"3006SpringfieldStripperClip"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "SR3M",
+			"DefaultMagName": "MagazineASVal20Rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineASVal20Rnd",
+				"MagazineSR3M30rnd",
+				"MagazineVSSVintorez10rnd"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "ST2111",
+			"DefaultMagName": "MagazineST2111",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineST2111"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "StenMk2",
+			"DefaultMagName": "MagazineStenMk2",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineStenMk2",
+				"MagazineStenMk2_16rnd"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "StenMk5",
+			"DefaultMagName": "MagazineStenMk2_16rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineStenMk2",
+				"MagazineStenMk2_16rnd"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "StenMk6",
+			"DefaultMagName": "MagazineStenMk2",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineStenMk2",
+				"MagazineStenMk2_16rnd"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "StenMk9",
+			"DefaultMagName": "MagazineStenMk2_16rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineStenMk2",
+				"MagazineStenMk2_16rnd"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "STENOF",
+			"DefaultMagName": "MagazineSTENOF",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineSTENOF",
+				"MagazineSTENOFDrum"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "StG44",
+			"DefaultMagName": "MagazineStG44",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineStG44"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "Stoner63AR",
+			"DefaultMagName": "MagazineStanag20rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineAK5c",
+				"MagazineBren806",
+				"MagazineH416D60",
+				"MagazineH416PMAG",
+				"MagazineStanag1",
+				"MagazineStanag100rnd",
+				"MagazineStanag10rnd",
+				"MagazineStanag2",
+				"MagazineStanag20rnd",
+				"MagazineStanag3",
+				"MagazineStanag5rnd",
+				"MagazineStanag60rnd",
+				"MagazineStanagDrum",
+				"MagazineStoner63AR"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Stoner63LMG",
+			"DefaultMagName": "MagazineStoner63LMG",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Assault Rifle",
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"MagazineStoner63LMG"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "SturmPistole",
+			"DefaultMagName": "SturmGrenade",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Grenade Launcher",
+				"Ordnance"
+			],
+			"CompatableAmmo": [
+				"SturmGrenade"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "SuperShorty",
+			"DefaultMagName": "12GaugeShellNo4Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "SuperShortyTactical",
+			"DefaultMagName": "12GaugeShellDragonsBreath",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "SustenanceAR3",
+			"DefaultMagName": "Magazine_AR3_30rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Futuristic",
+			"Categories": [
+				"Exotic Ordnance",
+				"Machine Gun"
+			],
+			"CompatableAmmo": [
+				"Magazine_AR3_30rnd"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "SV98",
+			"DefaultMagName": "MagazineSV98",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineSV98"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "SVT40",
+			"DefaultMagName": "MagazineSVT40",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Battle Rifle",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"762x54mmRStripperClip",
+				"MagazineSVT40"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "SW29",
+			"DefaultMagName": "Cartridge_44Magnum_Penetrator",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"Cartridge_44Magnum_FMJ",
+				"Cartridge_44Magnum_JHP",
+				"Cartridge_44Magnum_Penetrator",
+				"Cartridge_44Magnum_SoftPoint",
+				"Cartridge_44Magnum_Tracer",
+				"SpeedloaderSW29"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "SW500",
+			"DefaultMagName": "500SWCartridgeTracer",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"500SWCartridgeFMJ",
+				"500SWCartridgeJHP",
+				"500SWCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "SW500Junior",
+			"DefaultMagName": "500SWCartridgeJHP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"500SWCartridgeFMJ",
+				"500SWCartridgeJHP",
+				"500SWCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "SW629",
+			"DefaultMagName": "Cartridge_44Magnum_FMJ",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"Cartridge_44Magnum_FMJ",
+				"Cartridge_44Magnum_JHP",
+				"Cartridge_44Magnum_Penetrator",
+				"Cartridge_44Magnum_SoftPoint",
+				"Cartridge_44Magnum_Tracer",
+				"SpeedloaderSW29"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "SWModel10",
+			"DefaultMagName": "38SpecialCartridgeFMJ",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"38SpecialCartridgeFMJ",
+				"38SpecialCartridgeJHP",
+				"38SpecialCartridgeTracer",
+				"Speedloader38Special6Shot"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "SWStealth",
+			"DefaultMagName": "Cartridge_44Magnum_Penetrator",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"Cartridge_44Magnum_FMJ",
+				"Cartridge_44Magnum_JHP",
+				"Cartridge_44Magnum_Penetrator",
+				"Cartridge_44Magnum_SoftPoint",
+				"Cartridge_44Magnum_Tracer",
+				"SpeedloaderSW29"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "T14Custom",
+			"DefaultMagName": "12GaugeShell00Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pump-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Tactical8400Shorty",
+			"DefaultMagName": "MagazineTactical8400",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineTactical8400"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Tactical8400SuperShorty",
+			"DefaultMagName": "MagazineTactical8400",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Bolt-Action Rifle",
+				"Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineTactical8400"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Takedown1022",
+			"DefaultMagName": "MagazineTakedown102225rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Carbine",
+				"PCC"
+			],
+			"CompatableAmmo": [
+				"MagazineTakedown102210rnd",
+				"MagazineTakedown102225rnd"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "TankGewehr",
+			"DefaultMagName": "13_2mmTUFFMJ",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Anti-Material",
+				"Bolt-Action Rifle"
+			],
+			"CompatableAmmo": [
+				"13_2mmTUFFMJ"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "TAThunderer",
+			"DefaultMagName": "50BMGCartridgeTracer",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Anti-Material",
+				"Breechloader Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"50BMGCartridgeAP",
+				"50BMGCartridgeAPIncendiary",
+				"50BMGCartridgeFMJ",
+				"50BMGCartridgeIncendiary",
+				"50BMGCartridgeMk211",
+				"50BMGCartridgeTracer"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Tec9",
+			"DefaultMagName": "MagazineTec9",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineTec9"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Tec9IllegalFullAutoMod",
+			"DefaultMagName": "MagazineTec9",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineTec9"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Thompson30CarbinePrototype",
+			"DefaultMagName": "MagazineThompson30Carbine",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Carbine",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineThompson30Carbine"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "ThompsonM1928",
+			"DefaultMagName": "MagazineThompsonDrum100",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Gangster",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineThompson30rnd",
+				"MagazineThompsonDrum100",
+				"MagazineThompsonDrum50"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "ThompsonM1A1",
+			"DefaultMagName": "MagazineThompson30rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineThompson30rnd",
+				"MagazineThompsonDrum100",
+				"MagazineThompsonDrum50"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "ThompsonMk2",
+			"DefaultMagName": "MagazineThompsonMk2",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Futuristic",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"10mmDSMCartridgeFrag",
+				"10mmDSMCartridgeMag",
+				"10mmDSMCartridgeMine",
+				"10mmDSMCartridgeSlugger",
+				"10mmDSMCartridgeSwarm",
+				"10mmDSMCartridgeTracer",
+				"10mmDSMCartridgeTruboPenetrator",
+				"10mmDSMCartridgeVolt"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "ThrowbackSingleshot12g",
+			"DefaultMagName": "12GaugeShellSWAG12HE",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "ThrowbackSingleshot20g",
+			"DefaultMagName": "20GaugeShellSlug",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"20GaugeShellBuckshot",
+				"20GaugeShellDragonsBreath",
+				"20GaugeShellFreedomfetti",
+				"20GaugeShellSlug"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "Tomacuzi",
+			"DefaultMagName": "MagazineTomacuziDrum",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cursed",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineTomacuziDrum"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "Toz106",
+			"DefaultMagName": "MagazineToz106",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Bolt-Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"MagazineToz106"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "Toz63",
+			"DefaultMagName": "Cartridge_16Gauge_Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"Cartridge_16Gauge_Buckshot",
+				"Cartridge_16Gauge_DragonsBreath",
+				"Cartridge_16Gauge_Freedomfetti",
+				"Cartridge_16Gauge_Slug"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "TripleRegret",
+			"DefaultMagName": "50BMGCartridgeIncendiary",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Anti-Material",
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"50BMGCartridgeAP",
+				"50BMGCartridgeAPIncendiary",
+				"50BMGCartridgeFMJ",
+				"50BMGCartridgeIncendiary",
+				"50BMGCartridgeMk211",
+				"50BMGCartridgeTracer"
+			],
+			"NationOfOrigin": "Fictional"
+		},
+		{
+			"GunName": "TT33",
+			"DefaultMagName": "MagazineTT33",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineTT33"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "Type100",
+			"DefaultMagName": "MagazineType100",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineType100"
+			],
+			"NationOfOrigin": "Japanese"
+		},
+		{
+			"GunName": "UltimaxMark3",
+			"DefaultMagName": "MagazineUltimax",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Machine Gun",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineUltimax"
+			],
+			"NationOfOrigin": "Singaporean"
+		},
+		{
+			"GunName": "UMP45",
+			"DefaultMagName": "MagazineUMP45",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineUMP45"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "UMP9",
+			"DefaultMagName": "MagazineUMP9",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineUMP9"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "Unica6",
+			"DefaultMagName": "357MagnumCartridgeJHP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"357MagnumCartridgeFMJ",
+				"357MagnumCartridgeJHP",
+				"357MagnumCartridgeTracer",
+				"Speedloader3576Shot"
+			],
+			"NationOfOrigin": "South African"
+		},
+		{
+			"GunName": "UnionFrench",
+			"DefaultMagName": "MagazineUnionFrench",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineUnionFrench"
+			],
+			"NationOfOrigin": "French"
+		},
+		{
+			"GunName": "USAS12",
+			"DefaultMagName": "MagazineUSAS10rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Mag-Fed Automatic Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"MagazineUSAS10rnd",
+				"MagazineUSAS20rndDrum"
+			],
+			"NationOfOrigin": "Korean"
+		},
+		{
+			"GunName": "USPMatch",
+			"DefaultMagName": "MagazineUSP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineUSP"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "USPMatch9mm",
+			"DefaultMagName": "MagazineUSP9mm",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineUSP9mm"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "USPSAECIAL",
+			"DefaultMagName": "Cartridge20x82mmFMJ",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Anti-Material",
+				"Breechloader Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"Cartridge20x82mmFMJ",
+				"Cartridge20x82mmHE"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "USPTactical",
+			"DefaultMagName": "MagazineUSP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineUSP"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "Uzi_Classic",
+			"DefaultMagName": "MagazineMicroUzi20rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMicroUzi20rnd",
+				"MagazineMicroUzi32rnd"
+			],
+			"NationOfOrigin": "Israeli"
+		},
+		{
+			"GunName": "Uzi_Compact",
+			"DefaultMagName": "MagazineMicroUzi20rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMicroUzi20rnd",
+				"MagazineMicroUzi32rnd"
+			],
+			"NationOfOrigin": "Israeli"
+		},
+		{
+			"GunName": "Uzi_Mini",
+			"DefaultMagName": "MagazineMicroUzi20rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMicroUzi20rnd",
+				"MagazineMicroUzi32rnd"
+			],
+			"NationOfOrigin": "Israeli"
+		},
+		{
+			"GunName": "Uzi_Nano",
+			"DefaultMagName": "MagazineUziNano",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineUziNano"
+			],
+			"NationOfOrigin": "Israeli"
+		},
+		{
+			"GunName": "UziPro",
+			"DefaultMagName": "MagazineMicroUzi20rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"PCC",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMicroUzi20rnd",
+				"MagazineMicroUzi32rnd"
+			],
+			"NationOfOrigin": "Israeli"
+		},
+		{
+			"GunName": "Vector45",
+			"DefaultMagName": "MagazineVector45",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineVector45"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "Vector45Carbine",
+			"DefaultMagName": "MagazineVector45",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Carbine",
+				"PCC"
+			],
+			"CompatableAmmo": [
+				"MagazineVector45"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "ViperMk1",
+			"DefaultMagName": "MagazineViperMk1",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineViperMk1"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "VolcanicPistol",
+			"DefaultMagName": "41VolcanicSP",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Lever Action Pistol"
+			],
+			"CompatableAmmo": [
+				"41VolcanicSP"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "VP9",
+			"DefaultMagName": "MagazineVP9",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineVP9"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "VSSVintorez",
+			"DefaultMagName": "MagazineSR3M30rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Carbine",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineASVal20Rnd",
+				"MagazineSR3M30rnd",
+				"MagazineVSSVintorez10rnd"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "VT13Shorty",
+			"DefaultMagName": "12GaugeShellNo4Buckshot",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Semi-Auto Tube-Fed Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "vz58Compact",
+			"DefaultMagName": "MagazineVZ58_30Rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Assault Rifle",
+				"Carbine",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"762x39mmStripperClip",
+				"MagazineVZ58_10Rnd",
+				"MagazineVZ58_20Rnd",
+				"MagazineVZ58_30Rnd"
+			],
+			"NationOfOrigin": "Czech"
+		},
+		{
+			"GunName": "vz58Custom",
+			"DefaultMagName": "MagazineVZ58_30Rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"762x39mmStripperClip",
+				"MagazineVZ58_10Rnd",
+				"MagazineVZ58_20Rnd",
+				"MagazineVZ58_30Rnd"
+			],
+			"NationOfOrigin": "Czech"
+		},
+		{
+			"GunName": "vz58P",
+			"DefaultMagName": "MagazineVZ58_20Rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"762x39mmStripperClip",
+				"MagazineVZ58_10Rnd",
+				"MagazineVZ58_20Rnd",
+				"MagazineVZ58_30Rnd"
+			],
+			"NationOfOrigin": "Czech"
+		},
+		{
+			"GunName": "vz58Sport",
+			"DefaultMagName": "MagazineVZ58_30Rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Carbine",
+				"Rifle",
+				"Semi-Auto Rifle"
+			],
+			"CompatableAmmo": [
+				"762x39mmStripperClip",
+				"MagazineVZ58_10Rnd",
+				"MagazineVZ58_20Rnd",
+				"MagazineVZ58_30Rnd"
+			],
+			"NationOfOrigin": "Czech"
+		},
+		{
+			"GunName": "vz58V",
+			"DefaultMagName": "MagazineVZ58_30Rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Assault Rifle",
+				"Rifle"
+			],
+			"CompatableAmmo": [
+				"762x39mmStripperClip",
+				"MagazineVZ58_10Rnd",
+				"MagazineVZ58_20Rnd",
+				"MagazineVZ58_30Rnd"
+			],
+			"NationOfOrigin": "Czech"
+		},
+		{
+			"GunName": "VZ64Skorpion",
+			"DefaultMagName": "MagazineVZ64",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineVZ64"
+			],
+			"NationOfOrigin": "Czech"
+		},
+		{
+			"GunName": "WA2000",
+			"DefaultMagName": "MagazineWA2000",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Battle Rifle",
+				"DMR",
+				"Rifle",
+				"Semi-Auto Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineWA2000"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "Webley1913",
+			"DefaultMagName": "MagazineWebley1913",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineWebley1913"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "WebleyFosbery",
+			"DefaultMagName": "455WebleyCartridgeFMJ",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"455WebleyCartridgeFMJ",
+				"455WebleyCartridgeTracer",
+				"Speedloader455Webley6Shot"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "WebleyRevolver",
+			"DefaultMagName": "455WebleyCartridgeFMJ",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Turn of the Century",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"455WebleyCartridgeFMJ",
+				"455WebleyCartridgeTracer",
+				"Speedloader455Webley6Shot"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "Wells1864",
+			"DefaultMagName": "12GaugeShellSlug",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Wild West",
+			"Categories": [
+				"Break Action Shotgun",
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "WelrodMkIIa",
+			"DefaultMagName": "MagazineWelrod",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "WWII",
+			"Categories": [
+				"Bolt-Action Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineWelrod"
+			],
+			"NationOfOrigin": "British"
+		},
+		{
+			"GunName": "WorstShotgunEverMade",
+			"DefaultMagName": "12GaugeShellFlechette",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Shotgun"
+			],
+			"CompatableAmmo": [
+				"12GaugeShell00Buckshot",
+				"12GaugeShellCannonball",
+				"12GaugeShellDragonsBreath",
+				"12GaugeShellFlechette",
+				"12GaugeShellFreedomfetti",
+				"12GaugeShellNo2Buckshot",
+				"12GaugeShellNo4Buckshot",
+				"12GaugeShellRedFlare",
+				"12GaugeShellSlug",
+				"12GaugeShellSWAG12FA",
+				"12GaugeShellSWAG12HE",
+				"12GaugeShellTripleHit"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "XM500",
+			"DefaultMagName": "MagazineXM500",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Anti-Material",
+				"Rifle",
+				"Sniper Rifle"
+			],
+			"CompatableAmmo": [
+				"MagazineXM500"
+			],
+			"NationOfOrigin": "American"
+		}
+	],
+	"enemies": [
+		"D_Bandito",
+		"D_Boss",
+		"D_BountyHunter",
+		"D_BountyHunterBoss",
+		"D_Gambler",
+		"D_Gunfighter",
+		"D_Sheriff",
+		"D_Sniper",
+		"Gladiator_Hoplite",
+		"Gladiator_Maximus",
+		"Gladiator_Murmillo",
+		"Gladiator_Porcus",
+		"Gladiator_Secutor",
+		"Gladiator_Thraex",
+		"H_BreadCrabZombie_Fast",
+		"H_BreadCrabZombie_HEV",
+		"H_BreadCrabZombie_Poison",
+		"H_BreadCrabZombie_Standard",
+		"H_BreadCrabZombie_Zombie",
+		"H_CivicErection_Meathack",
+		"H_CivicErection_Melee",
+		"H_CivicErection_Pistol",
+		"H_CivicErection_SMG",
+		"H_OberwurstElite_AR2",
+		"H_OberwurstSoldier_Shotgun",
+		"H_OberwurstSoldier_SMG",
+		"H_OberwurstSoldier_SMGNade",
+		"H_OberwurstSoldier_Sniper",
+		"J_Commando",
+		"J_Flamewiener",
+		"J_Grenadier",
+		"J_Guard",
+		"J_Machinegunner",
+		"J_Officer",
+		"J_Patrol",
+		"J_Riflewiener",
+		"J_Sniper",
+		"Junkbot_Broken",
+		"Junkbot_ElfBroken",
+		"Junkbot_Flamer",
+		"Junkbot_Heavy",
+		"Junkbot_Patrol",
+		"Junkbot_Pistoler",
+		"Junkbot_Rocket",
+		"Junkbot_Sniper",
+		"Junkbot_Soldier",
+		"Kolbasa_Boss_Kotleta",
+		"Kolbasa_Boss_Pirozhok",
+		"Kolbasa_Boss_Shashlyk",
+		"Kolbasa_Boss_Svyokolnik",
+		"Kolbasa_Boss_Tushyonka",
+		"Kolbasa_PMC_Pistols",
+		"Kolbasa_PMC_Rifle",
+		"Kolbasa_PMC_SMGs",
+		"Kolbasa_Scavenger_Pistols",
+		"Kolbasa_Scavenger_Rifle",
+		"Kolbasa_Scavenger_Shotguns",
+		"Kolbasa_Scavenger_SMG",
+		"Kolbasa_SweatyPMC_Rifle",
+		"Kolbasa_SweatyPMG_Shotgun",
+		"M_GreaseGremlins_Breacher",
+		"M_GreaseGremlins_Guard",
+		"M_GreaseGremlins_Heavy",
+		"M_GreaseGremlins_Markswiener",
+		"M_GreaseGremlins_Officer",
+		"M_GreaseGremlins_Ranger",
+		"M_GreaseGremlins_Riflewiener",
+		"M_GreaseGremlins_Scout",
+		"M_GreaseGremlins_Shield",
+		"M_GreaseGremlins_Sniper",
+		"M_GreaseGremlins_SpecOps",
+		"M_MercWiener_Breacher",
+		"M_MercWiener_Guard",
+		"M_MercWiener_Heavy",
+		"M_MercWiener_Markswiener",
+		"M_MercWiener_Officer",
+		"M_MercWiener_Ranger",
+		"M_MercWiener_Riflewiener",
+		"M_MercWiener_Scout",
+		"M_MercWiener_Shield",
+		"M_MercWiener_Sniper",
+		"M_MercWiener_SpecOps",
+		"M_Popsicles_Breacher",
+		"M_Popsicles_Guard",
+		"M_Popsicles_Heavy",
+		"M_Popsicles_Markswiener",
+		"M_Popsicles_Officer",
+		"M_Popsicles_Ranger",
+		"M_Popsicles_Riflewiener",
+		"M_Popsicles_Scout",
+		"M_Popsicles_Shield",
+		"M_Popsicles_Sniper",
+		"M_Popsicles_SpecOps",
+		"M_Swat_Breacher",
+		"M_Swat_Guard",
+		"M_Swat_Heavy",
+		"M_Swat_Markswiener",
+		"M_Swat_Officer",
+		"M_Swat_Ranger",
+		"M_Swat_Riflewiener",
+		"M_Swat_Scout",
+		"M_Swat_Shield",
+		"M_Swat_Sniper",
+		"M_Swat_SpecOps",
+		"M_VeggieDawgs_Breacher",
+		"M_VeggieDawgs_Guard",
+		"M_VeggieDawgs_Heavy",
+		"M_VeggieDawgs_Markswiener",
+		"M_VeggieDawgs_Officer",
+		"M_VeggieDawgs_Ranger",
+		"M_VeggieDawgs_Riflewiener",
+		"M_VeggieDawgs_Scout",
+		"M_VeggieDawgs_Shield",
+		"M_VeggieDawgs_Sniper",
+		"M_VeggieDawgs_SpecOps",
+		"MF_BlueFranks_Demo",
+		"MF_BlueFranks_Engineer",
+		"MF_BlueFranks_Heavy",
+		"MF_BlueFranks_Medic",
+		"MF_BlueFranks_Pyro",
+		"MF_BlueFranks_Scout",
+		"MF_BlueFranks_Sniper",
+		"MF_BlueFranks_Soldier",
+		"MF_BlueFranks_Spy",
+		"MF_RedHots_Demo",
+		"MF_RedHots_Engineer",
+		"MF_RedHots_Heavy",
+		"MF_RedHots_Medic",
+		"MF_RedHots_Pyro",
+		"MF_RedHots_Scout",
+		"MF_RedHots_Sniper",
+		"MF_RedHots_Soldier",
+		"MF_RedHots_Spy",
+		"MG_Soldier_Artic_Rifle",
+		"MG_Soldier_Chemwar_Rifle",
+		"MG_Soldier_Heavy_Rifle",
+		"MG_Soldier_Heavy_Shield",
+		"MG_Soldier_LInfantry_Rifle",
+		"MG_Soldier_LInfantry_Shotgun",
+		"MG_Special_Boss",
+		"MG_Special_Duelist",
+		"MG_Special_Ninja",
+		"MG_Special_Sniper",
+		"MG_Special_Steak",
+		"MG_Special_Support",
+		"MG_Special_Telekine",
+		"Misc_Dummy",
+		"Misc_Elf",
+		"MountainMeat_Melee",
+		"MountainMeat_Pistol",
+		"MountainMeat_Rifle",
+		"MountainMeat_Shotgun",
+		"MountainMeat_SMG",
+		"None",
+		"RW_Beefkicker",
+		"RW_Boner",
+		"RW_Driller",
+		"RW_Floater",
+		"RW_FunGuy",
+		"RW_HamFister",
+		"RW_Lemonhead",
+		"RW_OldSmokey",
+		"RW_Pig",
+		"RW_Prick",
+		"RW_RedLumberjack",
+		"RW_Rot",
+		"RW_Spurter",
+		"RW_TheHung",
+		"RWNPC_00",
+		"RWNPC_01",
+		"RWNPC_02",
+		"RWNPC_03",
+		"RWNPC_04",
+		"RWNPC_05",
+		"RWNPC_06",
+		"RWNPC_07",
+		"RWNPC_08",
+		"RWNPC_09",
+		"RWNPC_10",
+		"RWNPC_11",
+		"RWNPC_12",
+		"RWNPC_13",
+		"RWNPC_14",
+		"RWNPC_15",
+		"RWNPC_16",
+		"RWNPC_17",
+		"RWNPC_18",
+		"RWNPC_19",
+		"RWNPC_20",
+		"RWNPC_21",
+		"RWP_Cultist",
+		"RWP_PacSquad_Commander",
+		"RWP_PacSquad_Flanker",
+		"RWP_PacSquad_Sniper",
+		"RWP_PacSquad_Trooper",
+		"RWP_Prospector_Bar",
+		"RWP_Prospector_Pistol",
+		"RWP_Prospector_Rifle",
+		"RWP_Prospector_Shotgun",
+		"RWP_Skulker_Pistol",
+		"RWP_Skulker_Rifler",
+		"RWP_Skulker_Shotgun",
+		"W_Brown_Antitank",
+		"W_Brown_Flamewiener",
+		"W_Brown_Grenadier",
+		"W_Brown_Guard",
+		"W_Brown_HeavyRiflewiener",
+		"W_Brown_Machinegunner",
+		"W_Brown_Officer",
+		"W_Brown_Patrol",
+		"W_Brown_Riflewiener",
+		"W_Green_Antitank",
+		"W_Green_Flamewiener",
+		"W_Green_Grenadier",
+		"W_Green_Guard",
+		"W_Green_HeavyRiflewiener",
+		"W_Green_Machinegunner",
+		"W_Green_Officer",
+		"W_Green_Patrol",
+		"W_Green_Riflewiener",
+		"W_Grey_Antitank",
+		"W_Grey_Flamewiener",
+		"W_Grey_Grenadier",
+		"W_Grey_Guard",
+		"W_Grey_HeavyRiflewiener",
+		"W_Grey_Machinegunner",
+		"W_Grey_Officer",
+		"W_Grey_Patrol",
+		"W_Grey_Riflewiener",
+		"W_Tan_Antitank",
+		"W_Tan_Flamewiener",
+		"W_Tan_Grenadier",
+		"W_Tan_Guard",
+		"W_Tan_HeavyRiflewiener",
+		"W_Tan_Machinegunner",
+		"W_Tan_Officer",
+		"W_Tan_Patrol",
+		"W_Tan_Riflewiener"
+	],
+	"eras": [
+		"Cold War",
+		"Cursed",
+		"Futuristic",
+		"Gangster",
+		"Meat Fortress",
+		"Modern",
+		"Turn of the Century",
+		"Wild West",
+		"WWI",
+		"WWII"
+	],
+	"categories": [
+		"Anti-Material",
+		"Assault Rifle",
+		"Battle Rifle",
+		"Bolt-Action Pistol",
+		"Bolt-Action Rifle",
+		"Bolt-Action Shotgun",
+		"Break Action Shotgun",
+		"Breechloader Pistol",
+		"Breechloader Rifle",
+		"Cannon",
+		"Carbine",
+		"Derringer",
+		"DMR",
+		"Exotic Ordnance",
+		"Grenade Launcher",
+		"Guided Missile",
+		"Lever Action Pistol",
+		"Lever Action Rifle",
+		"Lever Action Shotgun",
+		"Machine Gun",
+		"Machine Pistol",
+		"Mag-Fed Automatic Shotgun",
+		"Meat Fortress",
+		"Ordnance",
+		"PCC",
+		"PDW",
+		"Pistol",
+		"Pocket Pistol",
+		"Pump-Action Shotgun",
+		"Revolver",
+		"Revolver Shotgun",
+		"Rifle",
+		"Rocket Launcher",
+		"Rotary Machinegun",
+		"Semi-Auto Pistol",
+		"Semi-Auto Rifle",
+		"Semi-Auto Tube-Fed Shotgun",
+		"Shotgun",
+		"SMG",
+		"Sniper Rifle"
+	],
+	"nations": [
+		"American",
+		"Austrian",
+		"Belgian",
+		"Brazilian",
+		"British",
+		"Chinese",
+		"Croatian",
+		"Czech",
+		"Danish",
+		"Fictional",
+		"Finnish",
+		"French",
+		"German",
+		"Israeli",
+		"Italian",
+		"Japanese",
+		"Korean",
+		"Philippine",
+		"Polish",
+		"Russian",
+		"Singaporean",
+		"South African",
+		"Spanish",
+		"Swedish",
+		"Swiss",
+		"Turkish",
+		"Ukrainian",
+		"Vietnamese"
+	]
+}
