@@ -1,0 +1,85 @@
+﻿<Window x:Class="GunGameProgressionMaker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gun Game Progression Maker" Height="500" Width="850" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        
+        <Label Content="Name (Shown on game button, must be unique)" Grid.Row="1" />
+        <TextBox Name="txtName" Grid.Row="1" Grid.Column="1" />
+        
+        <Label Content="Description (Shown on left panel from the button)" Grid.Row="2"/>
+        <TextBox Name="txtDescription" Grid.Row="2" Grid.Column="1"/>
+
+        <Label Content="Order Type" Grid.Row="3"/>
+        <ComboBox Name="cmbOrderType" Grid.Row="3" Grid.Column="1"/>
+
+        <Label Content="Enemy Type" Grid.Row="4"/>
+        <ComboBox Name="cmbEnemyType" Grid.Row="4" Grid.Column="1"/>
+        
+        <Label Content="Era Filter" Grid.Row="5"/>        
+        <ComboBox Grid.Row="5" Grid.Column="1" Name="cmbEraFilter"/>
+
+        <Label Content="Category Filter" Grid.Row="6"/>
+        <ComboBox Grid.Row="6" Grid.Column="1" Name="cmbCategoryFilter"/>
+
+        <Label Content="Nation of Origin Filter" Grid.Row="7"/>
+        <ComboBox Grid.Row="7" Grid.Column="1" Name="cmbNationFilter"/>
+
+        <Label Content="Gun" Grid.Row="8"/>
+        <ComboBox Grid.Column="1" Grid.Row="8" Name="cmbGuns" SelectionChanged="cmbGuns_SelectionChanged"/>
+
+        <Label Content="Magazine" Grid.Row="9"/>
+        <ComboBox Grid.Column="1" Grid.Row="9" Name="cmbMagazines"/>
+
+        <Label Content="Category ID" Grid.Row="10"/>
+        <ComboBox Grid.Column="1" Grid.Row="10" Name="cmbCategoryID"/>
+
+        <Grid Grid.Row="11" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <Button Content="Add"  Click="AddButton_Click" />
+            <Button Content="Add All" Grid.Column="1" Name="btnAddAll" Click="btnAddAll_Click"/>
+            <Button Content="Clear" Grid.Column="2" Name="btnClear" Click="btnClear_Click"/>
+            <Button Content="Save"  Grid.Column="3"   Click="SaveButton_Click" />
+        </Grid>
+
+
+        <DataGrid Name="grdGuns" Grid.Row="12" Grid.ColumnSpan="2" 
+                  ScrollViewer.VerticalScrollBarVisibility="Visible" ItemsSource="{Binding}" AutoGenerateColumns="False" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding GunName}" Header="Gun Name" IsReadOnly="True" />
+                <DataGridTextColumn Binding="{Binding DefaultMagName}" Header="Default Magazine" IsReadOnly="True" />
+                <DataGridTextColumn Binding="{Binding SelctedMagName}" Header="Selected Magazine" IsReadOnly="True" />
+                <DataGridTextColumn Binding="{Binding CategoryID}" Header="Category ID" IsReadOnly="True" />
+                
+            </DataGrid.Columns>
+        </DataGrid>
+        
+    </Grid>
+</Window>
