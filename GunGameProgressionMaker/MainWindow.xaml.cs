@@ -292,6 +292,12 @@ namespace GunGameProgressionMaker
                 return;
             }
 
+            if (allGuns.fileLocations.Count == 0)
+            {
+                MessageBox.Show("You must define a save location, update gameData.json");
+                return;
+            }
+
             ProgressionJSON json = new ProgressionJSON()
                 {
                     Name = txtName.Text,
