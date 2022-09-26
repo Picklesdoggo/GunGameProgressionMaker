@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.Win32;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
@@ -356,8 +357,57 @@ namespace GunGameProgressionMaker
         {
             selectedGuns.Clear();
         }
-       
-        #endregion
 
+       
+
+        private void btnLoad_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            if (allGuns.fileLocations.Count != 0)
+            {
+                openFileDialog.InitialDirectory = allGuns.fileLocations[0];
+            }
+            
+
+            openFileDialog.Filter = "Json files (GunGame*.json)|GunGame*.json";
+
+            if (openFileDialog.ShowDialog() == true)
+            {
+
+                string json = File.ReadAllText(openFileDialog.FileName);
+
+                ProgressionJSON loadedJson = JsonConvert.DeserializeObject<ProgressionJSON>(json);
+
+                txtDescription.Text = loadedJson.Description;
+                txtName.Text = loadedJson.Name;
+
+                cmbOrderType.SelectedIndex = loadedJson.OrderType;
+
+                // get the enemy index
+                int enemyIndex = cmbEnemyType.Items.IndexOf(loadedJson.EnemyType);
+                cmbEnemyType.SelectedIndex = enemyIndex;
+
+                // clear selected guns
+                selectedGuns.Clear();
+
+                // load the guns
+                for (int i = 0; i < loadedJson.GunNames.Count; i++)
+                {
+                    Gun gun = new Gun();
+                    gun.GunName = loadedJson.GunNames[i];
+                    gun.SelctedMagName = loadedJson.MagNames[i];
+                    gun.CategoryID = loadedJson.CategoryIDs[i];
+
+                    // get the default mag
+                    gun.DefaultMagName = allGuns.guns.Where(g => g.GunName == gun.GunName).FirstOrDefault().DefaultMagName;
+
+                    selectedGuns.Add(gun);
+                }
+
+            }
+        }
+
+        #endregion
     }
 }

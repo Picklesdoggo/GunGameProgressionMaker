@@ -61,13 +61,15 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
+				<ColumnDefinition/>
             </Grid.ColumnDefinitions>
             
             <Button Content="Add"  Click="AddButton_Click" />
             <Button Content="Add All" Grid.Column="1" Name="btnAddAll" Click="btnAddAll_Click"/>
             <Button Content="Clear" Grid.Column="2" Name="btnClear" Click="btnClear_Click"/>
             <Button Content="Save"  Grid.Column="3"   Click="SaveButton_Click" />
-        </Grid>
+			<Button Content="Load" Grid.Column="4" Name="btnLoad" Click="btnLoad_Click" />
+		</Grid>
 
 
         <DataGrid Name="grdGuns" Grid.Row="12" Grid.ColumnSpan="2" 
