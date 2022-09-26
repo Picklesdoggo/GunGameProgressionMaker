@@ -7618,15 +7618,8 @@
 			"Categories": [
 				"SMG"
 			],
-			"CompatableAmmo": [
-				"10mmDSMCartridgeFrag",
-				"10mmDSMCartridgeMag",
-				"10mmDSMCartridgeMine",
-				"10mmDSMCartridgeSlugger",
-				"10mmDSMCartridgeSwarm",
-				"10mmDSMCartridgeTracer",
-				"10mmDSMCartridgeTruboPenetrator",
-				"10mmDSMCartridgeVolt"
+			"CompatableAmmo": 
+				"MagazineThompsonMk2"
 			],
 			"NationOfOrigin": "Fictional"
 		},
