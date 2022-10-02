@@ -2846,7 +2846,8 @@
 			"CompatableAmmo": [
 				"MagazineP08Luger",
 				"MagazineP08LugerDrum",
-				"MagazineMP18"
+				"MagazineMP18",
+				"MagazineMP18Drum"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -3133,7 +3134,8 @@
 			"CompatableAmmo": [
 				"MagazineP08Luger",
 				"MagazineP08LugerDrum",
-				"MagazineMP18"
+				"MagazineMP18",
+				"MagazineMP18Drum"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -3150,7 +3152,8 @@
 			"CompatableAmmo": [
 				"MagazineP08Luger",
 				"MagazineP08LugerDrum",
-				"MagazineMP18"
+				"MagazineMP18",
+				"MagazineMP18Drum"
 			],
 			"NationOfOrigin": "German"
 		},
@@ -3167,7 +3170,8 @@
 			"CompatableAmmo": [
 				"MagazineP08Luger",
 				"MagazineP08LugerDrum",
-				"MagazineMP18"
+				"MagazineMP18",
+				"MagazineMP18Drum"
 			],
 			"NationOfOrigin": "German"
 		},
@@ -3184,7 +3188,8 @@
 			"CompatableAmmo": [
 				"MagazineP08Luger",
 				"MagazineP08LugerDrum",
-				"MagazineMP18"
+				"MagazineMP18",
+				"MagazineMP18Drum"
 			],
 			"NationOfOrigin": "German"
 		},
@@ -3920,7 +3925,8 @@
 				"762x51mmCartridgeFMJ",
 				"762x51mmCartridgeIncendiary",
 				"762x51mmCartridgeJHP",
-				"762x51mmCartridgeTracer"
+				"762x51mmCartridgeTracer",
+				"762x51mmStripperClip"
 			],
 			"NationOfOrigin": "American"
 		},
@@ -4622,7 +4628,8 @@
 				"Semi-Auto Rifle"
 			],
 			"CompatableAmmo": [
-				"MF_Clip_AllRounder"
+				"MF_Clip_AllRounder",
+				"MF_AllRounder_Magazine"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -4669,7 +4676,8 @@
 				"SMG"
 			],
 			"CompatableAmmo": [
-				"MF_SMG_Magazine"
+				"MF_SMG_Magazine",
+				"MF_SMG_Drum"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -4685,7 +4693,11 @@
 				"Shotgun"
 			],
 			"CompatableAmmo": [
-				"Cartridge13GaugeSlugger"
+				"Cartridge13GaugeSlugger",
+				"Cartridge13GaugeBleeder",
+				"Cartridge13GaugeBlooper",
+				"Cartridge13GaugeBuck",
+				"Cartridge13GaugeMoonshot"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -4748,7 +4760,9 @@
 				"Shotgun"
 			],
 			"CompatableAmmo": [
-				"7Gauge_TripleHit"
+				"7Gauge_TripleHit",
+				"7Gauge_Buck",
+				"7Gauge_Slug"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -4763,7 +4777,10 @@
 				"Revolver"
 			],
 			"CompatableAmmo": [
-				"366UltraMagnumFMJ"
+				"366UltraMagnumFMJ",
+				"Cartridge366UltraMagnumDebuff",
+				"Cartridge366UltraMagnumRetort",
+				"Cartridge366UltraMagnumSalute"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -4795,7 +4812,10 @@
 				"Revolver"
 			],
 			"CompatableAmmo": [
-				"366UltraMagnumFMJ"
+				"366UltraMagnumFMJ",
+				"Cartridge366UltraMagnumDebuff",
+				"Cartridge366UltraMagnumRetort",
+				"Cartridge366UltraMagnumSalute"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -4810,7 +4830,12 @@
 				"Rocket Launcher"
 			],
 			"CompatableAmmo": [
-				"Cartridge_RPGMF_Rocket_WrongAmmo"
+				"Cartridge_RPGMF_Rocket_WrongAmmo",
+				"Cartridge_RPGMF_Rocket_CannedMeat",
+				"RPGMF_Classic",
+				"Cartridge_RPGMF_Rocket_RocketPop",
+				"Cartridge_RPGMF_Rocket_RockIt",
+				"Cartridge_RPGMF_Rocket_ToTheMoon"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -4825,7 +4850,8 @@
 				"SMG"
 			],
 			"CompatableAmmo": [
-				"MF_Rosie_Magazine"
+				"MF_Rosie_Magazine",
+				"MF_Rosie_Drum"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -4841,7 +4867,11 @@
 				"Shotgun"
 			],
 			"CompatableAmmo": [
-				"Cartridge13GaugeSlugger"
+				"Cartridge13GaugeSlugger",
+				"Cartridge13GaugeBleeder",
+				"Cartridge13GaugeBlooper",
+				"Cartridge13GaugeBuck",
+				"Cartridge13GaugeMoonshot"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -4857,7 +4887,9 @@
 				"Shotgun"
 			],
 			"CompatableAmmo": [
-				"7Gauge_TripleHit"
+				"7Gauge_TripleHit",
+				"7Gauge_Buck",
+				"7Gauge_Slug"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -4874,7 +4906,10 @@
 				"Sniper Rifle"
 			],
 			"CompatableAmmo": [
-				"18x50mmPackawhallop_FMJ"
+				"18x50mmPackawhallop_FMJ",
+				"18x50mmPackawhallop_Barbie",
+				"18x50mmPackawhallop_Drongo",
+				"18x50mmPackawhallop_Gobsmacka"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -4891,7 +4926,10 @@
 				"Sniper Rifle"
 			],
 			"CompatableAmmo": [
-				"18x50mmPackawhallop_Drongo"
+				"18x50mmPackawhallop_Drongo",
+				"18x50mmPackawhallop_Barbie",
+				"18x50mmPackawhallop_FMJ",
+				"18x50mmPackawhallop_Gobsmacka"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -4922,7 +4960,11 @@
 				"Meat Fortress"
 			],
 			"CompatableAmmo": [
-				"MF_Clip_StickyShell"
+				"MF_Clip_StickyShell",
+				"StickyShell",
+				"StickyShellHighlandFling",
+				"StickyShellRobbieBurns",
+				"StickyShellRustyNail"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -4937,7 +4979,8 @@
 				"SMG"
 			],
 			"CompatableAmmo": [
-				"MF_SMG_Drum"
+				"MF_SMG_Drum",
+				"MF_SMG_Magazine"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -4952,7 +4995,10 @@
 				"Meat Fortress"
 			],
 			"CompatableAmmo": [
-				"18x50mmPackawhallop_Drongo"
+				"18x50mmPackawhallop_Drongo",
+				"18x50mmPackawhallop_Barbie",
+				"18x50mmPackawhallop_FMJ",
+				"18x50mmPackawhallop_Gobsmacka"
 			],
 			"NationOfOrigin": "Fictional"
 		},
@@ -5006,7 +5052,8 @@
 			],
 			"CompatableAmmo": [
 				"MagazineMicroUzi20rnd",
-				"MagazineMicroUzi32rnd"
+				"MagazineMicroUzi32rnd",
+				"MagazineUzi72rndDrum"
 			],
 			"NationOfOrigin": "Israeli"
 		},
@@ -5459,7 +5506,8 @@
 			"CompatableAmmo": [
 				"MagazineP08Luger",
 				"MagazineP08LugerDrum",
-				"MagazineMP18"
+				"MagazineMP18",
+				"MagazineMP18Drum"
 			],
 			"NationOfOrigin": "German"
 		},
@@ -5525,6 +5573,20 @@
 			"NationOfOrigin": "Russian"
 		},
 		{
+			"GunName": "MP510A4",
+			"DefaultMagName": "MagazineMp510_30rndStraight",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp510_30rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
 			"GunName": "MP510A5",
 			"DefaultMagName": "MagazineMp510_30rndStraight",
 			"CategoryID": 0,
@@ -5535,6 +5597,20 @@
 			],
 			"CompatableAmmo": [
 				"MagazineMp510_30rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP540A4",
+			"DefaultMagName": "MagazineMp540_30rndStraight",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp540_30rndStraight"
 			],
 			"NationOfOrigin": "German"
 		},
@@ -5571,6 +5647,60 @@
 			"NationOfOrigin": "German"
 		},
 		{
+			"GunName": "MP5A2",
+			"DefaultMagName": "MagazineMp530rndStraight",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5A3",
+			"DefaultMagName": "MagazineMp530rndStraight",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5A4",
+			"DefaultMagName": "MagazineMp530rndStraight",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
 			"GunName": "MP5A5",
 			"DefaultMagName": "MagazineMp530rnd",
 			"CategoryID": 0,
@@ -5589,7 +5719,83 @@
 			"NationOfOrigin": "German"
 		},
 		{
+			"GunName": "MP5K",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5KA2",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5KA3",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
 			"GunName": "MP5KA4",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Machine Pistol",
+				"Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5KN",
 			"DefaultMagName": "MagazineMp5100rnd",
 			"CategoryID": 0,
 			"SelctedMagName": "",
@@ -5627,6 +5833,96 @@
 			"NationOfOrigin": "German"
 		},
 		{
+			"GunName": "MP5SD1",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5SD2",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5SD3",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5SD4",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5SD5",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
 			"GunName": "MP5SD6",
 			"DefaultMagName": "MagazineMp5100rnd",
 			"CategoryID": 0,
@@ -5634,6 +5930,25 @@
 			"Era": "Cold War",
 			"Categories": [
 				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "MP5SFA2",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Cold War",
+			"Categories": [
+				"Carbine",
+				"PCC"
 			],
 			"CompatableAmmo": [
 				"MagazineMp5100rnd",
@@ -5841,6 +6156,22 @@
 			"NationOfOrigin": "South African"
 		},
 		{
+			"GunName": "OTS38",
+			"DefaultMagName": "SpeedloaderOTS38",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Revolver"
+			],
+			"CompatableAmmo": [
+				"SpeedloaderOTS38",
+				"Cartridge762x42mmRFMJ"
+			],
+			"NationOfOrigin": "Russian"
+		},
+		{
 			"GunName": "P22",
 			"DefaultMagName": "MagazineP22",
 			"CategoryID": 0,
@@ -6015,7 +6346,8 @@
 				"762x39mmCartridgeFMJ",
 				"762x39mmCartridgeIncendiary",
 				"762x39mmCartridgeJHP",
-				"762x39mmCartridgeTracer"
+				"762x39mmCartridgeTracer",
+				"762x39mmStripperClip"
 			],
 			"NationOfOrigin": "American"
 		},
@@ -6061,6 +6393,21 @@
 			],
 			"CompatableAmmo": [
 				"MagazinePMR30"
+			],
+			"NationOfOrigin": "American"
+		},
+		{
+			"GunName": "PocketHammer1903",
+			"DefaultMagName": "MagazinePocketHammer1903",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"Pistol",
+				"Semi-Auto Pistol"
+			],
+			"CompatableAmmo": [
+				"MagazinePocketHammer1903"
 			],
 			"NationOfOrigin": "American"
 		},
@@ -6892,9 +7239,64 @@
 			],
 			"CompatableAmmo": [
 				"762x39mmStripperClip",
-				"MagazineSKSModern20rnd"
+				"MagazineSKSModern20rnd",
+				"MagazineSKSModern10rnd"
 			],
 			"NationOfOrigin": "Russian"
+		},
+		{
+			"GunName": "SP5K",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "SP5KA2",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
+		},
+		{
+			"GunName": "SP5KA3",
+			"DefaultMagName": "MagazineMp5100rnd",
+			"CategoryID": 0,
+			"SelctedMagName": "",
+			"Era": "Modern",
+			"Categories": [
+				"SMG"
+			],
+			"CompatableAmmo": [
+				"MagazineMp5100rnd",
+				"MagazineMp515rnd",
+				"MagazineMp515rndStraight",
+				"MagazineMp530rnd",
+				"MagazineMp530rndStraight"
+			],
+			"NationOfOrigin": "German"
 		},
 		{
 			"GunName": "SP5KFolding",
@@ -7618,8 +8020,7 @@
 			"Categories": [
 				"SMG"
 			],
-			"CompatableAmmo": 
-			[
+			"CompatableAmmo": [
 				"MagazineThompsonMk2"
 			],
 			"NationOfOrigin": "Fictional"
@@ -7929,7 +8330,8 @@
 			],
 			"CompatableAmmo": [
 				"MagazineMicroUzi20rnd",
-				"MagazineMicroUzi32rnd"
+				"MagazineMicroUzi32rnd",
+				"MagazineUzi72rndDrum"
 			],
 			"NationOfOrigin": "Israeli"
 		},
@@ -7944,7 +8346,8 @@
 			],
 			"CompatableAmmo": [
 				"MagazineMicroUzi20rnd",
-				"MagazineMicroUzi32rnd"
+				"MagazineMicroUzi32rnd",
+				"MagazineUzi72rndDrum"
 			],
 			"NationOfOrigin": "Israeli"
 		},
@@ -7959,7 +8362,8 @@
 			],
 			"CompatableAmmo": [
 				"MagazineMicroUzi20rnd",
-				"MagazineMicroUzi32rnd"
+				"MagazineMicroUzi32rnd",
+				"MagazineUzi72rndDrum"
 			],
 			"NationOfOrigin": "Israeli"
 		},
@@ -7990,7 +8394,8 @@
 			],
 			"CompatableAmmo": [
 				"MagazineMicroUzi20rnd",
-				"MagazineMicroUzi32rnd"
+				"MagazineMicroUzi32rnd",
+				"MagazineUzi72rndDrum"
 			],
 			"NationOfOrigin": "Israeli"
 		},
