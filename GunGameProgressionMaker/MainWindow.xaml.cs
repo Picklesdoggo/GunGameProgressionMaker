@@ -6,7 +6,6 @@ using System.IO;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Documents;
 
 namespace GunGameProgressionMaker
 {
@@ -295,8 +294,15 @@ namespace GunGameProgressionMaker
 
             if (allGuns.fileLocations.Count == 0)
             {
-                MessageBox.Show("You must define a save location, update gameData.json");
-                return;
+                MessageBox.Show("No save locations stored, update gameData.json");
+                using (var dialog = new System.Windows.Forms.FolderBrowserDialog())
+                {
+                    System.Windows.Forms.DialogResult result = dialog.ShowDialog();
+                    if (result == System.Windows.Forms.DialogResult.OK)
+                    {
+                        allGuns.fileLocations.Add(dialog.SelectedPath);
+                    }                                      
+                }
             }
 
             ProgressionJSON json = new ProgressionJSON()
