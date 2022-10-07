@@ -21,6 +21,8 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
+			<RowDefinition Height="auto"/>
+			<RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
@@ -36,26 +38,32 @@
 
         <Label Content="Enemy Type" Grid.Row="4"/>
         <ComboBox Name="cmbEnemyType" Grid.Row="4" Grid.Column="1"/>
-        
-        <Label Content="Era Filter" Grid.Row="5"/>        
-        <ComboBox Grid.Row="5" Grid.Column="1" Name="cmbEraFilter"/>
 
-        <Label Content="Category Filter" Grid.Row="6"/>
-        <ComboBox Grid.Row="6" Grid.Column="1" Name="cmbCategoryFilter"/>
+		<Label Content="Caliber Filter" Grid.Row="5"/>
+		<ComboBox Grid.Row="5" Grid.Column="1" Name="cmbCaliberFilter"/>		
+		
+		<Label Content="Category Filter" Grid.Row="6"/>
+		<ComboBox Grid.Row="6" Grid.Column="1" Name="cmbCategoryFilter"/>
 
-        <Label Content="Nation of Origin Filter" Grid.Row="7"/>
-        <ComboBox Grid.Row="7" Grid.Column="1" Name="cmbNationFilter"/>
+		<Label Content="Era Filter" Grid.Row="7"/>        
+        <ComboBox Grid.Row="7" Grid.Column="1" Name="cmbEraFilter"/>
 
-        <Label Content="Gun" Grid.Row="8"/>
-        <ComboBox Grid.Column="1" Grid.Row="8" Name="cmbGuns" SelectionChanged="cmbGuns_SelectionChanged"/>
+		<Label Content="Firearm Action Filter" Grid.Row="8"/>
+		<ComboBox Grid.Row="8" Grid.Column="1" Name="cmbFirearmActionFilter"/>
 
-        <Label Content="Magazine" Grid.Row="9"/>
-        <ComboBox Grid.Column="1" Grid.Row="9" Name="cmbMagazines"/>
+		<Label Content="Nation of Origin Filter" Grid.Row="9"/>
+        <ComboBox Grid.Row="9" Grid.Column="1" Name="cmbNationFilter"/>
 
-        <Label Content="Category ID" Grid.Row="10"/>
-        <ComboBox Grid.Column="1" Grid.Row="10" Name="cmbCategoryID"/>
+        <Label Content="Gun" Grid.Row="10"/>
+        <ComboBox Grid.Column="1" Grid.Row="10" Name="cmbGuns" SelectionChanged="cmbGuns_SelectionChanged"/>
 
-        <Grid Grid.Row="11" Grid.ColumnSpan="2">
+        <Label Content="Magazine" Grid.Row="11"/>
+        <ComboBox Grid.Column="1" Grid.Row="11" Name="cmbMagazines"/>
+
+        <Label Content="Category ID" Grid.Row="12"/>
+        <ComboBox Grid.Column="1" Grid.Row="12" Name="cmbCategoryID"/>
+
+        <Grid Grid.Row="13" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
@@ -72,7 +80,7 @@
 		</Grid>
 
 
-        <DataGrid Name="grdGuns" Grid.Row="12" Grid.ColumnSpan="2" 
+        <DataGrid Name="grdGuns" Grid.Row="14" Grid.ColumnSpan="2" 
                   ScrollViewer.VerticalScrollBarVisibility="Visible" ItemsSource="{Binding}" AutoGenerateColumns="False" >
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding GunName}" Header="Gun Name" IsReadOnly="True" />

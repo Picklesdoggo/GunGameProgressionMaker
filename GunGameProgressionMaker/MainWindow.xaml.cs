@@ -43,7 +43,7 @@ namespace GunGameProgressionMaker
             // load JSON file
             string json = File.ReadAllText("gameData.json");       
 
-            allGuns = JsonConvert.DeserializeObject<GunJson>(json);                       
+            allGuns = JsonConvert.DeserializeObject<GunJson>(json);
         }
 
         #endregion
@@ -65,13 +65,19 @@ namespace GunGameProgressionMaker
             }
 
             // Populate Era drop down with check boxes
-            pouplateDropDown(allGuns.eras, cmbEraFilter);
+            populateDrowDown(allGuns.eras, cmbEraFilter);
 
             // Populate Category drop down with check boxes
-            pouplateDropDown(allGuns.categories, cmbCategoryFilter);
+            populateDrowDown(allGuns.categories, cmbCategoryFilter);
            
             // Populate Nation drop down with check boxes
-            pouplateDropDown(allGuns.nations, cmbNationFilter);
+            populateDrowDown(allGuns.nations, cmbNationFilter);
+
+            // Populate Caliber drop down with check boxes
+            populateDrowDown(allGuns.calibers, cmbCaliberFilter);
+
+            // Populate Firearm action drop down with check boxes
+            populateDrowDown(allGuns.firearmActions, cmbFirearmActionFilter);
             
             // Populate Order drop down
             cmbOrderType.Items.Add("0 - Fixed - weapons will spawn in specific order.");
@@ -80,7 +86,7 @@ namespace GunGameProgressionMaker
             cmbOrderType.SelectedIndex = 1;
             
             // Populate categoryID drop down
-            for (int i = 0; i <= 100; i++)
+            for (int i = 0; i <= allGuns.maxCategories; i++)
             {
                 cmbCategoryID.Items.Add(i);
             }
@@ -88,7 +94,7 @@ namespace GunGameProgressionMaker
             cmbCategoryID.SelectedIndex = 0;
         }
 
-        private void pouplateDropDown(List<string> items, ComboBox box)
+        private void populateDrowDown(List<string> items, ComboBox box)
         {
             
             // add select all
@@ -116,6 +122,8 @@ namespace GunGameProgressionMaker
             List<Gun> eraFilteredGuns = new List<Gun>();
             List<Gun> categoryFiltered = new List<Gun>();
             List<Gun> nationFiltered = new List<Gun>();
+            List<Gun> caliberFiltered = new List<Gun>();
+            List<Gun> firearmActionFiltered = new List<Gun>();
             List<Gun> filteredGuns = new List<Gun>();
 
             // Filter on Era first
@@ -129,6 +137,9 @@ namespace GunGameProgressionMaker
                     eraFilteredGuns = eraFilteredGuns.Concat(filter).ToList();
                 }
             }
+
+            // remove duplicates
+            eraFilteredGuns = eraFilteredGuns.Distinct().ToList();
 
             // Filter on Category
             foreach (object o in cmbCategoryFilter.Items)
@@ -163,7 +174,42 @@ namespace GunGameProgressionMaker
                 }
             }
 
-            filteredGuns = nationFiltered;
+            // Remove duplicates
+            nationFiltered = nationFiltered.Distinct().ToList();
+
+            // Filter on Caliber
+            foreach (object o in cmbCaliberFilter.Items)
+            {
+                CheckBox cb = (CheckBox)o;
+
+                if (cb.IsChecked == true)
+                {
+                    string selectedCaliber = cb.Content.ToString();
+                    List<Gun> filter = nationFiltered.Where(g => g.Caliber == selectedCaliber).ToList();
+                    caliberFiltered = caliberFiltered.Concat(filter).ToList();
+                }
+            }
+
+            // remove duplicates
+            caliberFiltered = caliberFiltered.Distinct().ToList();
+
+            // Filter on firearm action
+            foreach (object o in cmbFirearmActionFilter.Items)
+            {
+                CheckBox cb = (CheckBox)o;
+
+                if (cb.IsChecked == true)
+                {
+                    string selectedFirearmAction = cb.Content.ToString();
+                    List<Gun> filter = caliberFiltered.Where(g => g.FirearmAction == selectedFirearmAction).ToList();
+                    firearmActionFiltered = firearmActionFiltered.Concat(filter).ToList();
+                }
+            }
+
+            // remove duplicates
+            firearmActionFiltered = firearmActionFiltered.Distinct().ToList();
+
+            filteredGuns = firearmActionFiltered;
             filteredGuns = filteredGuns.OrderBy(g => g.GunName).ToList();
 
             // Update gun drop down
@@ -199,6 +245,14 @@ namespace GunGameProgressionMaker
                 else if (comboBox.Name == "cmbNationFilter")
                 {
                     items = cmbNationFilter.Items;
+                }
+                else if (comboBox.Name == "cmbCaliberFilter")
+                {
+                    items = cmbCaliberFilter.Items;
+                }
+                else if (comboBox.Name == "cmbFirearmActionFilter")
+                {
+                    items = cmbFirearmActionFilter.Items;
                 }
                 else
                 {
@@ -363,9 +417,7 @@ namespace GunGameProgressionMaker
         {
             selectedGuns.Clear();
         }
-
-       
-
+        
         private void btnLoad_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
