@@ -31,7 +31,7 @@
 		<DockPanel Grid.ColumnSpan="2">
 			<Menu DockPanel.Dock="Top">
 				<MenuItem Header="_File">
-					<MenuItem Header="_Refersh gun data" Click="refresh_Click"/>
+					<MenuItem Header="_Refresh gun data" Click="refresh_Click"/>
 
 				</MenuItem>
 			</Menu>
