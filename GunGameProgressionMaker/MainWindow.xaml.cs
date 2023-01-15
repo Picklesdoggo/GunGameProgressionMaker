@@ -15,10 +15,10 @@ namespace GunGameProgressionMaker
     public partial class MainWindow : Window
     {
         #region Member variables
-
+        
         ObservableCollection<Gun> selectedGuns = new ObservableCollection<Gun>();  
         GunJson allGuns = new GunJson();
-              
+       
         #endregion
 
         public MainWindow()
@@ -52,12 +52,14 @@ namespace GunGameProgressionMaker
 
         private void populateDropDowns()
         {
+            cmbGuns.Items.Clear();
             // Populate gun drop down
             foreach (Gun g in allGuns.guns)
             {
                 cmbGuns.Items.Add(g.GunName);
             }
             
+            cmbEnemyType.Items.Clear();
             // Populate enemy drop down
             foreach (string e in allGuns.enemies)
             {
@@ -65,27 +67,34 @@ namespace GunGameProgressionMaker
             }
 
             // Populate Era drop down with check boxes
+            cmbEraFilter.Items.Clear();
             populateDrowDown(allGuns.eras, cmbEraFilter);
 
             // Populate Category drop down with check boxes
+            cmbCategoryFilter.Items.Clear();
             populateDrowDown(allGuns.categories, cmbCategoryFilter);
-           
+
             // Populate Nation drop down with check boxes
+            cmbNationFilter.Items.Clear();
             populateDrowDown(allGuns.nations, cmbNationFilter);
 
             // Populate Caliber drop down with check boxes
+            cmbCaliberFilter.Items.Clear();
             populateDrowDown(allGuns.calibers, cmbCaliberFilter);
 
             // Populate Firearm action drop down with check boxes
+            cmbFirearmActionFilter.Items.Clear();
             populateDrowDown(allGuns.firearmActions, cmbFirearmActionFilter);
-            
+
             // Populate Order drop down
+            cmbOrderType.Items.Clear();
             cmbOrderType.Items.Add("0 - Fixed - weapons will spawn in specific order.");
             cmbOrderType.Items.Add("1 - Random - weapons will spawn in random order.");
             cmbOrderType.Items.Add("2 - Random within category- weapons will be spawned randomly but will go through category.");
             cmbOrderType.SelectedIndex = 1;
-            
+
             // Populate categoryID drop down
+            cmbCategoryID.Items.Clear();
             for (int i = 0; i <= allGuns.maxCategories; i++)
             {
                 cmbCategoryID.Items.Add(i);
@@ -251,7 +260,7 @@ namespace GunGameProgressionMaker
                     items = cmbCaliberFilter.Items;
                 }
                 else if (comboBox.Name == "cmbFirearmActionFilter")
-                {
+                { 
                     items = cmbFirearmActionFilter.Items;
                 }
                 else
@@ -464,6 +473,22 @@ namespace GunGameProgressionMaker
                 }
 
             }
+        }
+
+        
+
+        private void refresh_Click(object sender, RoutedEventArgs e)
+        {
+            JsonBuilder.generateJson();
+
+            // Load game data
+            getGameData();
+
+            // Pouplate drop downs
+            populateDropDowns();
+
+            // Bind data source
+            grdGuns.ItemsSource = selectedGuns;
         }
 
         #endregion
