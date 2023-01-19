@@ -4,7 +4,7 @@ namespace GunGameProgressionMaker
 {
 
 
-    public class ProgressionJSON
+    public class OutputJson
     {
         public string Name { get; set; }
         public string Description { get; set; }

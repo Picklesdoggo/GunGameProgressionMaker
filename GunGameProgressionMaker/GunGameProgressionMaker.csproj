@@ -83,8 +83,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Cache.cs" />
-    <Compile Include="GameObject.cs" />
+    <Compile Include="Config.cs" />
     <Compile Include="Gun.cs" />
+    <Compile Include="ItemSpawnerIDs.cs" />
     <Compile Include="JsonBuilder.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -92,6 +93,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ObjectID.cs" />
     <Compile Include="ProgressionJSON.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

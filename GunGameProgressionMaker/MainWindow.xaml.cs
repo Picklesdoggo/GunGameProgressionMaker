@@ -17,7 +17,7 @@ namespace GunGameProgressionMaker
         #region Member variables
         
         ObservableCollection<Gun> selectedGuns = new ObservableCollection<Gun>();  
-        GunJson allGuns = new GunJson();
+        InputJson allGuns = new InputJson();
        
         #endregion
 
@@ -43,7 +43,7 @@ namespace GunGameProgressionMaker
             // load JSON file
             string json = File.ReadAllText("gameData.json");       
 
-            allGuns = JsonConvert.DeserializeObject<GunJson>(json);
+            allGuns = JsonConvert.DeserializeObject<InputJson>(json);
         }
 
         #endregion
@@ -84,7 +84,7 @@ namespace GunGameProgressionMaker
 
             // Populate Firearm action drop down with check boxes
             cmbFirearmActionFilter.Items.Clear();
-            populateDrowDown(allGuns.firearmActions, cmbFirearmActionFilter);
+            populateDrowDown(allGuns.firearmactions, cmbFirearmActionFilter);
 
             // Populate Order drop down
             cmbOrderType.Items.Clear();
@@ -368,7 +368,7 @@ namespace GunGameProgressionMaker
                 }
             }
 
-            ProgressionJSON json = new ProgressionJSON()
+            OutputJson json = new OutputJson()
                 {
                     Name = txtName.Text,
                     Description = txtDescription.Text,
@@ -444,7 +444,7 @@ namespace GunGameProgressionMaker
 
                 string json = File.ReadAllText(openFileDialog.FileName);
 
-                ProgressionJSON loadedJson = JsonConvert.DeserializeObject<ProgressionJSON>(json);
+                OutputJson loadedJson = JsonConvert.DeserializeObject<OutputJson>(json);
 
                 txtDescription.Text = loadedJson.Description;
                 txtName.Text = loadedJson.Name;
