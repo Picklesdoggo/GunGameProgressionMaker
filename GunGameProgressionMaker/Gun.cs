@@ -9,7 +9,8 @@ namespace GunGameProgressionMaker
         public List<string> fileLocations { get; set; }
         public int maxCategories { get; set; }
         public List<Gun> guns { get; set; }
-        public List<string> enemies { get; set; }
+        public List<Enemy> enemies { get; set; }
+        public List<string> enemyCategories { get; set; }
         public List<string> eras { get; set; }
         public List<string> firearmactions { get; set; }
         public List<string> categories { get; set; }

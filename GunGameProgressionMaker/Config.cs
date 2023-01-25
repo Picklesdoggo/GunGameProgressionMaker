@@ -8,8 +8,19 @@ namespace GunGameProgressionMaker
 {
     public class Config
     {
-        public List<string> enemies { get; set; }
+        public List<Enemy> enemies { get; set; }
         public List<string> gunblacklist { get; set; }
         public List<string> filelocations { get; set; }
+
+        public int maxcategories { get; set; }
+    }
+
+    public class Enemy
+    {
+        public string category { get; set; }
+        public string name { get; set; }
+        public string appearance { get; set; }
+        public string weapons { get; set; }
+        public string note { get; set; }
     }
 }

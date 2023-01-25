@@ -58,13 +58,15 @@ namespace GunGameProgressionMaker
             {
                 cmbGuns.Items.Add(g.GunName);
             }
-            
-            cmbEnemyType.Items.Clear();
-            // Populate enemy drop down
-            foreach (string e in allGuns.enemies)
+
+            cmbEnemyName.Items.Clear();
+            cmbEnemyCategory.Items.Clear();
+            // Populate enemy drop downs
+            foreach (string e in allGuns.enemyCategories)
             {
-                cmbEnemyType.Items.Add(e);
+                cmbEnemyCategory.Items.Add(e);
             }
+           
 
             // Populate Era drop down with check boxes
             cmbEraFilter.Items.Clear();
@@ -349,7 +351,7 @@ namespace GunGameProgressionMaker
                 return;
             }
 
-            if (cmbEnemyType.SelectedIndex == -1)
+            if (cmbEnemyName.SelectedIndex == -1)
             {
                 MessageBox.Show("You must select an enemy type");
                 return;
@@ -374,7 +376,7 @@ namespace GunGameProgressionMaker
                     Description = txtDescription.Text,
                     OrderType = cmbOrderType.SelectedIndex,
                     Guns = new object[0],
-                    EnemyType = cmbEnemyType.SelectedItem.ToString(),
+                    EnemyType = cmbEnemyName.SelectedItem.ToString(),
                     CategoryIDs = new List<int>(),
                     GunNames = new List<string>(),
                     MagNames = new List<string>()
@@ -451,9 +453,14 @@ namespace GunGameProgressionMaker
 
                 cmbOrderType.SelectedIndex = loadedJson.OrderType;
 
+                // get the category index
+                Enemy selectedEnemy = allGuns.enemies.Where(se => se.name == loadedJson.EnemyType).FirstOrDefault();
+                int categoryIndex = cmbEnemyCategory.Items.IndexOf(selectedEnemy.category);
+                cmbEnemyCategory.SelectedIndex = categoryIndex;
+
                 // get the enemy index
-                int enemyIndex = cmbEnemyType.Items.IndexOf(loadedJson.EnemyType);
-                cmbEnemyType.SelectedIndex = enemyIndex;
+                int enemyIndex = cmbEnemyName.Items.IndexOf(loadedJson.EnemyType);
+                cmbEnemyName.SelectedIndex = enemyIndex;
 
                 // clear selected guns
                 selectedGuns.Clear();
@@ -489,6 +496,39 @@ namespace GunGameProgressionMaker
 
             // Bind data source
             grdGuns.ItemsSource = selectedGuns;
+        }
+
+        
+
+        private void cmbEnemyCategory_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (cmbEnemyCategory.SelectedIndex != -1)
+            {
+                cmbEnemyName.Items.Clear();
+                List<Enemy> filteredEnemies = allGuns.enemies.Where(en => en.category == cmbEnemyCategory.SelectedItem.ToString()).ToList();
+
+                foreach (Enemy fe in filteredEnemies)
+                {
+                    cmbEnemyName.Items.Add(fe.name);
+                }
+            }
+        }
+
+        
+
+        private void cmbEnemyName_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (cmbEnemyName.SelectedIndex != -1)
+            {
+                Enemy selectedEnemy = allGuns.enemies.Where(se => se.name == cmbEnemyName.SelectedItem.ToString()).FirstOrDefault();
+
+                if (selectedEnemy != null)
+                {
+                    txtEnemyAppearance.Text = selectedEnemy.appearance;
+                    txtEnemyWeapon.Text = selectedEnemy.weapons;
+                    txtEnemyNote.Text = selectedEnemy.note;
+                }
+            }
         }
 
         #endregion

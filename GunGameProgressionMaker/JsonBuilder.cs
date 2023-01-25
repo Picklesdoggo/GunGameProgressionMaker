@@ -172,11 +172,13 @@ namespace GunGameProgressionMaker
                 calibers = new List<string>(),
                 categories = new List<string>(),
                 enemies = config.enemies,
+                enemyCategories = new List<string>(),
                 eras = new List<string>(),
                 fileLocations = config.filelocations,
                 firearmactions = new List<string>(),
                 guns = new List<Gun>(),
-                nations = new List<string>()
+                nations = new List<string>(),
+                maxCategories = config.maxcategories
             };
 
             foreach (ObjectID gunObject in guns)
@@ -383,6 +385,16 @@ namespace GunGameProgressionMaker
 
                 gun.Categories.Sort();
                 gunJson.guns.Add(gun);
+            }
+
+            // update enemy categories
+
+            foreach (Enemy e in config.enemies)
+            {
+                if (!gunJson.enemyCategories.Contains(e.category))
+                {
+                    gunJson.enemyCategories.Add(e.category);
+                }
             }
 
             // Sort lists
