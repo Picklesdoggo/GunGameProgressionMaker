@@ -12,12 +12,13 @@ namespace GunGameProgressionMaker
         public List<Enemy> enemies { get; set; }
         public List<string> enemyCategories { get; set; }
         public List<string> eras { get; set; }
+        public List<string> extraCategories { get; set; }
         public List<string> firearmactions { get; set; }
         public List<string> categories { get; set; }
         public List<string> nations { get; set; }
         public List<string> calibers { get; set; }
+        public List<Extras> extras { get; set; }
 
-        
     }
 
     public class Gun
@@ -33,7 +34,12 @@ namespace GunGameProgressionMaker
         public string FirearmAction { get; set; }
         public string NationOfOrigin { get; set; }
         public string SelctedMagName { get; set; }
+        public bool UsesSpeedLoader { get; set; }        
+    }
 
-        public bool UsesSpeedLoader { get; set; }
+    public class Extras
+    {
+        public string ExtraName { get; set; }
+        public string SubCategory { get; set; }
     }
 }
