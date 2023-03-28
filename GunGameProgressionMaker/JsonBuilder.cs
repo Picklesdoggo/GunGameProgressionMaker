@@ -79,7 +79,8 @@ namespace GunGameProgressionMaker
                 {
                     // Get the full data for this script
                     var monoBf = MonoDeserializer.GetMonoBaseField(am, inst, inf, GameManagedPath);
-                    int temp = monoBf["Category"].GetValue().AsInt();
+                    string temp = monoBf["ItemID"].GetValue().AsString();
+                    
                     // Skip any non-firearm or ammo object
                     if ((EObjectCategory)monoBf["Category"].GetValue().AsInt() == EObjectCategory.Firearm ||
                         (EObjectCategory)monoBf["Category"].GetValue().AsInt() == EObjectCategory.Magazine ||

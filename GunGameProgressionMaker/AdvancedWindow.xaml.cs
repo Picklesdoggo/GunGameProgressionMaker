@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
+
 
 namespace GunGameProgressionMaker
 {
@@ -24,6 +25,9 @@ namespace GunGameProgressionMaker
     public partial class AdvancedWindow : Window
     {
         InputJson allGameData = new InputJson();
+        GunGameProgressionMakerAdvanced.AdvancedOutput advancedOutput = new AdvancedOutput();
+        ObservableCollection<GunGameProgressionMakerAdvanced.Enemy> selectedEnemies = new ObservableCollection<GunGameProgressionMakerAdvanced.Enemy>();
+        ObservableCollection<GunGameProgressionMakerAdvanced.Gun> selectedGuns = new ObservableCollection<GunGameProgressionMakerAdvanced.Gun>();
         public AdvancedWindow()
         {
             InitializeComponent();
@@ -31,6 +35,8 @@ namespace GunGameProgressionMaker
             getGameData();
 
             populateDropDowns();
+            grdEnemies.ItemsSource = selectedEnemies;
+            grdGuns.ItemsSource = selectedGuns;
         }
 
         private void getGameData()
@@ -65,12 +71,242 @@ namespace GunGameProgressionMaker
                 cmbEnemyCategory.Items.Add(e);
             }
 
+            cmbGuns.Items.Clear();
+            // Populate gun drop down
+            foreach (Gun g in allGameData.guns)
+            {
+                cmbGuns.Items.Add(g.GunName);
+            }
+
+            // Populate Era drop down with check boxes
+            cmbEraFilter.Items.Clear();
+            populateDrowDown(allGameData.eras, cmbEraFilter);
+
+            // Populate Category drop down with check boxes
+            cmbCategoryFilter.Items.Clear();
+            populateDrowDown(allGameData.categories, cmbCategoryFilter);
+
+            // Populate Nation drop down with check boxes
+            cmbNationFilter.Items.Clear();
+            populateDrowDown(allGameData.nations, cmbNationFilter);
+
+            // Populate Caliber drop down with check boxes
+            cmbCaliberFilter.Items.Clear();
+            populateDrowDown(allGameData.calibers, cmbCaliberFilter);
+
+            // Populate Firearm action drop down with check boxes
+            cmbFirearmActionFilter.Items.Clear();
+            populateDrowDown(allGameData.firearmactions, cmbFirearmActionFilter);
+
+            // Populate categoryID drop down
+            cmbCategoryID.Items.Clear();
+            for (int i = 0; i <= allGameData.maxCategories; i++)
+            {
+                cmbCategoryID.Items.Add(i);
+            }
+
+            cmbCategoryID.SelectedIndex = 0;
+        }
+
+        private void populateDrowDown(List<string> items, ComboBox box)
+        {
+
+            // add select all
+            CheckBox SelectAll = new CheckBox();
+            SelectAll.Content = "Select All";
+            SelectAll.IsChecked = true;
+            SelectAll.Click += Filter_Click;
+            box.Items.Add(SelectAll);
+
+            foreach (string i in items)
+            {
+                CheckBox cb = new CheckBox();
+                cb.Content = i;
+                cb.Click += Filter_Click;
+                cb.IsChecked = true;
+                box.Items.Add(cb);
+            }
+        }
+
+        private void filterGuns()
+        {
+            // Clear combo box
+            cmbGuns.Items.Clear();
+            List<Gun> eraFilteredGuns = new List<Gun>();
+            List<Gun> categoryFiltered = new List<Gun>();
+            List<Gun> nationFiltered = new List<Gun>();
+            List<Gun> caliberFiltered = new List<Gun>();
+            List<Gun> firearmActionFiltered = new List<Gun>();
+            List<Gun> filteredGuns = new List<Gun>();
+
+            // Filter on Era first
+            foreach (object o in cmbEraFilter.Items)
+            {
+                CheckBox cb = (CheckBox)o;
+                if (cb.IsChecked == true)
+                {
+                    string selectedEra = cb.Content.ToString();
+                    List<Gun> filter = allGameData.guns.Where(g => g.Era == selectedEra).ToList();
+                    eraFilteredGuns = eraFilteredGuns.Concat(filter).ToList();
+                }
+            }
+
+            // remove duplicates
+            eraFilteredGuns = eraFilteredGuns.Distinct().ToList();
+
+            // Filter on Category
+            foreach (object o in cmbCategoryFilter.Items)
+            {
+                CheckBox cb = (CheckBox)o;
+
+                if (cb.IsChecked == true)
+                {
+                    string selectedCategory = cb.Content.ToString();
+
+                    List<Gun> filter = eraFilteredGuns.Where(g => g.Categories.Contains(selectedCategory)).ToList();
+                    categoryFiltered = categoryFiltered.Concat(filter).ToList();
+                }
+
+
+            }
+
+            // Remove duplicates
+            categoryFiltered = categoryFiltered.Distinct().ToList();
+
+            // Filter on Nation
+            foreach (object o in cmbNationFilter.Items)
+            {
+                CheckBox cb = (CheckBox)o;
+
+                if (cb.IsChecked == true)
+                {
+                    string selectedNation = cb.Content.ToString();
+
+                    List<Gun> filter = categoryFiltered.Where(g => g.NationOfOrigin == selectedNation).ToList();
+                    nationFiltered = nationFiltered.Concat(filter).ToList();
+                }
+            }
+
+            // Remove duplicates
+            nationFiltered = nationFiltered.Distinct().ToList();
+
+            // Filter on Caliber
+            foreach (object o in cmbCaliberFilter.Items)
+            {
+                CheckBox cb = (CheckBox)o;
+
+                if (cb.IsChecked == true)
+                {
+                    string selectedCaliber = cb.Content.ToString();
+                    List<Gun> filter = nationFiltered.Where(g => g.Caliber == selectedCaliber).ToList();
+                    caliberFiltered = caliberFiltered.Concat(filter).ToList();
+                }
+            }
+
+            // remove duplicates
+            caliberFiltered = caliberFiltered.Distinct().ToList();
+
+            // Filter on firearm action
+            foreach (object o in cmbFirearmActionFilter.Items)
+            {
+                CheckBox cb = (CheckBox)o;
+
+                if (cb.IsChecked == true)
+                {
+                    string selectedFirearmAction = cb.Content.ToString();
+                    List<Gun> filter = caliberFiltered.Where(g => g.FirearmAction == selectedFirearmAction).ToList();
+                    firearmActionFiltered = firearmActionFiltered.Concat(filter).ToList();
+                }
+            }
+
+            // remove duplicates
+            firearmActionFiltered = firearmActionFiltered.Distinct().ToList();
+
+            filteredGuns = firearmActionFiltered;
+            filteredGuns = filteredGuns.OrderBy(g => g.GunName).ToList();
+
+            // Update gun drop down
+            foreach (Gun g in filteredGuns)
+            {
+                cmbGuns.Items.Add(g.GunName);
+            }
+
+
+        }
+
+        private void Filter_Click(object sender, RoutedEventArgs e)
+        {
+            CheckBox cb = (CheckBox)sender;
+            string cbContent = cb.Content.ToString();
+            if (cbContent == "Select All")
+            {
+                ItemCollection items = null;
+                ComboBox comboBox = (ComboBox)cb.Parent;
+
+                if (comboBox.Name == "cmbEraFilter")
+                {
+                    items = cmbEraFilter.Items;
+                }
+                else if (comboBox.Name == "cmbCategoryFilter")
+                {
+                    items = cmbCategoryFilter.Items;
+                }
+                else if (comboBox.Name == "cmbNationFilter")
+                {
+                    items = cmbNationFilter.Items;
+                }
+                else if (comboBox.Name == "cmbCaliberFilter")
+                {
+                    items = cmbCaliberFilter.Items;
+                }
+                else if (comboBox.Name == "cmbFirearmActionFilter")
+                {
+                    items = cmbFirearmActionFilter.Items;
+                }
+                else
+                {
+                    // Do nothing
+                }
+
+                foreach (object o in items)
+                {
+                    CheckBox checkBox = (CheckBox)o;
+                    checkBox.IsChecked = cb.IsChecked;
+                }
+
+            }
+            filterGuns();
+        }
+
+          private void Ammo_Click(object sender, RoutedEventArgs e)
+        {
+            CheckBox cb = (CheckBox)sender;
+            string cbContent = cb.Content.ToString();
+            if (cbContent == "Select All")
+            {                
+                foreach (object o in cmbAmmo.Items)
+                {
+                    CheckBox checkBox = (CheckBox)o;
+                    checkBox.IsChecked = cb.IsChecked;
+                }
+            }
         }
 
         private void save_Click(object sender, RoutedEventArgs e)
         {
+            if (selectedEnemies.Count == 0)
+            {
+                MessageBox.Show("You must select at least 1 enemy");
+                return;
+            }
+            foreach(GunGameProgressionMakerAdvanced.Enemy enemy in selectedEnemies)
+            {
+                advancedOutput.Enemies.Add(enemy);
+            }
 
-
+            string jsonString = JsonConvert.SerializeObject(advancedOutput);
+            string filename = "AdvancedGunGameWeaponPool_" + txtName.Text + ".json";
+            File.WriteAllText(filename, jsonString);
         }
 
         private void cmbEnemyCategory_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -102,6 +338,88 @@ namespace GunGameProgressionMaker
                     txtEnemyNote.Text = selectedEnemy.note;
                 }
             }
+        }
+
+        private void btnAddEnemy_Click(object sender, RoutedEventArgs e)
+        {
+            if (cmbEnemyName.SelectedIndex == -1)
+            {
+                MessageBox.Show("You must select an enemy name");
+                e.Handled = true;
+                return;
+            }
+            GunGameProgressionMakerAdvanced.Enemy enemey = new GunGameProgressionMakerAdvanced.Enemy();
+            enemey.EnemyNameString = cmbEnemyName.SelectedItem.ToString();
+            enemey.Value = Convert.ToInt32(txtEnemyValue.Text);
+            selectedEnemies.Add(enemey);
+        }
+
+        private void cmbGuns_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (cmbGuns.SelectedIndex != -1)
+            {
+                string selectedGunName = cmbGuns.SelectedItem.ToString();
+
+                // find default magazine
+                Gun selectedGun = allGameData.guns.Where(g => g.GunName == selectedGunName).FirstOrDefault();
+
+                if (selectedGun != null)
+                {
+                    cmbAmmo.Items.Clear();
+
+                    // add select all
+                    CheckBox SelectAll = new CheckBox();
+                    SelectAll.Content = "Select All";
+                    SelectAll.IsChecked = true;
+                    SelectAll.Click += Ammo_Click;
+                    cmbAmmo.Items.Add(SelectAll);
+
+                    
+
+                    foreach (string m in selectedGun.CompatableAmmo)
+                    {
+                        CheckBox cb = new CheckBox();
+                        cb.Content = m;
+                        cb.IsChecked = true;
+                        cmbAmmo.Items.Add(cb);
+                    }
+
+                   
+
+                   
+                }
+
+            }
+        }
+
+        private void btnAddGun_Click(object sender, RoutedEventArgs e)
+        {
+            if (cmbGuns.SelectedIndex == -1)
+            {
+                MessageBox.Show("You must pick a gun");
+                return;
+            }
+            GunGameProgressionMakerAdvanced.Gun gun = new GunGameProgressionMakerAdvanced.Gun();
+            gun.GunName = cmbGuns.SelectedItem.ToString();
+            foreach (object o in cmbAmmo.Items)
+            {
+                CheckBox checkBox = (CheckBox)o;
+                if (checkBox.IsChecked == true)
+                {
+                    string name = checkBox.Content.ToString();
+                    if (name != "Select All")
+                    {
+                        gun.MagNames.Add(name);
+                    }
+                    
+                }
+            }
+            if (gun.MagNames.Count == 0)
+            {
+                MessageBox.Show("You must pick at least one ammo type");
+                return;
+            }
+            selectedGuns.Add(gun);
         }
     }
 }

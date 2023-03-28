@@ -67,9 +67,6 @@
 				
 			</TabItem>
 
-
-
-
 			<TabItem Header="Enemies">
 				<Grid Background="DarkGray">
 					<Grid.ColumnDefinitions>
@@ -83,6 +80,8 @@
 						<RowDefinition Height="auto"/>
 						<RowDefinition Height="auto"/>
 						<RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
 					</Grid.RowDefinitions>
 
 					<Label Content="Enemy Category" />
@@ -114,9 +113,164 @@
 
 					<Label Content="Enemy Value (Used when using Points or Tiers EnemyProgressionType)" Grid.Row="5" />
 					<TextBox Name="txtEnemyValue" Grid.Row="5" Grid.Column="1" Background="DarkGray" Text="0"/>
-				</Grid>
+                    <Button Name="btnAddEnemy" Content="Add" Grid.Row="6" Click="btnAddEnemy_Click" />
+
+                    <DataGrid Name="grdEnemies" Grid.Row="7" Grid.ColumnSpan="2" 
+                  ScrollViewer.VerticalScrollBarVisibility="Visible" ItemsSource="{Binding}" AutoGenerateColumns="False" Background="DarkGray" ColumnWidth="*" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding EnemyNameString}" Header="Enemy Name" IsReadOnly="True"  >
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="Background" Value="DarkGray" />
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding ValueString}" Header="Value" IsReadOnly="True" >
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="Background" Value="DarkGray" />
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            
+                          
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
 			</TabItem>
-			<TabItem Header="Guns" />
+            <TabItem Header="Guns" >
+                <Grid Background="DarkGray">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Content="Caliber Filter" Grid.Row="1"/>
+                    <ComboBox Grid.Row="1" Grid.Column="1" Name="cmbCaliberFilter">
+                        <ComboBox.ItemContainerStyle>
+                            <Style TargetType="ComboBoxItem">
+                                <Setter Property="Background" Value="DarkGray"/>
+                            </Style>
+                        </ComboBox.ItemContainerStyle>
+                    </ComboBox>
+
+                    <Label Content="Category Filter" Grid.Row="2"/>
+                    <ComboBox Grid.Row="2" Grid.Column="1" Name="cmbCategoryFilter">
+                        <ComboBox.ItemContainerStyle>
+                            <Style TargetType="ComboBoxItem">
+                                <Setter Property="Background" Value="DarkGray"/>
+                            </Style>
+                        </ComboBox.ItemContainerStyle>
+                    </ComboBox>
+
+                    <Label Content="Era Filter" Grid.Row="3"/>
+                    <ComboBox Grid.Row="3" Grid.Column="1" Name="cmbEraFilter">
+                        <ComboBox.ItemContainerStyle>
+                            <Style TargetType="ComboBoxItem">
+                                <Setter Property="Background" Value="DarkGray"/>
+                            </Style>
+                        </ComboBox.ItemContainerStyle>
+                    </ComboBox>
+
+                    <Label Content="Firearm Action Filter" Grid.Row="4"/>
+                    <ComboBox Grid.Row="4" Grid.Column="1" Name="cmbFirearmActionFilter">
+                        <ComboBox.ItemContainerStyle>
+                            <Style TargetType="ComboBoxItem">
+                                <Setter Property="Background" Value="DarkGray"/>
+                            </Style>
+                        </ComboBox.ItemContainerStyle>
+                    </ComboBox>
+
+                    <Label Content="Nation of Origin Filter" Grid.Row="5"/>
+                    <ComboBox Grid.Row="5" Grid.Column="1" Name="cmbNationFilter">
+                        <ComboBox.ItemContainerStyle>
+                            <Style TargetType="ComboBoxItem">
+                                <Setter Property="Background" Value="DarkGray"/>
+                            </Style>
+                        </ComboBox.ItemContainerStyle>
+                    </ComboBox>
+
+                    <Label Content="Gun" Grid.Row="6"/>
+                    <ComboBox Grid.Column="1" Grid.Row="6" Name="cmbGuns" SelectionChanged="cmbGuns_SelectionChanged">
+                        <ComboBox.ItemContainerStyle>
+                            <Style TargetType="ComboBoxItem">
+                                <Setter Property="Background" Value="DarkGray"/>
+                            </Style>
+                        </ComboBox.ItemContainerStyle>
+                    </ComboBox>
+
+                    <Label Content="Ammo" Grid.Row="7"/>
+                    <ComboBox Grid.Column="1" Grid.Row="7" Name="cmbAmmo">
+                        <ComboBox.ItemContainerStyle>
+                            <Style TargetType="ComboBoxItem">
+                                <Setter Property="Background" Value="DarkGray"/>
+                            </Style>
+                        </ComboBox.ItemContainerStyle>
+                    </ComboBox>
+
+                    <Label Content="Category ID" Grid.Row="8"/>
+                    <ComboBox Grid.Column="1" Grid.Row="8" Name="cmbCategoryID">
+                        <ComboBox.ItemContainerStyle>
+                            <Style TargetType="ComboBoxItem">
+                                <Setter Property="Background" Value="DarkGray"/>
+                            </Style>
+                        </ComboBox.ItemContainerStyle>
+                    </ComboBox>
+                    <Button Content="Add Gun" Grid.Row="9" Name="btnAddGun" Click="btnAddGun_Click"></Button>
+
+                    <DataGrid Name="grdGuns" Grid.Row="10" Grid.ColumnSpan="2"  ScrollViewer.CanContentScroll="True"
+                  ScrollViewer.VerticalScrollBarVisibility="Visible" ItemsSource="{Binding}" AutoGenerateColumns="False" Background="DarkGray" ColumnWidth="*" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding GunName}" Header="Gun Name" IsReadOnly="True"  >
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="Background" Value="DarkGray" />
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            
+                            <DataGridTemplateColumn Header="Value" Width="*" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBox Text="{Binding AmmoString, Mode=OneWay}" Foreground="White" Background="DarkGray" Height="20" TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True"></TextBox>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            
+                            <DataGridTextColumn Binding="{Binding CategoryID}" Header="Category ID" IsReadOnly="True" >
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="Background" Value="DarkGray" />
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Binding="{Binding Extra}" Header="Extra" IsReadOnly="True" >
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="Background" Value="DarkGray" />
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
 			
 		</TabControl>
 	</Grid>
