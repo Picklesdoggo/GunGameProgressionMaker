@@ -233,8 +233,8 @@
                         </ComboBox.ItemContainerStyle>
                     </ComboBox>
                     <Button Content="Add Gun" Grid.Row="9" Name="btnAddGun" Click="btnAddGun_Click"></Button>
-
-                    <DataGrid Name="grdGuns" Grid.Row="10" Grid.ColumnSpan="2"  ScrollViewer.CanContentScroll="True"
+					<Button Content="Add All Guns" Grid.Row="9" Grid.Column="1" Name="btnAddAllGuns" Click="btnAddAllGuns_Click"></Button>
+					<DataGrid Name="grdGuns" Grid.Row="10" Grid.ColumnSpan="2"  ScrollViewer.CanContentScroll="True"
                   ScrollViewer.VerticalScrollBarVisibility="Visible" ItemsSource="{Binding}" AutoGenerateColumns="False" Background="DarkGray" ColumnWidth="*" >
                         <DataGrid.Columns>
                             <DataGridTextColumn Binding="{Binding GunName}" Header="Gun Name" IsReadOnly="True"  >

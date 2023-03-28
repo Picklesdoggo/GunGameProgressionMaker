@@ -72,7 +72,7 @@ namespace GunGameProgressionMaker
             }
 
             cmbGuns.Items.Clear();
-            // Populate gun drop down
+            // Populate advancedGun drop down
             foreach (Gun g in allGameData.guns)
             {
                 cmbGuns.Items.Add(g.GunName);
@@ -225,7 +225,7 @@ namespace GunGameProgressionMaker
             filteredGuns = firearmActionFiltered;
             filteredGuns = filteredGuns.OrderBy(g => g.GunName).ToList();
 
-            // Update gun drop down
+            // Update advancedGun drop down
             foreach (Gun g in filteredGuns)
             {
                 cmbGuns.Items.Add(g.GunName);
@@ -311,7 +311,7 @@ namespace GunGameProgressionMaker
             }
             if (selectedGuns.Count == 0)
             {
-                MessageBox.Show("You must select at least 1 gun");
+                MessageBox.Show("You must select at least 1 advancedGun");
                 return;
             }
 
@@ -323,7 +323,7 @@ namespace GunGameProgressionMaker
 
             if (cmbOrderType.SelectedIndex == -1)
             {
-                MessageBox.Show("You must select a gun order type");
+                MessageBox.Show("You must select a advancedGun order type");
                 return;
             }
 
@@ -340,7 +340,7 @@ namespace GunGameProgressionMaker
             advancedOutput.OrderType = cmbOrderType.SelectedIndex;
             advancedOutput.Name = txtName.Text;
             advancedOutput.Description = txtDescription.Text;
-            string jsonString = JsonConvert.SerializeObject(advancedOutput);
+            string jsonString = JsonConvert.SerializeObject(advancedOutput, Formatting.Indented);
             string filename = "AdvancedGunGameWeaponPool_" + txtName.Text + ".json";
             File.WriteAllText(filename, jsonString);
         }
@@ -432,7 +432,7 @@ namespace GunGameProgressionMaker
         {
             if (cmbGuns.SelectedIndex == -1)
             {
-                MessageBox.Show("You must pick a gun");
+                MessageBox.Show("You must pick a advancedGun");
                 return;
             }
             GunGameProgressionMakerAdvanced.Gun gun = new GunGameProgressionMakerAdvanced.Gun();
@@ -456,6 +456,25 @@ namespace GunGameProgressionMaker
                 return;
             }
             selectedGuns.Add(gun);
+        }
+
+        private void btnAddAllGuns_Click(object sender, RoutedEventArgs e)
+        {
+            foreach(object o in cmbGuns.Items)
+            {
+                GunGameProgressionMakerAdvanced.Gun advancedGun = new GunGameProgressionMakerAdvanced.Gun();
+                advancedGun.GunName = o.ToString();
+
+                Gun selectedGun = allGameData.guns.Where(g => g.GunName == advancedGun.GunName).FirstOrDefault();
+                if (selectedGun != null)
+                {
+                    foreach(string a in selectedGun.CompatableAmmo)
+                    {
+                        advancedGun.MagNames.Add(a);
+                    }
+                    selectedGuns.Add(advancedGun);
+                }
+            }
         }
     }
 }
