@@ -168,9 +168,6 @@ namespace GunGameProgressionMaker
 
             List<ObjectID> guns = cache.Objects.Where(g => g.Category == EObjectCategory.Firearm).ToList();
             List<ObjectID> attachments = cache.Objects.Where(a => a.Category == EObjectCategory.Attachment).ToList();
-            //List<ItemSpawnerID> reflexSights = cache.Items.Where(r => r.SubCategory == EItemSubCategory.ReflexSight).ToList();
-            //List<ItemSpawnerID> ironSights = cache.Items.Where(i => i.SubCategory == EItemSubCategory.IronSight).ToList();
-            List<ItemSpawnerID> magnifierSights = cache.Items.Where(m => m.SubCategory == EItemSubCategory.AutomaticPistol).ToList();
             InputJson gunJson = new InputJson()
             {
 

@@ -19,7 +19,7 @@ namespace GunGameProgressionMaker
         
         ObservableCollection<Gun> selectedGuns = new ObservableCollection<Gun>();  
         InputJson allGuns = new InputJson();
-        GunGameProgressionMakerAdvanced.AdvancedOutput ao = new GunGameProgressionMakerAdvanced.AdvancedOutput();
+        
        
         #endregion
 

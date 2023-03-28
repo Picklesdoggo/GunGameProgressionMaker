@@ -28,12 +28,14 @@ namespace GunGameProgressionMaker
         {
             BasicWindow bw = new BasicWindow();
             bw.Show();
-            this.Close();
+            Close();
         }
 
         private void btnAdvanced_Click(object sender, RoutedEventArgs e)
         {
-
+            AdvancedWindow aw = new AdvancedWindow();
+            aw.Show();
+            Close();
         }
 
         private void refresh_Click(object sender, RoutedEventArgs e)
@@ -42,5 +44,7 @@ namespace GunGameProgressionMaker
             MessageBox.Show("Game data refreshed");
            
         }
+
+       
     }
 }
