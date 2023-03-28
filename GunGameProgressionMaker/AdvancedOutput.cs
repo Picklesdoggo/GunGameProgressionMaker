@@ -10,7 +10,7 @@ namespace GunGameProgressionMakerAdvanced
 
     public class AdvancedOutput
     {
-        public string WeaponPoolType { get; set; }
+        public string WeaponPoolType = "Advanced";
         public string Description { get; set; }
         public int EnemyProgressionType { get; set; }
         public List<Enemy> Enemies = new List<Enemy>();

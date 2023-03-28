@@ -294,16 +294,52 @@ namespace GunGameProgressionMaker
 
         private void save_Click(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrEmpty(txtName.Text))
+            {
+                MessageBox.Show("You must enter a map name");
+                return;
+            }
+            if (string.IsNullOrEmpty(txtDescription.Text))
+            {
+                MessageBox.Show("You must enter a map description");
+                return;
+            }
             if (selectedEnemies.Count == 0)
             {
                 MessageBox.Show("You must select at least 1 enemy");
                 return;
             }
-            foreach(GunGameProgressionMakerAdvanced.Enemy enemy in selectedEnemies)
+            if (selectedGuns.Count == 0)
+            {
+                MessageBox.Show("You must select at least 1 gun");
+                return;
+            }
+
+            if (cmbEnemyProgressionType.SelectedIndex == -1)
+            {
+                MessageBox.Show("You must select an enemy progression type");
+                return;
+            }
+
+            if (cmbOrderType.SelectedIndex == -1)
+            {
+                MessageBox.Show("You must select a gun order type");
+                return;
+            }
+
+            foreach (GunGameProgressionMakerAdvanced.Enemy enemy in selectedEnemies)
             {
                 advancedOutput.Enemies.Add(enemy);
             }
-
+           
+            foreach(GunGameProgressionMakerAdvanced.Gun gun in selectedGuns)
+            {
+                advancedOutput.Guns.Add(gun);
+            }
+            advancedOutput.EnemyProgressionType = cmbEnemyProgressionType.SelectedIndex;
+            advancedOutput.OrderType = cmbOrderType.SelectedIndex;
+            advancedOutput.Name = txtName.Text;
+            advancedOutput.Description = txtDescription.Text;
             string jsonString = JsonConvert.SerializeObject(advancedOutput);
             string filename = "AdvancedGunGameWeaponPool_" + txtName.Text + ".json";
             File.WriteAllText(filename, jsonString);
