@@ -172,6 +172,16 @@ namespace GunGameProgressionMaker
         SingleActionRevolver
     }
 
+    public enum ETagFirearmMount
+    {
+        None,
+        Picatinny,
+        Russian,
+        Muzzle,
+        Stock,
+        Bespoke
+    }
+
     public class ObjectID
     {
         public string SpawnFromID { get; set; }
@@ -313,5 +323,8 @@ namespace GunGameProgressionMaker
 
         public bool UsesSpeedloader { get; set; }
 
+        public List<ETagFirearmMount> FirearmMounts { get; set; }
+
+        public ETagFirearmMount AttachmentMount { get; set; }
     }
 }

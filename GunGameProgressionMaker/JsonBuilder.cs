@@ -130,11 +130,19 @@ namespace GunGameProgressionMaker
                 item.Set = (ETagSet)obj["TagSet"].GetValue().AsInt();
                 item.FirearmSize = (ETagFirearmSize)obj["TagFirearmSize"].GetValue().AsInt();
                 item.FirearmAction = (ETagFirearmAction)obj["TagFirearmAction"].GetValue().AsInt();
+                item.FirearmMounts = new List<ETagFirearmMount>();
+                item.AttachmentMount = (ETagFirearmMount)obj["TagAttachmentMount"].GetValue().AsInt();
 
                 List<AssetTypeValueField> firingModes = obj["TagFirearmFiringModes"].GetChildrenList().ToList();
                 foreach (AssetTypeValueField mode in firingModes)
                 {
                     item.FiringModes.Add((EFirearmFiringMode)mode.GetValue().AsInt());
+                }
+
+                List<AssetTypeValueField> firearmMounts = obj["TagFirearmMounts"].GetChildrenList().ToList();
+                foreach (AssetTypeValueField mount in firearmMounts)
+                {
+                    item.FirearmMounts.Add((ETagFirearmMount)mount.GetValue().AsInt());
                 }
 
                 List<AssetTypeValueField> compatibleSpeedLoaders = obj["CompatibleSpeedLoaders"].GetChildrenList().ToList();
@@ -169,6 +177,8 @@ namespace GunGameProgressionMaker
 
             List<ObjectID> guns = cache.Objects.Where(g => g.Category == EObjectCategory.Firearm).ToList();
             List<ObjectID> attachments = cache.Objects.Where(a => a.Category == EObjectCategory.Attachment).ToList();
+            List<ObjectID> gunsWithMounts = cache.Objects.Where(gm => gm.FirearmMounts.Contains(ETagFirearmMount.Picatinny)).ToList();
+            List<ObjectID> picAttachments = cache.Objects.Where(p => p.AttachmentMount == ETagFirearmMount.Picatinny).ToList();
             InputJson gunJson = new InputJson()
             {
 
