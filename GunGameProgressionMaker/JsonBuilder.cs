@@ -15,15 +15,21 @@ namespace GunGameProgressionMaker
 
 
         static Cache cache = new Cache();
-
+        static Config config = new Config();
 
         #endregion
 
            
         public static void generateJson()
         {
-            loadFromAssets();
-            buildJSON();
+            if (File.Exists("config.json"))
+            {
+                string configJson = File.ReadAllText("config.json");
+                config = JsonConvert.DeserializeObject<Config>(configJson);
+                loadFromAssets();
+                buildJSON();
+            }
+
 
         }
 
@@ -31,9 +37,9 @@ namespace GunGameProgressionMaker
         {
 
             // Paths
-            const string GameResourcesPath = @"C:\Program Files (x86)\Steam\steamapps\common\H3VR\h3vr_Data\resources.assets";
-            const string GameManagedPath = @"C:\Program Files (x86)\Steam\steamapps\common\H3VR\h3vr_Data\Managed";
-
+            string GameResourcesPath = config.gameResourcesPath;
+            string GameManagedPath = config.gameManagedPath;
+            
             // Setup the assets manager
             AssetsManager am = new AssetsManager();
             AssetsFileInstance inst = am.LoadAssetsFile(GameResourcesPath, true);
@@ -132,7 +138,7 @@ namespace GunGameProgressionMaker
                 item.FirearmAction = (ETagFirearmAction)obj["TagFirearmAction"].GetValue().AsInt();
                 item.FirearmMounts = new List<ETagFirearmMount>();
                 item.AttachmentMount = (ETagFirearmMount)obj["TagAttachmentMount"].GetValue().AsInt();
-
+               
                 List<AssetTypeValueField> firingModes = obj["TagFirearmFiringModes"].GetChildrenList().ToList();
                 foreach (AssetTypeValueField mode in firingModes)
                 {
@@ -143,6 +149,12 @@ namespace GunGameProgressionMaker
                 foreach (AssetTypeValueField mount in firearmMounts)
                 {
                     item.FirearmMounts.Add((ETagFirearmMount)mount.GetValue().AsInt());
+                }
+
+                List<AssetTypeValueField> bespokeAttachments = obj["BespokeAttachments"].GetChildrenList().ToList();
+                foreach (AssetTypeValueField bespoke in bespokeAttachments)
+                {
+                   MonoDeserializer
                 }
 
                 List<AssetTypeValueField> compatibleSpeedLoaders = obj["CompatibleSpeedLoaders"].GetChildrenList().ToList();
@@ -178,7 +190,7 @@ namespace GunGameProgressionMaker
             List<ObjectID> guns = cache.Objects.Where(g => g.Category == EObjectCategory.Firearm).ToList();
             List<ObjectID> attachments = cache.Objects.Where(a => a.Category == EObjectCategory.Attachment).ToList();
             List<ObjectID> gunsWithMounts = cache.Objects.Where(gm => gm.FirearmMounts.Contains(ETagFirearmMount.Picatinny)).ToList();
-            List<ObjectID> picAttachments = cache.Objects.Where(p => p.AttachmentMount == ETagFirearmMount.Picatinny).ToList();
+            List<ObjectID> bespokeAttachments = cache.Objects.Where(p => p.AttachmentMount == ETagFirearmMount.Bespoke).ToList();
             InputJson gunJson = new InputJson()
             {
 

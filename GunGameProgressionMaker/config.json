@@ -1354,5 +1354,7 @@
 	],
 		"FileLocations": [
 
-	]
+	],
+	"GameResourcesPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\H3VR\\h3vr_Data\\resources.assets",
+	"GameManagedPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\H3VR\\h3vr_Data\\managed"
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AssetsTools.NET;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -326,5 +327,7 @@ namespace GunGameProgressionMaker
         public List<ETagFirearmMount> FirearmMounts { get; set; }
 
         public ETagFirearmMount AttachmentMount { get; set; }
+
+        public List<AssetTypeValueField> BespokeAttachment { get; set; }
     }
 }

@@ -13,6 +13,9 @@ namespace GunGameProgressionMaker
         public List<string> filelocations { get; set; }
 
         public int maxcategories { get; set; }
+
+        public string gameResourcesPath { get; set; }
+        public string gameManagedPath { get; set; }
     }
 
     public class Enemy
