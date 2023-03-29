@@ -106,6 +106,21 @@ namespace GunGameProgressionMaker
             }
 
             cmbCategoryID.SelectedIndex = 0;
+
+            // Populate Extra dropdowns
+            cmbExtraCategory.Items.Clear();
+            cmbExtraCategory.Items.Add("None");
+            foreach (string e in allGameData.extraCategories)
+            {
+                cmbExtraCategory.Items.Add(e);
+            }
+
+            cmbExtra.Items.Clear();
+            cmbExtra.Items.Add("None");
+            foreach (Extras e in allGameData.extras)
+            {
+                cmbExtra.Items.Add(e.ExtraName);
+            }
         }
 
         private void populateDrowDown(List<string> items, ComboBox box)
@@ -420,9 +435,21 @@ namespace GunGameProgressionMaker
                         cmbAmmo.Items.Add(cb);
                     }
 
-                   
+                    List<string> extraCategories = new List<string>();
+                    foreach(Extras ex in selectedGun.CompatibleExtras)
+                    {
+                        if(!extraCategories.Contains(ex.SubCategory) && ex.AttachmentType != ETagFirearmMount.Bespoke)
+                        {
+                            extraCategories.Add(ex.SubCategory);
+                        }
+                    }
+                    extraCategories.Sort();
+                    cmbExtraCategory.Items.Clear();
+                    foreach(string m in extraCategories)
+                    {
+                        cmbExtraCategory.Items.Add(m);
+                    }
 
-                   
                 }
 
             }
@@ -455,6 +482,12 @@ namespace GunGameProgressionMaker
                 MessageBox.Show("You must pick at least one ammo type");
                 return;
             }
+
+            if (cmbExtraCategory.SelectedIndex > 0)
+            {
+                gun.Extra = cmbExtraCategory.SelectedItem.ToString();
+            }
+
             selectedGuns.Add(gun);
         }
 
@@ -475,6 +508,29 @@ namespace GunGameProgressionMaker
                     selectedGuns.Add(advancedGun);
                 }
             }
+        }
+
+        private void cmbExtraCategory_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // get selected gun
+            string selectedGunName = cmbGuns.SelectedItem.ToString();
+
+            // find default magazine
+            Gun selectedGun = allGameData.guns.Where(g => g.GunName == selectedGunName).FirstOrDefault();
+
+            if (cmbExtraCategory.SelectedItem != null)
+            {
+                List<Extras> compatibleExtras = selectedGun.CompatibleExtras.Where(g => g.SubCategory == cmbExtraCategory.SelectedItem.ToString()).ToList();
+
+                cmbExtra.Items.Clear();
+                cmbExtra.Items.Add("None");
+                foreach (Extras ex in compatibleExtras)
+                {
+                    cmbExtra.Items.Add(ex.ExtraName);
+                }
+            }
+           
+            
         }
     }
 }

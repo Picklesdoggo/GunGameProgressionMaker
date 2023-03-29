@@ -34,12 +34,15 @@ namespace GunGameProgressionMaker
         public string FirearmAction { get; set; }
         public string NationOfOrigin { get; set; }
         public string SelctedMagName { get; set; }
-        public bool UsesSpeedLoader { get; set; }        
+        public bool UsesSpeedLoader { get; set; }
+        public List<Extras> CompatibleExtras { get; set; }
     }
 
     public class Extras
     {
         public string ExtraName { get; set; }
         public string SubCategory { get; set; }
+
+        public ETagFirearmMount AttachmentType { get; set; }
     }
 }

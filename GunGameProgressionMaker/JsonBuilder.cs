@@ -221,7 +221,7 @@ namespace GunGameProgressionMaker
                 gun.CategoryID = 0;
                 gun.SelctedMagName = "";
                 gun.DefaultMagName = "";
-
+                gun.CompatibleExtras = new List<Extras>();
                 gun.UsesSpeedLoader = gunObject.UsesSpeedloader;
 
                 gun.NationOfOrigin = gunObject.CountryOfOriginDisplay;
@@ -367,6 +367,24 @@ namespace GunGameProgressionMaker
                     gunJson.firearmactions.Add(gunObject.FirearmActionDisplay);
                 }
 
+                // Extras
+                foreach(ETagFirearmMount a in gunObject.FirearmMounts)
+                {
+                    List<ObjectID> compatibleAttachments = cache.Objects.Where(p => p.AttachmentMount == a).ToList();
+                    foreach(ObjectID compatibleAttachment in compatibleAttachments)
+                    {
+                        
+                        ItemSpawnerID itemExtra = cache.Items.Where(i => i.SpawnFromID == compatibleAttachment.SpawnFromID).FirstOrDefault();
+                        if (itemExtra != null)
+                        {
+                            Extras extra = new Extras();
+                            extra.ExtraName = compatibleAttachment.ItemID;
+                            extra.SubCategory = itemExtra.SubCategoryDisplay;
+                            extra.AttachmentType = a;
+                            gun.CompatibleExtras.Add(extra);
+                        }
+                    }
+                }
 
                 // Get info from the ItemSpawner
                 ItemSpawnerID itemGun = cache.Items.Where(i => i.SpawnFromID == gunObject.SpawnFromID).FirstOrDefault();
@@ -462,6 +480,7 @@ namespace GunGameProgressionMaker
             gunJson.categories.Sort();
             gunJson.eras.Sort();
             gunJson.nations.Sort();
+            gunJson.extraCategories.Sort();
 
             gunJson.guns = gunJson.guns.OrderBy(g => g.GunName).ToList();
 
