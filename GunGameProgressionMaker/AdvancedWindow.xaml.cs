@@ -483,9 +483,9 @@ namespace GunGameProgressionMaker
                 return;
             }
 
-            if (cmbExtraCategory.SelectedIndex > 0)
+            if (cmbExtra.SelectedIndex != -1)
             {
-                gun.Extra = cmbExtraCategory.SelectedItem.ToString();
+                gun.Extra = cmbExtra.SelectedItem.ToString();
             }
 
             selectedGuns.Add(gun);
