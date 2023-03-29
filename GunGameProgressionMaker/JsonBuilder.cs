@@ -154,7 +154,7 @@ namespace GunGameProgressionMaker
                 List<AssetTypeValueField> bespokeAttachments = obj["BespokeAttachments"].GetChildrenList().ToList();
                 foreach (AssetTypeValueField bespoke in bespokeAttachments)
                 {
-                   MonoDeserializer
+                   
                 }
 
                 List<AssetTypeValueField> compatibleSpeedLoaders = obj["CompatibleSpeedLoaders"].GetChildrenList().ToList();
