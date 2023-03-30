@@ -105,22 +105,7 @@ namespace GunGameProgressionMaker
                 cmbCategoryID.Items.Add(i);
             }
 
-            cmbCategoryID.SelectedIndex = 0;
-
-            // Populate Extra dropdowns
-            cmbExtraCategory.Items.Clear();
-            cmbExtraCategory.Items.Add("None");
-            foreach (string e in allGameData.extraCategories)
-            {
-                cmbExtraCategory.Items.Add(e);
-            }
-
-            cmbExtra.Items.Clear();
-            cmbExtra.Items.Add("None");
-            foreach (Extras e in allGameData.extras)
-            {
-                cmbExtra.Items.Add(e.ExtraName);
-            }
+            cmbCategoryID.SelectedIndex = 0;           
         }
 
         private void populateDrowDown(List<string> items, ComboBox box)
@@ -438,13 +423,14 @@ namespace GunGameProgressionMaker
                     List<string> extraCategories = new List<string>();
                     foreach(Extras ex in selectedGun.CompatibleExtras)
                     {
-                        if(!extraCategories.Contains(ex.SubCategory) && ex.AttachmentType != ETagFirearmMount.Bespoke)
+                        if(!extraCategories.Contains(ex.SubCategory))
                         {
                             extraCategories.Add(ex.SubCategory);
                         }
                     }
                     extraCategories.Sort();
                     cmbExtraCategory.Items.Clear();
+                    cmbExtra.Items.Clear();
                     foreach(string m in extraCategories)
                     {
                         cmbExtraCategory.Items.Add(m);

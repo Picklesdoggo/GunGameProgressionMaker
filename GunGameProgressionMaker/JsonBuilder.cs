@@ -168,7 +168,21 @@ namespace GunGameProgressionMaker
                     int bespokePathID = bespoke["m_PathID"].GetValue().AsInt();
                     AssetExternal bespokeExt = am.GetExtAsset(inst, bespokeFileID, bespokePathID, true);
                     AssetTypeValueField bespokeObj = MonoDeserializer.GetMonoBaseField(am, bespokeExt.file, bespokeExt.info, GameManagedPath);
-                    string test = bespokeObj["ItemID"].GetValue().AsString();                  
+                    ObjectID bespkoeItem = new ObjectID();
+                    bespkoeItem.MagazineType = bespokeObj["MagazineType"].GetValue().AsInt();
+                    bespkoeItem.ClipType = bespokeObj["ClipType"].GetValue().AsInt();
+                    bespkoeItem.RoundType = bespokeObj["RoundType"].GetValue().AsInt();
+                    bespkoeItem.SpawnFromID = bespokeObj["SpawnedFromId"].GetValue().AsString();
+                    bespkoeItem.ItemID = bespokeObj["ItemID"].GetValue().AsString();
+                    bespkoeItem.FiringModes = new List<EFirearmFiringMode>();
+                    bespkoeItem.Category = (EObjectCategory)bespokeObj["Category"].GetValue().AsInt();
+                    bespkoeItem.Era = (ETagEra)bespokeObj["TagEra"].GetValue().AsInt();
+                    bespkoeItem.Set = (ETagSet)bespokeObj["TagSet"].GetValue().AsInt();
+                    bespkoeItem.FirearmSize = (ETagFirearmSize)bespokeObj["TagFirearmSize"].GetValue().AsInt();
+                    bespkoeItem.FirearmAction = (ETagFirearmAction)bespokeObj["TagFirearmAction"].GetValue().AsInt();
+                    bespkoeItem.FirearmMounts = new List<ETagFirearmMount>();
+                    bespkoeItem.AttachmentMount = (ETagFirearmMount)bespokeObj["TagAttachmentMount"].GetValue().AsInt();
+                    item.BespokeAttachments.Add(bespkoeItem);
                 }
 
                 List<AssetTypeValueField> compatibleSpeedLoaders = obj["CompatibleSpeedLoaders"].GetChildrenList().ToList();
@@ -381,10 +395,10 @@ namespace GunGameProgressionMaker
                     gunJson.firearmactions.Add(gunObject.FirearmActionDisplay);
                 }
 
-                // Extras
+                // Non-bespoke Extras
                 foreach(ETagFirearmMount a in gunObject.FirearmMounts)
                 {
-                    List<ObjectID> compatibleAttachments = cache.Objects.Where(p => p.AttachmentMount == a).ToList();
+                    List<ObjectID> compatibleAttachments = cache.Objects.Where(p => p.AttachmentMount == a && p.AttachmentMount != ETagFirearmMount.Bespoke).ToList();
                     foreach(ObjectID compatibleAttachment in compatibleAttachments)
                     {
                         
@@ -397,6 +411,20 @@ namespace GunGameProgressionMaker
                             extra.AttachmentType = a;
                             gun.CompatibleExtras.Add(extra);
                         }
+                    }
+                }
+
+                // bespoke extras
+                foreach(ObjectID bespokeExtra in gunObject.BespokeAttachments)
+                {
+                    ItemSpawnerID itemBespoke = cache.Items.Where(i => i.SpawnFromID == bespokeExtra.SpawnFromID).FirstOrDefault();
+                    if (itemBespoke != null)
+                    {
+                        Extras extra = new Extras();
+                        extra.ExtraName = bespokeExtra.ItemID;
+                        extra.SubCategory = itemBespoke.SubCategoryDisplay;
+                        extra.AttachmentType = bespokeExtra.AttachmentMount;
+                        gun.CompatibleExtras.Add(extra);
                     }
                 }
 
