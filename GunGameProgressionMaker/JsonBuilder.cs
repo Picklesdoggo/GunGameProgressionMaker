@@ -1,6 +1,7 @@
 ﻿using AssetsTools.NET;
 using AssetsTools.NET.Extra;
 using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
@@ -53,6 +54,15 @@ namespace GunGameProgressionMaker
 
             List<AssetTypeValueField> objectIDsRaw = new List<AssetTypeValueField>();
             cache.Objects = new List<ObjectID>();
+
+            foreach (var inf in inst.table.GetAssetsOfType((int)AssetClassID.GameObject))
+            {
+                var baseField = am.GetTypeInstance(inst, inf).GetBaseField();
+
+                var name = baseField.Get("m_Name").GetValue().AsString();
+                Console.WriteLine(name);
+            }
+
 
             // Find all MonoBehaviour Assets in the resources file
             foreach (var inf in inst.table.GetAssetsOfType((int)AssetClassID.MonoBehaviour))
@@ -153,8 +163,12 @@ namespace GunGameProgressionMaker
 
                 List<AssetTypeValueField> bespokeAttachments = obj["BespokeAttachments"].GetChildrenList().ToList();
                 foreach (AssetTypeValueField bespoke in bespokeAttachments)
-                {
-                   
+                {                   
+                    int bespokeFileID = bespoke["m_FileID"].GetValue().AsInt();
+                    int bespokePathID = bespoke["m_PathID"].GetValue().AsInt();
+                    AssetExternal bespokeExt = am.GetExtAsset(inst, bespokeFileID, bespokePathID, true);
+                    AssetTypeValueField bespokeObj = MonoDeserializer.GetMonoBaseField(am, bespokeExt.file, bespokeExt.info, GameManagedPath);
+                    string test = bespokeObj["ItemID"].GetValue().AsString();                  
                 }
 
                 List<AssetTypeValueField> compatibleSpeedLoaders = obj["CompatibleSpeedLoaders"].GetChildrenList().ToList();
@@ -177,7 +191,7 @@ namespace GunGameProgressionMaker
             }
             am.UnloadAllAssetsFiles();
 
-            string jsonString = JsonConvert.SerializeObject(cache, Formatting.Indented);
+           
 
            
         }

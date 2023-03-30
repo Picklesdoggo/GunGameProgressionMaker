@@ -328,6 +328,6 @@ namespace GunGameProgressionMaker
 
         public ETagFirearmMount AttachmentMount { get; set; }
 
-        public List<AssetTypeValueField> BespokeAttachment { get; set; }
+       
     }
 }
