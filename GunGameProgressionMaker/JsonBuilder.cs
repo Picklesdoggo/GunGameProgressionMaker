@@ -217,8 +217,7 @@ namespace GunGameProgressionMaker
 
             List<ObjectID> guns = cache.Objects.Where(g => g.Category == EObjectCategory.Firearm).ToList();
             List<ObjectID> attachments = cache.Objects.Where(a => a.Category == EObjectCategory.Attachment).ToList();
-            List<ObjectID> gunsWithMounts = cache.Objects.Where(gm => gm.FirearmMounts.Contains(ETagFirearmMount.Picatinny)).ToList();
-            List<ObjectID> bespokeAttachments = cache.Objects.Where(p => p.AttachmentMount == ETagFirearmMount.Bespoke).ToList();
+           
             InputJson gunJson = new InputJson()
             {
 
@@ -428,6 +427,9 @@ namespace GunGameProgressionMaker
                     }
                 }
 
+                // Sort extras by attachment type, sub category, name
+                gun.CompatibleExtras = gun.CompatibleExtras.OrderBy(g => g.AttachmentType).ThenBy(g => g.SubCategory).ThenBy(g=> g.ExtraName).ToList();
+
                 // Get info from the ItemSpawner
                 ItemSpawnerID itemGun = cache.Items.Where(i => i.SpawnFromID == gunObject.SpawnFromID).FirstOrDefault();
 
@@ -484,20 +486,14 @@ namespace GunGameProgressionMaker
                 ItemSpawnerID attachmentID = cache.Items.Where(a => a.SpawnFromID == attachment.SpawnFromID).FirstOrDefault();
                 if (attachmentID != null)
                 {
-                   if (attachmentID.SubCategory == EItemSubCategory.IronSight ||
-                        attachmentID.SubCategory == EItemSubCategory.Laser_Light ||
-                        attachmentID.SubCategory == EItemSubCategory.ReflexSight ||
-                        attachmentID.SubCategory == EItemSubCategory.Magnifier_Scope)
-                    {
-                        Extras extra = new Extras();
-                        extra.ExtraName = attachment.ItemID;
-                        extra.SubCategory = attachmentID.SubCategory.ToString();
-                        gunJson.extras.Add(extra);
-                    }
-                    
+                    Extras extra = new Extras();
+                    extra.ExtraName = attachment.ItemID;
+                    extra.SubCategory = attachmentID.SubCategory.ToString();
+                    gunJson.extras.Add(extra);
+
                 }
             }
-
+            
             // update enemy categories
 
             foreach (Enemy e in config.enemies)
@@ -516,7 +512,6 @@ namespace GunGameProgressionMaker
                     gunJson.extraCategories.Add(e.SubCategory);
                 }
             }
-
             // Sort lists
             gunJson.calibers.Sort();
             gunJson.categories.Sort();
@@ -525,6 +520,8 @@ namespace GunGameProgressionMaker
             gunJson.extraCategories.Sort();
 
             gunJson.guns = gunJson.guns.OrderBy(g => g.GunName).ToList();
+
+            
 
             string jsonString = JsonConvert.SerializeObject(gunJson, Formatting.Indented);
 

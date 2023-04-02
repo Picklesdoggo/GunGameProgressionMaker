@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Windows.Controls;
 
 namespace GunGameProgressionMaker
 {
@@ -43,6 +44,17 @@ namespace GunGameProgressionMaker
         public string ExtraName { get; set; }
         public string SubCategory { get; set; }
 
+        public string AttachmentTypeString
+        {
+            get
+            {
+                return AttachmentType.ToString();
+            }
+            private set { AttachmentTypeString = value; }
+        }
+
         public ETagFirearmMount AttachmentType { get; set; }
+
+        
     }
 }

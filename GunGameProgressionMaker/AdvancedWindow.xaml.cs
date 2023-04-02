@@ -327,6 +327,19 @@ namespace GunGameProgressionMaker
                 return;
             }
 
+            if (allGameData.fileLocations.Count == 0)
+            {
+                MessageBox.Show("No save locations stored, update config.json and refresh game data");
+                using (var dialog = new System.Windows.Forms.FolderBrowserDialog())
+                {
+                    System.Windows.Forms.DialogResult result = dialog.ShowDialog();
+                    if (result == System.Windows.Forms.DialogResult.OK)
+                    {
+                        allGameData.fileLocations.Add(dialog.SelectedPath);
+                    }
+                }
+            }
+
             foreach (GunGameProgressionMakerAdvanced.Enemy enemy in selectedEnemies)
             {
                 advancedOutput.Enemies.Add(enemy);
@@ -342,7 +355,13 @@ namespace GunGameProgressionMaker
             advancedOutput.Description = txtDescription.Text;
             string jsonString = JsonConvert.SerializeObject(advancedOutput, Formatting.Indented);
             string filename = "AdvancedGunGameWeaponPool_" + txtName.Text + ".json";
-            File.WriteAllText(filename, jsonString);
+            foreach (string fp in allGameData.fileLocations)
+            {
+                string fullPath = fp + "\\" + filename;
+                File.WriteAllText(fullPath, jsonString);
+            }
+
+            MessageBox.Show("Save complete");
         }
 
         private void cmbEnemyCategory_SelectionChanged(object sender, SelectionChangedEventArgs e)

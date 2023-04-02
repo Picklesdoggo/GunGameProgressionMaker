@@ -361,7 +361,7 @@ namespace GunGameProgressionMaker
 
             if (allGuns.fileLocations.Count == 0)
             {
-                MessageBox.Show("No save locations stored, update gameData.json");
+                MessageBox.Show("No save locations stored, update config.json and refresh game data");
                 using (var dialog = new System.Windows.Forms.FolderBrowserDialog())
                 {
                     System.Windows.Forms.DialogResult result = dialog.ShowDialog();
