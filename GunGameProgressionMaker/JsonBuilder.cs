@@ -6,7 +6,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
-
+using System.Windows;
+using System.Windows.Shapes;
+using Path = System.IO.Path;
 
 namespace GunGameProgressionMaker
 {
@@ -20,7 +22,7 @@ namespace GunGameProgressionMaker
 
         #endregion
 
-           
+
         public static void generateJson()
         {
             if (File.Exists("config.json"))
@@ -32,10 +34,56 @@ namespace GunGameProgressionMaker
 
                 // load base objects first
                 loadFromAssets(config.gameResourcesPath, false);
+
+                // load list of mod files
+                if (config.modsDirectory != null)
+                {
+                    List<string> modPaths = getModPaths();
+                    foreach (string modPath in modPaths)
+                    {
+                        if(File.Exists(modPath))
+                        {
+                            loadFromAssets(modPath, true);
+                        }
+                        
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("No mod path detected, edit config.json if desired");
+                }
+
+                if (config.manuallyLoadedMods != null)
+                {
+                    foreach(string manualModPath in config.manuallyLoadedMods)
+                    {
+                        if(File.Exists(manualModPath))
+                        {
+                            loadFromAssets(manualModPath, true);
+                        }
+                    }
+                }
+
                 buildJSON();
             }
 
 
+        }
+
+        public static List<string> getModPaths()
+        {
+            List<string> paths = new List<string>();
+            // get a list of all folders containing 
+            foreach (string file in Directory.EnumerateFiles(config.modsDirectory, "*.*", SearchOption.AllDirectories))
+            {
+                if (file.Contains("late_"))
+                {
+
+                    string assetFile = file.Replace("late_", "");
+                    paths.Add(assetFile);
+                }
+            }
+            return paths;
         }
 
         public static void loadFromAssets(string path, bool isMod)
@@ -56,17 +104,17 @@ namespace GunGameProgressionMaker
             {
                 inst = am.LoadAssetsFile(path, true);
             }
-           
+
             am.LoadClassPackage("classdata.tpk");
             am.LoadClassDatabaseFromPackage(inst.file.typeTree.unityVersion);
 
             // List to keep track of our Item Spawner IDs
 
             List<AssetTypeValueField> itemSpawnerIDsRaw = new List<AssetTypeValueField>();
-          
+
 
             List<AssetTypeValueField> objectIDsRaw = new List<AssetTypeValueField>();
-            
+
 
             foreach (var inf in inst.table.GetAssetsOfType((int)AssetClassID.GameObject))
             {
@@ -109,7 +157,7 @@ namespace GunGameProgressionMaker
                     // Get the full data for this script
                     var monoBf = MonoDeserializer.GetMonoBaseField(am, inst, inf, GameManagedPath);
                     string temp = monoBf["ItemID"].GetValue().AsString();
-                    
+
                     // Skip any non-firearm or ammo object
                     if ((EObjectCategory)monoBf["Category"].GetValue().AsInt() == EObjectCategory.Firearm ||
                         (EObjectCategory)monoBf["Category"].GetValue().AsInt() == EObjectCategory.Magazine ||
@@ -143,7 +191,7 @@ namespace GunGameProgressionMaker
                 cache.Items.Add(item);
 
             }
-            
+
             foreach (var obj in objectIDsRaw)
             {
 
@@ -161,7 +209,7 @@ namespace GunGameProgressionMaker
                 item.FirearmAction = (ETagFirearmAction)obj["TagFirearmAction"].GetValue().AsInt();
                 item.FirearmMounts = new List<ETagFirearmMount>();
                 item.AttachmentMount = (ETagFirearmMount)obj["TagAttachmentMount"].GetValue().AsInt();
-               
+
                 List<AssetTypeValueField> firingModes = obj["TagFirearmFiringModes"].GetChildrenList().ToList();
                 foreach (AssetTypeValueField mode in firingModes)
                 {
@@ -176,7 +224,7 @@ namespace GunGameProgressionMaker
 
                 List<AssetTypeValueField> bespokeAttachments = obj["BespokeAttachments"].GetChildrenList().ToList();
                 foreach (AssetTypeValueField bespoke in bespokeAttachments)
-                {                   
+                {
                     int bespokeFileID = bespoke["m_FileID"].GetValue().AsInt();
                     int bespokePathID = bespoke["m_PathID"].GetValue().AsInt();
                     AssetExternal bespokeExt = am.GetExtAsset(inst, bespokeFileID, bespokePathID, true);
@@ -218,9 +266,9 @@ namespace GunGameProgressionMaker
             }
             am.UnloadAllAssetsFiles();
 
-           
 
-           
+
+
         }
 
         public static void buildJSON()
@@ -230,7 +278,7 @@ namespace GunGameProgressionMaker
 
             List<ObjectID> guns = cache.Objects.Where(g => g.Category == EObjectCategory.Firearm).ToList();
             List<ObjectID> attachments = cache.Objects.Where(a => a.Category == EObjectCategory.Attachment).ToList();
-           
+
             InputJson gunJson = new InputJson()
             {
 
@@ -408,12 +456,12 @@ namespace GunGameProgressionMaker
                 }
 
                 // Non-bespoke Extras
-                foreach(ETagFirearmMount a in gunObject.FirearmMounts)
+                foreach (ETagFirearmMount a in gunObject.FirearmMounts)
                 {
                     List<ObjectID> compatibleAttachments = cache.Objects.Where(p => p.AttachmentMount == a && p.AttachmentMount != ETagFirearmMount.Bespoke).ToList();
-                    foreach(ObjectID compatibleAttachment in compatibleAttachments)
+                    foreach (ObjectID compatibleAttachment in compatibleAttachments)
                     {
-                        
+
                         ItemSpawnerID itemExtra = cache.Items.Where(i => i.SpawnFromID == compatibleAttachment.SpawnFromID).FirstOrDefault();
                         if (itemExtra != null)
                         {
@@ -427,7 +475,7 @@ namespace GunGameProgressionMaker
                 }
 
                 // bespoke extras
-                foreach(ObjectID bespokeExtra in gunObject.BespokeAttachments)
+                foreach (ObjectID bespokeExtra in gunObject.BespokeAttachments)
                 {
                     ItemSpawnerID itemBespoke = cache.Items.Where(i => i.SpawnFromID == bespokeExtra.SpawnFromID).FirstOrDefault();
                     if (itemBespoke != null)
@@ -441,7 +489,7 @@ namespace GunGameProgressionMaker
                 }
 
                 // Sort extras by attachment type, sub category, name
-                gun.CompatibleExtras = gun.CompatibleExtras.OrderBy(g => g.AttachmentType).ThenBy(g => g.SubCategory).ThenBy(g=> g.ExtraName).ToList();
+                gun.CompatibleExtras = gun.CompatibleExtras.OrderBy(g => g.AttachmentType).ThenBy(g => g.SubCategory).ThenBy(g => g.ExtraName).ToList();
 
                 // Get info from the ItemSpawner
                 ItemSpawnerID itemGun = cache.Items.Where(i => i.SpawnFromID == gunObject.SpawnFromID).FirstOrDefault();
@@ -493,7 +541,7 @@ namespace GunGameProgressionMaker
             // add attachments
             foreach (ObjectID attachment in attachments)
             {
-                
+
                 // Make temp list of categories
                 // Get info from the ItemSpawner
                 ItemSpawnerID attachmentID = cache.Items.Where(a => a.SpawnFromID == attachment.SpawnFromID).FirstOrDefault();
@@ -506,7 +554,7 @@ namespace GunGameProgressionMaker
 
                 }
             }
-            
+
             // update enemy categories
 
             foreach (Enemy e in config.enemies)
@@ -534,7 +582,7 @@ namespace GunGameProgressionMaker
 
             gunJson.guns = gunJson.guns.OrderBy(g => g.GunName).ToList();
 
-            
+
 
             string jsonString = JsonConvert.SerializeObject(gunJson, Formatting.Indented);
 
@@ -548,9 +596,9 @@ namespace GunGameProgressionMaker
         }
 
 
-     
-       
 
-    
+
+
+
     }
 }
