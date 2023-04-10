@@ -3,12 +3,9 @@ using AssetsTools.NET.Extra;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Windows;
-using System.Windows.Shapes;
-using Path = System.IO.Path;
 
 namespace GunGameProgressionMaker
 {
@@ -31,8 +28,17 @@ namespace GunGameProgressionMaker
                 config = JsonConvert.DeserializeObject<Config>(configJson);
                 cache.Items = new List<ItemSpawnerID>();
                 cache.Objects = new List<ObjectID>();
+                if (!File.Exists(config.gameResourcesPath))
+                {
+                    MessageBox.Show("Could not find game resources update config.json");
+                    return;
+                }
+                if (!Directory.Exists(config.gameManagedPath))
+                {
+                    MessageBox.Show("Could not find game managed path update config.json");
+                    return;
+                }
 
-                // load base objects first
                 loadFromAssets(config.gameResourcesPath, false);
 
                 // load list of mod files
