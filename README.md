@@ -9,7 +9,9 @@ A GUI Application for creating progressions for Kodeman's GunGame. To begin you 
 Typical save location, note the double slash:
 C:\\\Users\\\XXXX\\\AppData\\\Roaming\\\Thunderstore Mod Manager\\\DataFolder\\\H3VR\\profiles\\\XXXX\\\BepInEx\\\plugins\\\Kodeman-GunGame
 
-To have the application detect modded weapons edit `config.json` to define the path to where modes are stored typically location, again note the double slash:
+By default game assets 
+
+To have the application detect modded weapons edit `config.json` `ModsDirectory` to define the path to where modes are stored typically location, again note the double slash:
 C:\\Users\\XXXX\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\H3VR\\profiles\\john\\BepInEx\\plugins
 
 Mods are currently detected by searching through provided mod path looking for files with late_ in the name, if you have a mod that does not contain a late file you may add it to `config.json` by editing `ManuallyLoadedMods` you will again need the double slash
