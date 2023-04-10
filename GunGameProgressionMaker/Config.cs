@@ -16,6 +16,7 @@ namespace GunGameProgressionMaker
 
         public string gameResourcesPath { get; set; }
         public string gameManagedPath { get; set; }
+        public string modsDirectory { get; set; }
     }
 
     public class Enemy

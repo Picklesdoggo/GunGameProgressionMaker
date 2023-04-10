@@ -27,33 +27,46 @@ namespace GunGameProgressionMaker
             {
                 string configJson = File.ReadAllText("config.json");
                 config = JsonConvert.DeserializeObject<Config>(configJson);
-                loadFromAssets();
+                cache.Items = new List<ItemSpawnerID>();
+                cache.Objects = new List<ObjectID>();
+
+                // load base objects first
+                loadFromAssets(config.gameResourcesPath, false);
                 buildJSON();
             }
 
 
         }
 
-        public static void loadFromAssets()
+        public static void loadFromAssets(string path, bool isMod)
         {
 
             // Paths
-            string GameResourcesPath = config.gameResourcesPath;
             string GameManagedPath = config.gameManagedPath;
-            
+
             // Setup the assets manager
             AssetsManager am = new AssetsManager();
-            AssetsFileInstance inst = am.LoadAssetsFile(GameResourcesPath, true);
+            AssetsFileInstance inst;
+            if (isMod)
+            {
+                BundleFileInstance bfi = am.LoadBundleFile(path);
+                inst = am.LoadAssetsFileFromBundle(bfi, 0);
+            }
+            else
+            {
+                inst = am.LoadAssetsFile(path, true);
+            }
+           
             am.LoadClassPackage("classdata.tpk");
             am.LoadClassDatabaseFromPackage(inst.file.typeTree.unityVersion);
 
             // List to keep track of our Item Spawner IDs
 
             List<AssetTypeValueField> itemSpawnerIDsRaw = new List<AssetTypeValueField>();
-            cache.Items = new List<ItemSpawnerID>();
+          
 
             List<AssetTypeValueField> objectIDsRaw = new List<AssetTypeValueField>();
-            cache.Objects = new List<ObjectID>();
+            
 
             foreach (var inf in inst.table.GetAssetsOfType((int)AssetClassID.GameObject))
             {
