@@ -43,7 +43,14 @@ namespace GunGameProgressionMaker
                     {
                         if(File.Exists(modPath))
                         {
-                            loadFromAssets(modPath, true);
+                            try
+                            {
+                                loadFromAssets(modPath, true);
+                            }
+                            catch
+                            {
+                                MessageBox.Show("Unable to process " + modPath);
+                            }
                         }
                         
                     }
@@ -59,7 +66,14 @@ namespace GunGameProgressionMaker
                     {
                         if(File.Exists(manualModPath))
                         {
-                            loadFromAssets(manualModPath, true);
+                            try
+                            {
+                                loadFromAssets(manualModPath, true);
+                            }
+                            catch
+                            {
+                                MessageBox.Show("Unable to process " + manualModPath);
+                            }
                         }
                     }
                 }
