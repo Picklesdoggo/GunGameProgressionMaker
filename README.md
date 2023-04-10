@@ -9,7 +9,10 @@ A GUI Application for creating progressions for Kodeman's GunGame. To begin you 
 Typical save location, note the double slash:
 C:\\\Users\\\XXXX\\\AppData\\\Roaming\\\Thunderstore Mod Manager\\\DataFolder\\\H3VR\\profiles\\\XXXX\\\BepInEx\\\plugins\\\Kodeman-GunGame
 
-By default game assets 
+By default game assets are located, if this is not where your game is installed edit `config.json` `GameResourcesPath` :
+C:\\Program Files (x86)\\Steam\\steamapps\\common\\H3VR\\h3vr_Data\\resources.assets
+
+By default game managed path is located, if this is not where your game is installed edit `config.json` `GameManagedPath` :
 
 To have the application detect modded weapons edit `config.json` `ModsDirectory` to define the path to where modes are stored typically location, again note the double slash:
 C:\\Users\\XXXX\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\H3VR\\profiles\\john\\BepInEx\\plugins
