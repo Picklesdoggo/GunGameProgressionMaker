@@ -6,7 +6,8 @@ using System.IO;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-
+using static System.Net.WebRequestMethods;
+using File = System.IO.File;
 
 namespace GunGameProgressionMaker
 {
@@ -105,6 +106,10 @@ namespace GunGameProgressionMaker
             }
 
             cmbCategoryID.SelectedIndex = 0;
+
+
+            // Handle mod drop down seperatly 
+            populateModFilter();
         }
 
         private void populateDrowDown(List<string> items, ComboBox box)
@@ -125,7 +130,38 @@ namespace GunGameProgressionMaker
                 cb.IsChecked = true;
                 box.Items.Add(cb);
             }
-        }             
+        }
+
+        private void populateModFilter()
+        {
+            cmbModFilter.Items.Clear();
+
+            // add select all
+            CheckBox SelectAll = new CheckBox();
+            SelectAll.Content = "Select All";
+            SelectAll.IsChecked = true;
+            SelectAll.Click += Filter_Click;
+            cmbModFilter.Items.Add(SelectAll);
+
+            // Have Base Game at top of mod list
+            CheckBox baseCB = new CheckBox();
+            baseCB.Content = "Base Game";
+            baseCB.Click += Filter_Click;
+            baseCB.IsChecked = true;
+            cmbModFilter.Items.Add(baseCB);
+
+            foreach (string mod in allGuns.mods)
+            {
+                if (mod != "Base Game")
+                {
+                    CheckBox cb = new CheckBox();
+                    cb.Content = mod;
+                    cb.Click += Filter_Click;
+                    cb.IsChecked = true;
+                    cmbModFilter.Items.Add(cb);
+                }
+            }
+        }
 
         private void filterGuns()
         {
@@ -137,6 +173,7 @@ namespace GunGameProgressionMaker
             List<Gun> nationFiltered = new List<Gun>();
             List<Gun> caliberFiltered = new List<Gun>();
             List<Gun> firearmActionFiltered = new List<Gun>();
+            List<Gun> modFiltered = new List<Gun>();
             List<Gun> filteredGuns = new List<Gun>();
 
             // Filter on Era first
@@ -203,6 +240,10 @@ namespace GunGameProgressionMaker
                 }
             }
 
+            // Include null caliber guns
+            List<Gun> nullCaliber = allGuns.guns.Where(c => c.Caliber == null).ToList();
+            caliberFiltered = caliberFiltered.Concat(nullCaliber).ToList();
+
             // remove duplicates
             caliberFiltered = caliberFiltered.Distinct().ToList();
 
@@ -222,7 +263,26 @@ namespace GunGameProgressionMaker
             // remove duplicates
             firearmActionFiltered = firearmActionFiltered.Distinct().ToList();
 
-            filteredGuns = firearmActionFiltered;
+            // Filter on mod
+            foreach (object o in cmbModFilter.Items)
+            {
+                CheckBox cb = (CheckBox)o;
+
+                if (cb.IsChecked == true)
+                {
+                    string selectedMod = cb.Content.ToString();
+                    if (selectedMod != "Select All")
+                    {
+                        List<Gun> filter = firearmActionFiltered.Where(g => g.ModName == selectedMod).ToList();
+                        modFiltered = modFiltered.Concat(filter).ToList();
+                    }
+                }
+            }
+
+            // remove duplicates
+            modFiltered = modFiltered.Distinct().ToList();
+
+            filteredGuns = modFiltered;
             filteredGuns = filteredGuns.OrderBy(g => g.GunName).ToList();
 
             // Update gun drop down
@@ -266,6 +326,10 @@ namespace GunGameProgressionMaker
                 else if (comboBox.Name == "cmbFirearmActionFilter")
                 { 
                     items = cmbFirearmActionFilter.Items;
+                }
+                else if (comboBox.Name == "cmbModFilter")
+                {
+                    items = cmbModFilter.Items;
                 }
                 else
                 {

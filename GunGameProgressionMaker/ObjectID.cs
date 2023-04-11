@@ -329,5 +329,7 @@ namespace GunGameProgressionMaker
         public ETagFirearmMount AttachmentMount { get; set; }
 
         public List<ObjectID> BespokeAttachments = new List<ObjectID>();
+
+        public string ModName { get; set; }
     }
 }

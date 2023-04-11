@@ -39,7 +39,7 @@ namespace GunGameProgressionMaker
                     return;
                 }
 
-                loadFromAssets(config.gameResourcesPath, false);
+                loadFromAssets(config.gameResourcesPath, false, "Base Game");
 
                 // load list of mod files
                 if (config.modsDirectory != null)
@@ -51,7 +51,7 @@ namespace GunGameProgressionMaker
                         {
                             try
                             {
-                                loadFromAssets(modPath, true);
+                                loadFromAssets(modPath, true, "MOD");
                             }
                             catch
                             {
@@ -74,7 +74,7 @@ namespace GunGameProgressionMaker
                         {
                             try
                             {
-                                loadFromAssets(manualModPath, true);
+                                loadFromAssets(manualModPath, true, "MOD");
                             }
                             catch
                             {
@@ -106,7 +106,7 @@ namespace GunGameProgressionMaker
             return paths;
         }
 
-        public static void loadFromAssets(string path, bool isMod)
+        public static void loadFromAssets(string path, bool isMod, string modName)
         {
 
             // Paths
@@ -229,7 +229,7 @@ namespace GunGameProgressionMaker
                 item.FirearmAction = (ETagFirearmAction)obj["TagFirearmAction"].GetValue().AsInt();
                 item.FirearmMounts = new List<ETagFirearmMount>();
                 item.AttachmentMount = (ETagFirearmMount)obj["TagAttachmentMount"].GetValue().AsInt();
-
+                item.ModName = modName;
                 List<AssetTypeValueField> firingModes = obj["TagFirearmFiringModes"].GetChildrenList().ToList();
                 foreach (AssetTypeValueField mode in firingModes)
                 {
@@ -313,7 +313,8 @@ namespace GunGameProgressionMaker
                 nations = new List<string>(),
                 maxCategories = config.maxcategories,
                 extras = new List<Extras>(),
-                extraCategories = new List<string>()
+                extraCategories = new List<string>(),
+                mods = new List<string>()
             };
 
             // Add guns
@@ -331,6 +332,12 @@ namespace GunGameProgressionMaker
                 gun.DefaultMagName = "";
                 gun.CompatibleExtras = new List<Extras>();
                 gun.UsesSpeedLoader = gunObject.UsesSpeedloader;
+                gun.ModName = gunObject.ModName;
+
+                if (!gunJson.mods.Contains(gunObject.ModName))
+                {
+                    gunJson.mods.Add(gunObject.ModName);
+                }
 
                 gun.NationOfOrigin = gunObject.CountryOfOriginDisplay;
                 if (!gunJson.nations.Contains(gun.NationOfOrigin))

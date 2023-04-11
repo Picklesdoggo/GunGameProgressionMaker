@@ -18,12 +18,14 @@ namespace GunGameProgressionMaker
         public List<string> categories { get; set; }
         public List<string> nations { get; set; }
         public List<string> calibers { get; set; }
+        public List<string> mods { get; set; }
         public List<Extras> extras { get; set; }
-
+        
     }
 
     public class Gun
     {
+        public string ModName { get; set; }
         public string GunName { get; set; }
 
         public string Caliber { get; set; }

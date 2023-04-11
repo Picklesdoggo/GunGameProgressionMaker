@@ -248,6 +248,7 @@
                                 <RowDefinition Height="auto"/>
                                 <RowDefinition Height="auto"/>
                                 <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
                             </Grid.RowDefinitions>
 
                             <Label Content="Caliber Filter"/>
@@ -288,6 +289,15 @@
 
                             <Label Content="Nation of Origin Filter" Grid.Row="4"/>
                             <ComboBox Grid.Row="4" Grid.Column="1" Name="cmbNationFilter">
+                                <ComboBox.ItemContainerStyle>
+                                    <Style TargetType="ComboBoxItem">
+                                        <Setter Property="Background" Value="DarkGray"/>
+                                    </Style>
+                                </ComboBox.ItemContainerStyle>
+                            </ComboBox>
+
+                            <Label Content="Mod Filter" Grid.Row="5"/>
+                            <ComboBox Grid.Row="5" Grid.Column="1" Name="cmbModFilter">
                                 <ComboBox.ItemContainerStyle>
                                     <Style TargetType="ComboBoxItem">
                                         <Setter Property="Background" Value="DarkGray"/>
