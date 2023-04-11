@@ -108,6 +108,7 @@
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ManifestJSON.cs" />
     <Compile Include="ObjectID.cs" />
     <Compile Include="ProgressionJSON.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">

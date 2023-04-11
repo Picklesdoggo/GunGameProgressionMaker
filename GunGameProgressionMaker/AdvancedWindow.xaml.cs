@@ -238,6 +238,10 @@ namespace GunGameProgressionMaker
                 }
             }
 
+            // Include null caliber guns
+            List<Gun> nullCaliber = allGameData.guns.Where(c => c.Caliber == null).ToList();
+            caliberFiltered = caliberFiltered.Concat(nullCaliber).ToList();
+
             // remove duplicates
             caliberFiltered = caliberFiltered.Distinct().ToList();
 

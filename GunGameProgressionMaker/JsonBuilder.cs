@@ -51,11 +51,36 @@ namespace GunGameProgressionMaker
                         {
                             try
                             {
-                                loadFromAssets(modPath, true, "MOD");
+                                string modDirectory = Path.GetDirectoryName(modPath);
+                                // Find manifest json file
+                                string manifestPath = modDirectory + @"\\manifest.json";
+                                if (File.Exists(manifestPath))
+                                {
+                                    string manifestJsonString = File.ReadAllText(manifestPath);
+                                    ManifestJSON manifestJSON = JsonConvert.DeserializeObject<ManifestJSON>(manifestJsonString);
+                                    loadFromAssets(modPath, true, manifestJSON.name);
+                                }
+                                else
+                                {
+                                    bool manifestFound = false;
+                                    while (!manifestFound)
+                                    {
+                                        string currentFolder = Path.GetDirectoryName(modPath);
+                                        string parentFolder = Directory.GetParent(currentFolder).FullName;
+                                        manifestPath = parentFolder + @"\\manifest.json";
+                                        if (File.Exists(manifestPath))
+                                        {
+                                            string manifestJsonString = File.ReadAllText(manifestPath);
+                                            ManifestJSON manifestJSON = JsonConvert.DeserializeObject<ManifestJSON>(manifestJsonString);
+                                            loadFromAssets(modPath, true, manifestJSON.name);
+                                            manifestFound = true;
+                                        }
+                                    }
+                                }
                             }
-                            catch
+                            catch(Exception ex)
                             {
-                                MessageBox.Show("Unable to process " + modPath);
+                                MessageBox.Show("Unable to process " + modPath + " " + ex.Message);
                             }
                         }
                         
@@ -74,11 +99,36 @@ namespace GunGameProgressionMaker
                         {
                             try
                             {
-                                loadFromAssets(manualModPath, true, "MOD");
+                                string modDirectory = Path.GetDirectoryName(manualModPath);
+                                // Find manifest json file
+                                string manifestPath = modDirectory + @"\\manifest.json";
+                                if (File.Exists(manifestPath))
+                                {
+                                    string manifestJsonString = File.ReadAllText(manifestPath);
+                                    ManifestJSON manifestJSON = JsonConvert.DeserializeObject<ManifestJSON>(manifestJsonString);
+                                    loadFromAssets(manualModPath, true, manifestJSON.name);
+                                }
+                                else
+                                {
+                                    bool manifestFound = false;
+                                    while (!manifestFound)
+                                    {
+                                        string currentFolder = Path.GetDirectoryName(manualModPath);
+                                        string parentFolder = Directory.GetParent(currentFolder).FullName;
+                                        manifestPath = parentFolder + @"\\manifest.json";
+                                        if (File.Exists(manifestPath))
+                                        {
+                                            string manifestJsonString = File.ReadAllText(manifestPath);
+                                            ManifestJSON manifestJSON = JsonConvert.DeserializeObject<ManifestJSON>(manifestJsonString);
+                                            loadFromAssets(manualModPath, true, manifestJSON.name);
+                                            manifestFound = true;
+                                        }
+                                    }
+                                }
                             }
-                            catch
+                            catch (Exception ex)
                             {
-                                MessageBox.Show("Unable to process " + manualModPath);
+                                MessageBox.Show("Unable to process " + manualModPath + " " + ex.Message);
                             }
                         }
                     }
