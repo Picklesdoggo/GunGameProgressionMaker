@@ -1,4 +1,4 @@
-#MODS ARE CURRENTLY NOT BEING DETECTED CORRECTLY 
+# MODS ARE CURRENTLY NOT BEING DETECTED CORRECTLY 
 
 # GunGameProgressionMaker
 A GUI Application for creating progressions for Kodeman's GunGame. To begin you will need to update `Config.json`to define where you want to save progressions and place the following files alongside the `GunGameProgressionMaker.exe`. :
