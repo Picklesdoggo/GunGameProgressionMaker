@@ -1,5 +1,6 @@
 ﻿using AssetsTools.NET;
 using AssetsTools.NET.Extra;
+
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -39,100 +40,109 @@ namespace GunGameProgressionMaker
                     return;
                 }
 
-                loadFromAssets(config.gameResourcesPath, false, "Base Game");
+               // loadFromAssets(config.gameResourcesPath, false, "Base Game");
+                loadFromAssets(@"D:\noghiri-BB_Astra_Handguns\resources\a300-core", true, "MOD");
 
+                #region MODS
                 // load list of mod files
-                if (config.modsDirectory != null)
-                {
-                    List<string> modPaths = getModPaths();
-                    foreach (string modPath in modPaths)
-                    {
-                        if(File.Exists(modPath))
-                        {
-                            try
-                            {
-                                string modDirectory = Path.GetDirectoryName(modPath);
-                                // Find manifest json file
-                                string manifestPath = modDirectory + @"\\manifest.json";
-                                if (File.Exists(manifestPath))
-                                {
-                                    string manifestJsonString = File.ReadAllText(manifestPath);
-                                    ManifestJSON manifestJSON = JsonConvert.DeserializeObject<ManifestJSON>(manifestJsonString);
-                                    loadFromAssets(modPath, true, manifestJSON.name);
-                                }
-                                else
-                                {
-                                    bool manifestFound = false;
-                                    while (!manifestFound)
-                                    {
-                                        string currentFolder = Path.GetDirectoryName(modPath);
-                                        string parentFolder = Directory.GetParent(currentFolder).FullName;
-                                        manifestPath = parentFolder + @"\\manifest.json";
-                                        if (File.Exists(manifestPath))
-                                        {
-                                            string manifestJsonString = File.ReadAllText(manifestPath);
-                                            ManifestJSON manifestJSON = JsonConvert.DeserializeObject<ManifestJSON>(manifestJsonString);
-                                            loadFromAssets(modPath, true, manifestJSON.name);
-                                            manifestFound = true;
-                                        }
-                                    }
-                                }
-                            }
-                            catch(Exception ex)
-                            {
-                                MessageBox.Show("Unable to process " + modPath + " " + ex.Message);
-                            }
-                        }
-                        
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("No mod path detected, edit config.json if desired");
-                }
+                //if (config.modsDirectory != null)
+                //{
+                //    List<string> modPaths = getModPaths();
+                //    foreach (string modPath in modPaths)
+                //    {
+                //        if(File.Exists(modPath))
+                //        {
+                //            try
+                //            {
+                //                string modDirectory = Path.GetDirectoryName(modPath);
+                //                // Find manifest json file
+                //                string manifestPath = modDirectory + @"\\manifest.json";
+                //                if (File.Exists(manifestPath))
+                //                {
+                //                    string manifestJsonString = File.ReadAllText(manifestPath);
+                //                    ManifestJSON manifestJSON = JsonConvert.DeserializeObject<ManifestJSON>(manifestJsonString);
+                //                  //  MessageBox.Show("Processing Mod " + manifestJSON.name + "\r\n\r\n" + modPath);
+                //                    loadFromAssets(modPath, true, manifestJSON.name);
+                //                }
+                //                else
+                //                {
+                //                    bool manifestFound = false;
+                //                    while (!manifestFound)
+                //                    {
+                //                        string currentFolder = Path.GetDirectoryName(modPath);
+                //                        string parentFolder = Directory.GetParent(currentFolder).FullName;
+                //                        manifestPath = parentFolder + @"\\manifest.json";
+                //                        if (File.Exists(manifestPath))
+                //                        {
+                //                            string manifestJsonString = File.ReadAllText(manifestPath);
+                //                            ManifestJSON manifestJSON = JsonConvert.DeserializeObject<ManifestJSON>(manifestJsonString);
+                //                           // MessageBox.Show("Processing Mod " + manifestJSON.name + "\r\n\r\n" + modPath);
+                //                            loadFromAssets(modPath, true, manifestJSON.name);
+                //                            manifestFound = true;
+                //                        }
+                //                    }
+                //                }
+                //            }
+                //            catch(Exception ex)
+                //            {
+                //                MessageBox.Show("Unable to process " + modPath + " " + ex.Message);
+                //            }
+                //        }
+                //        else
+                //        {
+                //            MessageBox.Show("Could not find file " + modPath);
+                //        }
 
-                if (config.manuallyLoadedMods != null)
-                {
-                    foreach(string manualModPath in config.manuallyLoadedMods)
-                    {
-                        if(File.Exists(manualModPath))
-                        {
-                            try
-                            {
-                                string modDirectory = Path.GetDirectoryName(manualModPath);
-                                // Find manifest json file
-                                string manifestPath = modDirectory + @"\\manifest.json";
-                                if (File.Exists(manifestPath))
-                                {
-                                    string manifestJsonString = File.ReadAllText(manifestPath);
-                                    ManifestJSON manifestJSON = JsonConvert.DeserializeObject<ManifestJSON>(manifestJsonString);
-                                    loadFromAssets(manualModPath, true, manifestJSON.name);
-                                }
-                                else
-                                {
-                                    bool manifestFound = false;
-                                    while (!manifestFound)
-                                    {
-                                        string currentFolder = Path.GetDirectoryName(manualModPath);
-                                        string parentFolder = Directory.GetParent(currentFolder).FullName;
-                                        manifestPath = parentFolder + @"\\manifest.json";
-                                        if (File.Exists(manifestPath))
-                                        {
-                                            string manifestJsonString = File.ReadAllText(manifestPath);
-                                            ManifestJSON manifestJSON = JsonConvert.DeserializeObject<ManifestJSON>(manifestJsonString);
-                                            loadFromAssets(manualModPath, true, manifestJSON.name);
-                                            manifestFound = true;
-                                        }
-                                    }
-                                }
-                            }
-                            catch (Exception ex)
-                            {
-                                MessageBox.Show("Unable to process " + manualModPath + " " + ex.Message);
-                            }
-                        }
-                    }
-                }
+                //    }
+                //}
+                //else
+                //{
+                //    MessageBox.Show("No mod path detected, edit config.json if desired");
+                //}
+
+                //if (config.manuallyLoadedMods != null)
+                //{
+                //    foreach(string manualModPath in config.manuallyLoadedMods)
+                //    {
+                //        if(File.Exists(manualModPath))
+                //        {
+                //            try
+                //            {
+                //                string modDirectory = Path.GetDirectoryName(manualModPath);
+                //                // Find manifest json file
+                //                string manifestPath = modDirectory + @"\\manifest.json";
+                //                if (File.Exists(manifestPath))
+                //                {
+                //                    string manifestJsonString = File.ReadAllText(manifestPath);
+                //                    ManifestJSON manifestJSON = JsonConvert.DeserializeObject<ManifestJSON>(manifestJsonString);
+                //                    loadFromAssets(manualModPath, true, manifestJSON.name);
+                //                }
+                //                else
+                //                {
+                //                    bool manifestFound = false;
+                //                    while (!manifestFound)
+                //                    {
+                //                        string currentFolder = Path.GetDirectoryName(manualModPath);
+                //                        string parentFolder = Directory.GetParent(currentFolder).FullName;
+                //                        manifestPath = parentFolder + @"\\manifest.json";
+                //                        if (File.Exists(manifestPath))
+                //                        {
+                //                            string manifestJsonString = File.ReadAllText(manifestPath);
+                //                            ManifestJSON manifestJSON = JsonConvert.DeserializeObject<ManifestJSON>(manifestJsonString);
+                //                            loadFromAssets(manualModPath, true, manifestJSON.name);
+                //                            manifestFound = true;
+                //                        }
+                //                    }
+                //                }
+                //            }
+                //            catch (Exception ex)
+                //            {
+                //                MessageBox.Show("Unable to process " + manualModPath + " " + ex.Message);
+                //            }
+                //        }
+                //    }
+                //} 
+                #endregion
 
                 buildJSON();
             }
@@ -156,189 +166,142 @@ namespace GunGameProgressionMaker
             return paths;
         }
 
-        public static void loadFromAssets(string path, bool isMod, string modName)
+        public static void loadFromAssets(string filePath, bool isMod, string modName)
         {
+            List<AssetTypeValueField> objectIDsRaw = new List<AssetTypeValueField>();
+    
 
             // Paths
             string GameManagedPath = config.gameManagedPath;
+            AssetsManager manager = new AssetsManager();
+            manager.LoadClassPackage("classdata.tpk");
+            AssetsFileInstance afileInst;
 
-            // Setup the assets manager
-            AssetsManager am = new AssetsManager();
-            AssetsFileInstance inst;
+           
             if (isMod)
             {
-                BundleFileInstance bfi = am.LoadBundleFile(path);
-                inst = am.LoadAssetsFileFromBundle(bfi, 0);
+                var bunInst = manager.LoadBundleFile(filePath, true);
+                afileInst = manager.LoadAssetsFileFromBundle(bunInst, 0, false);
             }
             else
             {
-                inst = am.LoadAssetsFile(path, true);
+                afileInst = manager.LoadAssetsFile(filePath, true);
             }
 
-            am.LoadClassPackage("classdata.tpk");
-            am.LoadClassDatabaseFromPackage(inst.file.typeTree.unityVersion);
+            
+            var afile = afileInst.file;
+           
+            manager.LoadClassDatabaseFromPackage(afile.Metadata.UnityVersion);
 
-            // List to keep track of our Item Spawner IDs
+            manager.MonoTempGenerator = new MonoCecilTempGenerator(config.gameManagedPath);
 
-            List<AssetTypeValueField> itemSpawnerIDsRaw = new List<AssetTypeValueField>();
-
-
-            List<AssetTypeValueField> objectIDsRaw = new List<AssetTypeValueField>();
-
-
-            foreach (var inf in inst.table.GetAssetsOfType((int)AssetClassID.GameObject))
+            foreach (var goInfo in afile.GetAssetsOfType(AssetClassID.MonoBehaviour))
             {
-                var baseField = am.GetTypeInstance(inst, inf).GetBaseField();
-
-                var name = baseField.Get("m_Name").GetValue().AsString();
-                Console.WriteLine(name);
-            }
+                var baseField = manager.GetBaseField(afileInst, goInfo.PathId);
+                var scriptType = manager.GetExtAsset(afileInst, baseField["m_Script"]).baseField;
+                var scriptName = scriptType.Get("m_Name").Value.ToString();
 
 
-            // Find all MonoBehaviour Assets in the resources file
-            foreach (var inf in inst.table.GetAssetsOfType((int)AssetClassID.MonoBehaviour))
-            {
-                // Get the name of the script this object is
-                var baseField = am.GetTypeInstance(inst, inf).GetBaseField();
-                var scriptType = am.GetExtAsset(inst, baseField["m_Script"]).instance.GetBaseField();
-                var scriptName = scriptType.Get("m_Name").GetValue().AsString();
-
-                //Console.WriteLine(scriptName);
-
-                // Add to list if is ItemSpawnerID
                 if (scriptName == "ItemSpawnerID")
                 {
-                    // Get the full data for this script
-                    var monoBf = MonoDeserializer.GetMonoBaseField(am, inst, inf, GameManagedPath);
-                    // Skip any non-firearm object
-                    int temp = monoBf["Category"].GetValue().AsInt();
-                    if (monoBf["Category"].GetValue().AsInt() > 4)
+                    int category = baseField["Category"].Value.AsInt;
+
+                    if (category > 4)
                     {
                         continue;
                     }
 
-                    // Add to list
-                    itemSpawnerIDsRaw.Add(monoBf);
 
-
+                    ItemSpawnerID item = new ItemSpawnerID();
+                    item.Category = (EItemCategory)baseField["Category"].AsInt;
+                    item.SubCategory = (EItemSubCategory)baseField["SubCategory"].AsInt;
+                    item.SpawnFromID = baseField["ItemID"].AsString;
+                    item.Caliber = baseField["SubHeading"].AsString;
+                    cache.Items.Add(item);
                 }
+
                 else if (scriptName == "FVRObject")
                 {
-                    // Get the full data for this script
-                    var monoBf = MonoDeserializer.GetMonoBaseField(am, inst, inf, GameManagedPath);
-                    string temp = monoBf["ItemID"].GetValue().AsString();
+                    
+                    EObjectCategory category = (EObjectCategory)baseField["Category"].Value.AsInt;
 
-                    // Skip any non-firearm or ammo object
-                    if ((EObjectCategory)monoBf["Category"].GetValue().AsInt() == EObjectCategory.Firearm ||
-                        (EObjectCategory)monoBf["Category"].GetValue().AsInt() == EObjectCategory.Magazine ||
-                        (EObjectCategory)monoBf["Category"].GetValue().AsInt() == EObjectCategory.Clip ||
-                        (EObjectCategory)monoBf["Category"].GetValue().AsInt() == EObjectCategory.Cartridge ||
-                        (EObjectCategory)monoBf["Category"].GetValue().AsInt() == EObjectCategory.SpeedLoader ||
-                        (EObjectCategory)monoBf["Category"].GetValue().AsInt() == EObjectCategory.Attachment)
+                    if (category == EObjectCategory.Firearm ||
+                        category == EObjectCategory.Magazine ||
+                        category == EObjectCategory.Clip ||
+                        category == EObjectCategory.Cartridge ||
+                        category == EObjectCategory.SpeedLoader ||
+                        category == EObjectCategory.Attachment)
                     {
                         // Add to list
-                        objectIDsRaw.Add(monoBf);
+                        objectIDsRaw.Add(baseField);
+
+                        foreach (var tempa in baseField.Children)
+                        {
+                            Console.WriteLine(tempa.FieldName);
+                        }
+
+                        ObjectID item = new ObjectID();
+                        item.ItemID = baseField["ItemID"].AsString;
+
+                        var magazineType = baseField["MagazineType"];
+                        if (magazineType.Value != null)
+                        {
+                            item.MagazineType = magazineType.AsInt;
+                        }
+                        
+                        var clipType = baseField["ClipType"];
+                        if (clipType.Value != null)
+                        {
+                            item.ClipType = clipType.AsInt;
+                        }
+
+                        var roundType = baseField["RoundType"];
+                        if (roundType.Value != null)
+                        {
+                            item.RoundType = roundType.AsInt;
+                        }
+                        
+
+
+
+                        item.SpawnFromID = baseField["SpawnedFromId"].AsString;
+
+                        item.FiringModes = new List<EFirearmFiringMode>();
+                        item.Category = (EObjectCategory)baseField["Category"].AsInt;
+                        item.Era = (ETagEra)baseField["TagEra"].AsInt;
+                        item.Set = (ETagSet)baseField["TagSet"].AsInt;
+                        item.FirearmSize = (ETagFirearmSize)baseField["TagFirearmSize"].AsInt;
+                        item.FirearmAction = (ETagFirearmAction)baseField["TagFirearmAction"].AsInt;
+                        item.FirearmMounts = new List<ETagFirearmMount>();
+                        item.AttachmentMount = (ETagFirearmMount)baseField["TagAttachmentMount"].AsInt;
+                        item.ModName = modName;
+                        cache.Objects.Add(item);
                     }
                     else
                     {
                         continue;
                     }
 
-
-                }
-                else
-                {
-                    continue;
                 }
             }
-            foreach (var obj in itemSpawnerIDsRaw)
+
+         
+
+
+            manager.UnloadAllAssetsFiles();
+
+
+
+
+        }
+
+        private static AssetIcon GetIconForName(string type)
+        {
+            if (Enum.TryParse(type, out AssetIcon res))
             {
-                ItemSpawnerID item = new ItemSpawnerID();
-                item.Category = (EItemCategory)obj["Category"].GetValue().AsInt();
-                item.SubCategory = (EItemSubCategory)obj["SubCategory"].GetValue().AsInt();
-                item.SpawnFromID = obj["ItemID"].GetValue().AsString();
-                item.Caliber = obj["SubHeading"].GetValue().AsString();
-                cache.Items.Add(item);
-
+                return res;
             }
-
-            foreach (var obj in objectIDsRaw)
-            {
-
-                ObjectID item = new ObjectID();
-                item.MagazineType = obj["MagazineType"].GetValue().AsInt();
-                item.ClipType = obj["ClipType"].GetValue().AsInt();
-                item.RoundType = obj["RoundType"].GetValue().AsInt();
-                item.SpawnFromID = obj["SpawnedFromId"].GetValue().AsString();
-                item.ItemID = obj["ItemID"].GetValue().AsString();
-                item.FiringModes = new List<EFirearmFiringMode>();
-                item.Category = (EObjectCategory)obj["Category"].GetValue().AsInt();
-                item.Era = (ETagEra)obj["TagEra"].GetValue().AsInt();
-                item.Set = (ETagSet)obj["TagSet"].GetValue().AsInt();
-                item.FirearmSize = (ETagFirearmSize)obj["TagFirearmSize"].GetValue().AsInt();
-                item.FirearmAction = (ETagFirearmAction)obj["TagFirearmAction"].GetValue().AsInt();
-                item.FirearmMounts = new List<ETagFirearmMount>();
-                item.AttachmentMount = (ETagFirearmMount)obj["TagAttachmentMount"].GetValue().AsInt();
-                item.ModName = modName;
-                List<AssetTypeValueField> firingModes = obj["TagFirearmFiringModes"].GetChildrenList().ToList();
-                foreach (AssetTypeValueField mode in firingModes)
-                {
-                    item.FiringModes.Add((EFirearmFiringMode)mode.GetValue().AsInt());
-                }
-
-                List<AssetTypeValueField> firearmMounts = obj["TagFirearmMounts"].GetChildrenList().ToList();
-                foreach (AssetTypeValueField mount in firearmMounts)
-                {
-                    item.FirearmMounts.Add((ETagFirearmMount)mount.GetValue().AsInt());
-                }
-
-                List<AssetTypeValueField> bespokeAttachments = obj["BespokeAttachments"].GetChildrenList().ToList();
-                foreach (AssetTypeValueField bespoke in bespokeAttachments)
-                {
-                    int bespokeFileID = bespoke["m_FileID"].GetValue().AsInt();
-                    int bespokePathID = bespoke["m_PathID"].GetValue().AsInt();
-                    AssetExternal bespokeExt = am.GetExtAsset(inst, bespokeFileID, bespokePathID, true);
-                    AssetTypeValueField bespokeObj = MonoDeserializer.GetMonoBaseField(am, bespokeExt.file, bespokeExt.info, GameManagedPath);
-                    ObjectID bespkoeItem = new ObjectID();
-                    bespkoeItem.MagazineType = bespokeObj["MagazineType"].GetValue().AsInt();
-                    bespkoeItem.ClipType = bespokeObj["ClipType"].GetValue().AsInt();
-                    bespkoeItem.RoundType = bespokeObj["RoundType"].GetValue().AsInt();
-                    bespkoeItem.SpawnFromID = bespokeObj["SpawnedFromId"].GetValue().AsString();
-                    bespkoeItem.ItemID = bespokeObj["ItemID"].GetValue().AsString();
-                    bespkoeItem.FiringModes = new List<EFirearmFiringMode>();
-                    bespkoeItem.Category = (EObjectCategory)bespokeObj["Category"].GetValue().AsInt();
-                    bespkoeItem.Era = (ETagEra)bespokeObj["TagEra"].GetValue().AsInt();
-                    bespkoeItem.Set = (ETagSet)bespokeObj["TagSet"].GetValue().AsInt();
-                    bespkoeItem.FirearmSize = (ETagFirearmSize)bespokeObj["TagFirearmSize"].GetValue().AsInt();
-                    bespkoeItem.FirearmAction = (ETagFirearmAction)bespokeObj["TagFirearmAction"].GetValue().AsInt();
-                    bespkoeItem.FirearmMounts = new List<ETagFirearmMount>();
-                    bespkoeItem.AttachmentMount = (ETagFirearmMount)bespokeObj["TagAttachmentMount"].GetValue().AsInt();
-                    item.BespokeAttachments.Add(bespkoeItem);
-                }
-
-                List<AssetTypeValueField> compatibleSpeedLoaders = obj["CompatibleSpeedLoaders"].GetChildrenList().ToList();
-
-                if (compatibleSpeedLoaders.Count != 0)
-                {
-                    item.UsesSpeedloader = true;
-
-                }
-                else
-                {
-                    item.UsesSpeedloader = false;
-                }
-
-                item.FirearmRoundPower = (ETagFirearmRoundPower)obj["TagFirearmRoundPower"].GetValue().AsInt();
-                item.CountryOfOrigin = (ETagFirearmCountryOfOrigin)obj["TagFirearmCountryOfOrigin"].GetValue().AsInt();
-
-                cache.Objects.Add(item);
-
-            }
-            am.UnloadAllAssetsFiles();
-
-
-
-
+            return AssetIcon.Unknown;
         }
 
         public static void buildJSON()
