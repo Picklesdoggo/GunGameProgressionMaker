@@ -1,223 +1,1323 @@
 {
-	"enemies": [
-		"D_Bandito",
-		"D_Boss",
-		"D_BountyHunter",
-		"D_BountyHunterBoss",
-		"D_Gambler",
-		"D_Gunfighter",
-		"D_Sheriff",
-		"D_Sniper",
-		"Gladiator_Hoplite",
-		"Gladiator_Maximus",
-		"Gladiator_Murmillo",
-		"Gladiator_Porcus",
-		"Gladiator_Secutor",
-		"Gladiator_Thraex",
-		"H_BreadCrabZombie_Fast",
-		"H_BreadCrabZombie_HEV",
-		"H_BreadCrabZombie_Poison",
-		"H_BreadCrabZombie_Standard",
-		"H_BreadCrabZombie_Zombie",
-		"H_CivicErection_Meathack",
-		"H_CivicErection_Melee",
-		"H_CivicErection_Pistol",
-		"H_CivicErection_SMG",
-		"H_OberwurstElite_AR2",
-		"H_OberwurstSoldier_Shotgun",
-		"H_OberwurstSoldier_SMG",
-		"H_OberwurstSoldier_SMGNade",
-		"H_OberwurstSoldier_Sniper",
-		"J_Commando",
-		"J_Flamewiener",
-		"J_Grenadier",
-		"J_Guard",
-		"J_Machinegunner",
-		"J_Officer",
-		"J_Patrol",
-		"J_Riflewiener",
-		"J_Sniper",
-		"Junkbot_Broken",
-		"Junkbot_ElfBroken",
-		"Junkbot_Flamer",
-		"Junkbot_Heavy",
-		"Junkbot_Patrol",
-		"Junkbot_Pistoler",
-		"Junkbot_Rocket",
-		"Junkbot_Sniper",
-		"Junkbot_Soldier",
-		"Kolbasa_Boss_Kotleta",
-		"Kolbasa_Boss_Pirozhok",
-		"Kolbasa_Boss_Shashlyk",
-		"Kolbasa_Boss_Svyokolnik",
-		"Kolbasa_Boss_Tushyonka",
-		"Kolbasa_PMC_Pistols",
-		"Kolbasa_PMC_Rifle",
-		"Kolbasa_PMC_SMGs",
-		"Kolbasa_Scavenger_Pistols",
-		"Kolbasa_Scavenger_Rifle",
-		"Kolbasa_Scavenger_Shotguns",
-		"Kolbasa_Scavenger_SMG",
-		"Kolbasa_SweatyPMC_Rifle",
-		"Kolbasa_SweatyPMG_Shotgun",
-		"M_GreaseGremlins_Breacher",
-		"M_GreaseGremlins_Guard",
-		"M_GreaseGremlins_Heavy",
-		"M_GreaseGremlins_Markswiener",
-		"M_GreaseGremlins_Officer",
-		"M_GreaseGremlins_Ranger",
-		"M_GreaseGremlins_Riflewiener",
-		"M_GreaseGremlins_Scout",
-		"M_GreaseGremlins_Shield",
-		"M_GreaseGremlins_Sniper",
-		"M_GreaseGremlins_SpecOps",
-		"M_MercWiener_Breacher",
-		"M_MercWiener_Guard",
-		"M_MercWiener_Heavy",
-		"M_MercWiener_Markswiener",
-		"M_MercWiener_Officer",
-		"M_MercWiener_Ranger",
-		"M_MercWiener_Riflewiener",
-		"M_MercWiener_Scout",
-		"M_MercWiener_Shield",
-		"M_MercWiener_Sniper",
-		"M_MercWiener_SpecOps",
-		"M_Popsicles_Breacher",
-		"M_Popsicles_Guard",
-		"M_Popsicles_Heavy",
-		"M_Popsicles_Markswiener",
-		"M_Popsicles_Officer",
-		"M_Popsicles_Ranger",
-		"M_Popsicles_Riflewiener",
-		"M_Popsicles_Scout",
-		"M_Popsicles_Shield",
-		"M_Popsicles_Sniper",
-		"M_Popsicles_SpecOps",
-		"M_Swat_Breacher",
-		"M_Swat_Guard",
-		"M_Swat_Heavy",
-		"M_Swat_Markswiener",
-		"M_Swat_Officer",
-		"M_Swat_Ranger",
-		"M_Swat_Riflewiener",
-		"M_Swat_Scout",
-		"M_Swat_Shield",
-		"M_Swat_Sniper",
-		"M_Swat_SpecOps",
-		"M_VeggieDawgs_Breacher",
-		"M_VeggieDawgs_Guard",
-		"M_VeggieDawgs_Heavy",
-		"M_VeggieDawgs_Markswiener",
-		"M_VeggieDawgs_Officer",
-		"M_VeggieDawgs_Ranger",
-		"M_VeggieDawgs_Riflewiener",
-		"M_VeggieDawgs_Scout",
-		"M_VeggieDawgs_Shield",
-		"M_VeggieDawgs_Sniper",
-		"M_VeggieDawgs_SpecOps",
-		"MF_BlueFranks_Demo",
-		"MF_BlueFranks_Engineer",
-		"MF_BlueFranks_Heavy",
-		"MF_BlueFranks_Medic",
-		"MF_BlueFranks_Pyro",
-		"MF_BlueFranks_Scout",
-		"MF_BlueFranks_Sniper",
-		"MF_BlueFranks_Soldier",
-		"MF_BlueFranks_Spy",
-		"MF_RedHots_Demo",
-		"MF_RedHots_Engineer",
-		"MF_RedHots_Heavy",
-		"MF_RedHots_Medic",
-		"MF_RedHots_Pyro",
-		"MF_RedHots_Scout",
-		"MF_RedHots_Sniper",
-		"MF_RedHots_Soldier",
-		"MF_RedHots_Spy",
-		"MG_Soldier_Artic_Rifle",
-		"MG_Soldier_Chemwar_Rifle",
-		"MG_Soldier_Heavy_Rifle",
-		"MG_Soldier_Heavy_Shield",
-		"MG_Soldier_LInfantry_Rifle",
-		"MG_Soldier_LInfantry_Shotgun",
-		"MG_Special_Boss",
-		"MG_Special_Duelist",
-		"MG_Special_Ninja",
-		"MG_Special_Sniper",
-		"MG_Special_Steak",
-		"MG_Special_Support",
-		"MG_Special_Telekine",
-		"Misc_Dummy",
-		"Misc_Elf",
-		"MountainMeat_Melee",
-		"MountainMeat_Pistol",
-		"MountainMeat_Rifle",
-		"MountainMeat_Shotgun",
-		"MountainMeat_SMG",
-		"None",
-		"RW_Beefkicker",
-		"RW_Boner",
-		"RW_Driller",
-		"RW_Floater",
-		"RW_FunGuy",
-		"RW_HamFister",
-		"RW_Lemonhead",
-		"RW_OldSmokey",
-		"RW_Pig",
-		"RW_Prick",
-		"RW_RedLumberjack",
-		"RW_Rot",
-		"RW_Spurter",
-		"RW_TheHung",
-		"RWP_Cultist",
-		"RWP_PacSquad_Commander",
-		"RWP_PacSquad_Flanker",
-		"RWP_PacSquad_Sniper",
-		"RWP_PacSquad_Trooper",
-		"RWP_Prospector_Bar",
-		"RWP_Prospector_Pistol",
-		"RWP_Prospector_Rifle",
-		"RWP_Prospector_Shotgun",
-		"RWP_Skulker_Pistol",
-		"RWP_Skulker_Rifler",
-		"RWP_Skulker_Shotgun",
-		"W_Brown_Antitank",
-		"W_Brown_Flamewiener",
-		"W_Brown_Grenadier",
-		"W_Brown_Guard",
-		"W_Brown_HeavyRiflewiener",
-		"W_Brown_Machinegunner",
-		"W_Brown_Officer",
-		"W_Brown_Patrol",
-		"W_Brown_Riflewiener",
-		"W_Green_Antitank",
-		"W_Green_Flamewiener",
-		"W_Green_Grenadier",
-		"W_Green_Guard",
-		"W_Green_HeavyRiflewiener",
-		"W_Green_Machinegunner",
-		"W_Green_Officer",
-		"W_Green_Patrol",
-		"W_Green_Riflewiener",
-		"W_Grey_Antitank",
-		"W_Grey_Flamewiener",
-		"W_Grey_Grenadier",
-		"W_Grey_Guard",
-		"W_Grey_HeavyRiflewiener",
-		"W_Grey_Machinegunner",
-		"W_Grey_Officer",
-		"W_Grey_Patrol",
-		"W_Grey_Riflewiener",
-		"W_Tan_Antitank",
-		"W_Tan_Flamewiener",
-		"W_Tan_Grenadier",
-		"W_Tan_Guard",
-		"W_Tan_HeavyRiflewiener",
-		"W_Tan_Machinegunner",
-		"W_Tan_Officer",
-		"W_Tan_Patrol",
-		"W_Tan_Riflewiener"
-	],
-	"GunBlacklist": [
+	 "enemies": [
+    {
+      "category": "Wild West",
+      "name": "D_Bandito",
+      "appearance": "Poncho and wide-brimmed hat",
+      "weapons": "2 Navy Revolvers",
+      "note": ""
+    },
+    {
+      "category": "Wild West",
+      "name": "D_Boss",
+      "appearance": "Sheriff's outfit",
+      "weapons": "Gatling Gun and Army Revolver",
+      "note": ""
+    },
+    {
+      "category": "Wild West",
+      "name": "D_BountyHunter",
+      "appearance": "Top hat and cloak",
+      "weapons": " Lever Action Rifle",
+      "note": ""
+    },
+    {
+      "category": "Wild West",
+      "name": "D_BountyHunterBoss",
+      "appearance": "Top hat and cloak",
+      "weapons": " 1887 Shotgun",
+      "note": ""
+    },
+    {
+      "category": "Wild West",
+      "name": "D_Gambler",
+      "appearance": "Vest and Bowler Hat",
+      "weapons": " 2 Derringers",
+      "note": ""
+    },
+    {
+      "category": "Wild West",
+      "name": "D_Gunfighter",
+      "appearance": "Poncho and wide-brimmed hat",
+      "weapons": " Double Barrel Shotgun",
+      "note": ""
+    },
+    {
+      "category": "Wild West",
+      "name": "D_Sheriff",
+      "appearance": "Sheriff's outfit",
+      "weapons": " Two Army Revolvers",
+      "note": ""
+    },
+    {
+      "category": "Wild West",
+      "name": "D_Sniper",
+      "appearance": "Poncho and Wide-brimmed hat",
+      "weapons": " Trapdoor Rifle",
+      "note": ""
+    },
+    {
+      "category": "Gladiators",
+      "name": "Gladiator_Hoplite",
+      "appearance": "Helmet and bronze breastplate",
+      "weapons": " Gladius and Shield and Javelin",
+      "note": ""
+    },
+    {
+      "category": "Gladiators",
+      "name": "Gladiator_Maximus",
+      "appearance": "Helmet and bronze breastplate with hippos",
+      "weapons": " Gladius and Shield",
+      "note": ""
+    },
+    {
+      "category": "Gladiators",
+      "name": "Gladiator_Murmillo",
+      "appearance": "Full-face helemt and no chest armor",
+      "weapons": " Gladius and Shield",
+      "note": ""
+    },
+    {
+      "category": "Gladiators",
+      "name": "Gladiator_Porcus",
+      "appearance": "Pig Helmet and laminar curaiss",
+      "weapons": " Gladius and Spiked Club",
+      "note": ""
+    },
+    {
+      "category": "Gladiators",
+      "name": "Gladiator_Secutor",
+      "appearance": "Full-face helmet and laminar curaiss",
+      "weapons": " Gladius and Parazonium",
+      "note": ""
+    },
+    {
+      "category": "Gladiators",
+      "name": "Gladiator_Thraex",
+      "appearance": "Helmet and no chest armor",
+      "weapons": " Spiked Club and Shield",
+      "note": ""
+    },
+    {
+      "category": "Shelf Life",
+      "name": "H_BreadCrabZombie_Fast",
+      "appearance": "Naked Rotwiener with grill marks and Fast Breadcrab on its head",
+      "weapons": " Axe",
+      "note": ""
+    },
+    {
+      "category": "Shelf Life",
+      "name": "H_BreadCrabZombie_HEV",
+      "appearance": "Breadcrab Zombie wearing Oberwurst T2 armor",
+      "weapons": " Cyber Grenade",
+      "note": ""
+    },
+    {
+      "category": "Shelf Life",
+      "name": "H_BreadCrabZombie_Poison",
+      "appearance": "Black bread bun with teeth on its underside",
+      "weapons": " Debuff melee attac",
+      "note": ""
+    },
+    {
+      "category": "Shelf Life",
+      "name": "H_BreadCrabZombie_Standard",
+      "appearance": "Rotwiener with Breadcrab on its head",
+      "weapons": " Axe",
+      "note": ""
+    },
+    {
+      "category": "Shelf Life",
+      "name": "H_BreadCrabZombie_Zombie",
+      "appearance": "Rotwiener with Breadcrab on its head",
+      "weapons": " Axe",
+      "note": ""
+    },
+    {
+      "category": "Shelf Life",
+      "name": "H_CivicErection_Meathack",
+      "appearance": "Burger drone with buzzsaw",
+      "weapons": " Buzzsaw blade",
+      "note": ""
+    },
+    {
+      "category": "Shelf Life",
+      "name": "H_CivicErection_Melee",
+      "appearance": "White gasmask and blue Tier 1 armor",
+      "weapons": " Stun Stick",
+      "note": ""
+    },
+    {
+      "category": "Shelf Life",
+      "name": "H_CivicErection_Pistol",
+      "appearance": "White gasmask and blue Tier 1 armor",
+      "weapons": "  USP Match",
+      "note": ""
+    },
+    {
+      "category": "Shelf Life",
+      "name": "H_CivicErection_SMG",
+      "appearance": "White gasmask and blue Tier 1 armor",
+      "weapons": " MP7 and Cyber Grenade",
+      "note": ""
+    },
+    {
+      "category": "Shelf Life",
+      "name": "H_OberwurstElite_AR2",
+      "appearance": "White armor and helmet Tier 3",
+      "weapons": " AR3",
+      "note": ""
+    },
+    {
+      "category": "Shelf Life",
+      "name": "H_OberwurstSoldier_Shotgun",
+      "appearance": "Gray gasmask and dark blue Tier 2 armor",
+      "weapons": " SPAS-12",
+      "note": ""
+    },
+    {
+      "category": "Shelf Life",
+      "name": "H_OberwurstSoldier_SMG",
+      "appearance": "Gray gasmask and dark blue Tier 2 armor",
+      "weapons": " MP7",
+      "note": ""
+    },
+    {
+      "category": "Shelf Life",
+      "name": "H_OberwurstSoldier_SMGNade",
+      "appearance": "Gray gasmask and dark blue Tier 2 armor MP7",
+      "weapons": " HLHE grenade",
+      "note": ""
+    },
+    {
+      "category": "Shelf Life",
+      "name": "H_OberwurstSoldier_Sniper",
+      "appearance": "Gray gasmask and dark blue Tier 2 armor",
+      "weapons": " Scout",
+      "note": ""
+    },
+    {
+      "category": "Jungle Jerky",
+      "name": "J_Commando",
+      "appearance": "Helmet and Night Vision Goggles and Tier 2 Armor",
+      "weapons": " MP5SD and Incendiary Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Jungle Jerky",
+      "name": "J_Flamewiener",
+      "appearance": "Helmet with Faceplate",
+      "weapons": " Flamethrower andTanto",
+      "note": ""
+    },
+    {
+      "category": "Jungle Jerky",
+      "name": "J_Grenadier",
+      "appearance": "Patrol Cap/Wool Cap/Garrison Cap",
+      "weapons": " 870 Shotgun and M67 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Jungle Jerky",
+      "name": "J_Guard",
+      "appearance": "Patrol Cap/Wool Cap/Garrison Cap",
+      "weapons": " M1911 or Revolver and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Jungle Jerky",
+      "name": "J_Machinegunner",
+      "appearance": "Helmet and Tier 1 armor",
+      "weapons": " M60 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Jungle Jerky",
+      "name": "J_Officer",
+      "appearance": "Officer's Cap and Tier 2 Armor",
+      "weapons": " M1 Carbine or P90 and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Jungle Jerky",
+      "name": "J_Patrol",
+      "appearance": "Patrol Cap/Wool Cap/Garrison Cap",
+      "weapons": " Uzi or Mac 11 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Jungle Jerky",
+      "name": "J_Riflewiener",
+      "appearance": "Helmet",
+      "weapons": " M16 or M60 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Jungle Jerky",
+      "name": "J_Sniper",
+      "appearance": "Helmet and Night Vision Gogglesand Tier 2 Armor",
+      "weapons": " Scout and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Grease Gremlins",
+      "name": "M_GreaseGremlins_Breacher",
+      "appearance": "Helmet with Faceplate and Tier 3 Armor",
+      "weapons": " AA12 or P90 and Flame grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Grease Gremlins",
+      "name": "M_GreaseGremlins_Guard",
+      "appearance": "Baseball Cap/Patrol Cap and Tier 1 Armor",
+      "weapons": " Pistol (USP Match or Glock or M1911 or Revolver) and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Grease Gremlins",
+      "name": "M_GreaseGremlins_Heavy",
+      "appearance": "Helmet with Faceplate and Tier 3 Armor",
+      "weapons": " M60 and M67 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Grease Gremlins",
+      "name": "M_GreaseGremlins_Markswiener",
+      "appearance": "Helmet with gasmask and Tier 2 Armor",
+      "weapons": " Mk 14 EBR and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Grease Gremlins",
+      "name": "M_GreaseGremlins_Officer",
+      "appearance": "Helmet with Gasmask and Tier 2 Armor",
+      "weapons": " MP7 and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Grease Gremlins",
+      "name": "M_GreaseGremlins_Ranger",
+      "appearance": "Patrol Cap/Baseball Cap and Tier 1 Armor",
+      "weapons": " Shotgun (870 or DP12) and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Grease Gremlins",
+      "name": "M_GreaseGremlins_Riflewiener",
+      "appearance": "Helmet with Gasmask and Tier 2 Armor",
+      "weapons": " Assault Rifle (M16 and AKM and or F2000) and M67 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Grease Gremlins",
+      "name": "M_GreaseGremlins_Scout",
+      "appearance": "Baseball Cap/Patrol Cap and Tier 1 Armor",
+      "weapons": " SMG (Mac 11 or Uzi) and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Grease Gremlins",
+      "name": "M_GreaseGremlins_Shield",
+      "appearance": "Helmet with Gasmask and Tier 2 Armor",
+      "weapons": " Pistol (USP Match or Glock) and Shield and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Grease Gremlins",
+      "name": "M_GreaseGremlins_Sniper",
+      "appearance": "Baseball Cap/Patrol Cap and Tier 1 Armor",
+      "weapons": " Scout and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Grease Gremlins",
+      "name": "M_GreaseGremlins_SpecOps",
+      "appearance": "Helmet and Tier 1 Armor",
+      "weapons": " MP5SD and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Merc Wieners",
+      "name": "M_MercWiener_Breacher",
+      "appearance": "Helmet with Faceplate and Tier 3 Armor",
+      "weapons": " AA12 or P90 and Flame grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Merc Wieners",
+      "name": "M_MercWiener_Guard",
+      "appearance": "Baseball Cap/Patrol Cap and Tier 1 Armor",
+      "weapons": " Pistol (USP Match or Glock or M1911 or Revolver) and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Merc Wieners",
+      "name": "M_MercWiener_Heavy",
+      "appearance": "Helmet with Faceplate and Tier 3 Armor",
+      "weapons": " M60 and M67 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Merc Wieners",
+      "name": "M_MercWiener_Markswiener",
+      "appearance": "Helmet with gasmask and Tier 2 Armor",
+      "weapons": " Mk 14 EBR and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Merc Wieners",
+      "name": "M_MercWiener_Officer",
+      "appearance": "Helmet with Gasmask and Tier 2 Armor",
+      "weapons": " MP7 and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Merc Wieners",
+      "name": "M_MercWiener_Ranger",
+      "appearance": "Patrol Cap/Baseball Cap and Tier 1 Armor",
+      "weapons": " Shotgun (870 or DP12) and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Merc Wieners",
+      "name": "M_MercWiener_Riflewiener",
+      "appearance": "Helmet with Gasmask and Tier 2 Armor",
+      "weapons": " Assault Rifle (M16 and AKM and or F2000) and M67 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Merc Wieners",
+      "name": "M_MercWiener_Scout",
+      "appearance": "Baseball Cap/Patrol Cap and Tier 1 Armor",
+      "weapons": " SMG (Mac 11 or Uzi) and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Merc Wieners",
+      "name": "M_MercWiener_Shield",
+      "appearance": "Helmet with Gasmask and Tier 2 Armor",
+      "weapons": " Pistol (USP Match or Glock) and Shield and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Merc Wieners",
+      "name": "M_MercWiener_Sniper",
+      "appearance": "Baseball Cap/Patrol Cap and Tier 1 Armor",
+      "weapons": " Scout and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Merc Wieners",
+      "name": "M_MercWiener_SpecOps",
+      "appearance": "Helmet and Tier 1 Armor",
+      "weapons": " MP5SD and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Popsicles",
+      "name": "M_Popsicles_Breacher",
+      "appearance": "Helmet with Faceplate and Tier 3 Armor",
+      "weapons": " AA12 or P90 and Flame grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Popsicles",
+      "name": "M_Popsicles_Guard",
+      "appearance": "Baseball Cap/Patrol Cap and Tier 1 Armor",
+      "weapons": " Pistol (USP Match or Glock or M1911 or Revolver) and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Popsicles",
+      "name": "M_Popsicles_Heavy",
+      "appearance": "Helmet with Faceplate and Tier 3 Armor",
+      "weapons": " M60 and M67 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Popsicles",
+      "name": "M_Popsicles_Markswiener",
+      "appearance": "Helmet with gasmask and Tier 2 Armor",
+      "weapons": " Mk 14 EBR and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Popsicles",
+      "name": "M_Popsicles_Officer",
+      "appearance": "Helmet with Gasmask and Tier 2 Armor",
+      "weapons": " MP7 and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Popsicles",
+      "name": "M_Popsicles_Ranger",
+      "appearance": "Patrol Cap/Baseball Cap and Tier 1 Armor",
+      "weapons": " Shotgun (870 or DP12) and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Popsicles",
+      "name": "M_Popsicles_Riflewiener",
+      "appearance": "Helmet with Gasmask and Tier 2 Armor",
+      "weapons": " Assault Rifle (M16 and AKM and or F2000) and M67 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Popsicles",
+      "name": "M_Popsicles_Scout",
+      "appearance": "Baseball Cap/Patrol Cap and Tier 1 Armor",
+      "weapons": " SMG (Mac 11 or Uzi) and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Popsicles",
+      "name": "M_Popsicles_Shield",
+      "appearance": "Helmet with Gasmask and Tier 2 Armor",
+      "weapons": " Pistol (USP Match or Glock) and Shield and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Popsicles",
+      "name": "M_Popsicles_Sniper",
+      "appearance": "Baseball Cap/Patrol Cap and Tier 1 Armor",
+      "weapons": " Scout and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Popsicles",
+      "name": "M_Popsicles_SpecOps",
+      "appearance": "Helmet and Tier 1 Armor",
+      "weapons": " MP5SD and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Popsicles",
+      "name": "M_Swat_Breacher",
+      "appearance": "Helmet with Faceplate and Tier 3 Armor",
+      "weapons": " AA12 or P90 and Flame grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Shotdogs",
+      "name": "M_Swat_Guard",
+      "appearance": "Baseball Cap/Patrol Cap and Tier 1 Armor",
+      "weapons": " Pistol (USP Match or Glock or M1911 or Revolver) and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Shotdogs",
+      "name": "M_Swat_Heavy",
+      "appearance": "Helmet with Faceplate and Tier 3 Armor",
+      "weapons": " M60 and M67 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Shotdogs",
+      "name": "M_Swat_Markswiener",
+      "appearance": "Helmet with gasmask and Tier 2 Armor",
+      "weapons": " Mk 14 EBR and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Shotdogs",
+      "name": "M_Swat_Officer",
+      "appearance": "Helmet with Gasmask and Tier 2 Armor",
+      "weapons": " MP7 and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Shotdogs",
+      "name": "M_Swat_Ranger",
+      "appearance": "Patrol Cap/Baseball Cap and Tier 1 Armor",
+      "weapons": " Shotgun (870 or DP12) and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Shotdogs",
+      "name": "M_Swat_Riflewiener",
+      "appearance": "Helmet with Gasmask and Tier 2 Armor",
+      "weapons": " Assault Rifle (M16 and AKM and or F2000) and M67 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Shotdogs",
+      "name": "M_Swat_Scout",
+      "appearance": "Baseball Cap/Patrol Cap and Tier 1 Armor",
+      "weapons": " SMG (Mac 11 or Uzi) and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Shotdogs",
+      "name": "M_Swat_Shield",
+      "appearance": "Helmet with Gasmask and Tier 2 Armor",
+      "weapons": " Pistol (USP Match or Glock) and Shield and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Shotdogs",
+      "name": "M_Swat_Sniper",
+      "appearance": "Baseball Cap/Patrol Cap and Tier 1 Armor",
+      "weapons": " Scout and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Shotdogs",
+      "name": "M_Swat_SpecOps",
+      "appearance": "Helmet and Tier 1 Armor",
+      "weapons": " MP5SD and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Veggie Dawgs",
+      "name": "M_VeggieDawgs_Breacher",
+      "appearance": "Helmet with Faceplate and Tier 3 Armor",
+      "weapons": " AA12 or P90 and Flame grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Veggie Dawgs",
+      "name": "M_VeggieDawgs_Guard",
+      "appearance": "Baseball Cap/Patrol Cap and Tier 1 Armor",
+      "weapons": " Pistol (USP Match or Glock or M1911 or Revolver) and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Veggie Dawgs",
+      "name": "M_VeggieDawgs_Heavy",
+      "appearance": "Helmet with Faceplate and Tier 3 Armor",
+      "weapons": " M60 and M67 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Veggie Dawgs",
+      "name": "M_VeggieDawgs_Markswiener",
+      "appearance": "Helmet with gasmask and Tier 2 Armor",
+      "weapons": " Mk 14 EBR and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Veggie Dawgs",
+      "name": "M_VeggieDawgs_Officer",
+      "appearance": "Helmet with Gasmask and Tier 2 Armor",
+      "weapons": " MP7 and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Veggie Dawgs",
+      "name": "M_VeggieDawgs_Ranger",
+      "appearance": "Patrol Cap/Baseball Cap and Tier 1 Armor",
+      "weapons": " Shotgun (870 or DP12) and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Veggie Dawgs",
+      "name": "M_VeggieDawgs_Riflewiener",
+      "appearance": "Helmet with Gasmask and Tier 2 Armor",
+      "weapons": " Assault Rifle (M16 and AKM and or F2000) and M67 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Veggie Dawgs",
+      "name": "M_VeggieDawgs_Scout",
+      "appearance": "Baseball Cap/Patrol Cap and Tier 1 Armor",
+      "weapons": " SMG (Mac 11 or Uzi) and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Veggie Dawgs",
+      "name": "M_VeggieDawgs_Shield",
+      "appearance": "Helmet with Gasmask and Tier 2 Armor",
+      "weapons": " Pistol (USP Match or Glock) and Shield and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Veggie Dawgs",
+      "name": "M_VeggieDawgs_Sniper",
+      "appearance": "Baseball Cap/Patrol Cap and Tier 1 Armor",
+      "weapons": " Scout and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Modern Veggie Dawgs",
+      "name": "M_VeggieDawgs_SpecOps",
+      "appearance": "Helmet and Tier 1 Armor",
+      "weapons": " MP5SD and Smoke Grenade and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Blue Franks",
+      "name": "MF_BlueFranks_Demo",
+      "appearance": "Grenade Launcher",
+      "weapons": " Has best armor and has a blind spot on his left side due to eyepatch",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Blue Franks",
+      "name": "MF_BlueFranks_Engineer",
+      "appearance": "Shotgun",
+      "weapons": " Will set up burger-shaped mini-turrets",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Blue Franks",
+      "name": "MF_BlueFranks_Heavy",
+      "appearance": "Minigun",
+      "weapons": " Immune to suppression and highest base health",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Blue Franks",
+      "name": "MF_BlueFranks_Medic",
+      "appearance": "Needle Gun",
+      "weapons": " Will heal and Uber nearby allies in a small radius",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Blue Franks",
+      "name": "MF_BlueFranks_Pyro",
+      "appearance": "Flamethrower",
+      "weapons": " Mostly fireproof",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Blue Franks",
+      "name": "MF_BlueFranks_Scout",
+      "appearance": "Scattergun",
+      "weapons": " Fastest sausage",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Blue Franks",
+      "name": "MF_BlueFranks_Sniper",
+      "appearance": "Sniper Rifle",
+      "weapons": " Longest range enemy",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Blue Franks",
+      "name": "MF_BlueFranks_Soldier",
+      "appearance": "Rocket Launcher",
+      "weapons": " Wears a bullet resistant helmet",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Blue Franks",
+      "name": "MF_BlueFranks_Spy",
+      "appearance": "Revolver",
+      "weapons": " Turns invisible with a faded silhouette barely visible. Weak to fire.",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Red Hots",
+      "name": "MF_RedHots_Demo",
+      "appearance": "Grenade Launcher",
+      "weapons": " Has best armor and has a blind spot on his left side due to eyepatch",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Red Hots",
+      "name": "MF_RedHots_Engineer",
+      "appearance": "Shotgun",
+      "weapons": " Will set up burger-shaped mini-turrets",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Red Hots",
+      "name": "MF_RedHots_Heavy",
+      "appearance": "Minigun",
+      "weapons": " Immune to suppression and highest base health",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Red Hots",
+      "name": "MF_RedHots_Medic",
+      "appearance": "Needle Gun",
+      "weapons": " Will heal and Uber nearby allies in a small radius",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Red Hots",
+      "name": "MF_RedHots_Pyro",
+      "appearance": "Flamethrower",
+      "weapons": " Mostly fireproof",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Red Hots",
+      "name": "MF_RedHots_Scout",
+      "appearance": "Scattergun",
+      "weapons": " Fastest sausage",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Red Hots",
+      "name": "MF_RedHots_Sniper",
+      "appearance": "Sniper Rifle",
+      "weapons": " Longest range enemy",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Red Hots",
+      "name": "MF_RedHots_Soldier",
+      "appearance": "Rocket Launcher",
+      "weapons": " Wears a bullet resistant helmet",
+      "note": ""
+    },
+    {
+      "category": "Meat Fortress Red Hots",
+      "name": "MF_RedHots_Spy",
+      "appearance": "Revolver",
+      "weapons": " Turns invisible with a faded silhouette barely visible. Weak to fire.",
+      "note": ""
+    },
+    {
+      "category": "Meatle Gear",
+      "name": "MG_Soldier_Artic_Rifle",
+      "appearance": "White uniform (Tier 1) and mask",
+      "weapons": " FAMAS F1 and M9",
+      "note": ""
+    },
+    {
+      "category": "Meatle Gear",
+      "name": "MG_Soldier_Chemwar_Rifle",
+      "appearance": "Yellow Hazmat suit (Tier 1) and gasmask",
+      "weapons": " FAMAS F1 and M9",
+      "note": ""
+    },
+    {
+      "category": "Meatle Gear",
+      "name": "MG_Soldier_Heavy_Rifle",
+      "appearance": "Green armor (Tier 2) and Helmet",
+      "weapons": " FAMAS F1 and M9",
+      "note": ""
+    },
+    {
+      "category": "Meatle Gear",
+      "name": "MG_Soldier_Heavy_Shield",
+      "appearance": "Green armor (Tier 2) and Helmet",
+      "weapons": " Riot Shield and M9",
+      "note": ""
+    },
+    {
+      "category": "Meatle Gear",
+      "name": "MG_Soldier_LInfantry_Rifle",
+      "appearance": "Blue uniform (Tier 1)",
+      "weapons": " FAMAS F1 and M9",
+      "note": ""
+    },
+    {
+      "category": "Meatle Gear",
+      "name": "MG_Soldier_LInfantry_Shotgun",
+      "appearance": "Blue uniform (Tier 1)",
+      "weapons": " SPAS-12 and M9",
+      "note": ""
+    },
+    {
+      "category": "Meatle Gear",
+      "name": "MG_Special_Boss",
+      "appearance": "Brown coat",
+      "weapons": " FAMAS F1",
+      "note": ""
+    },
+    {
+      "category": "Meatle Gear",
+      "name": "MG_Special_Duelist",
+      "appearance": "Duster coat and suit",
+      "weapons": " Single Action Army",
+      "note": ""
+    },
+    {
+      "category": "Meatle Gear",
+      "name": "MG_Special_Ninja",
+      "appearance": "Heavily armored body (Tier 3)",
+      "weapons": " MG Blaster and Katana",
+      "note": ""
+    },
+    {
+      "category": "Meatle Gear",
+      "name": "MG_Special_Sniper",
+      "appearance": "White uniform",
+      "weapons": " PSG-1",
+      "note": ""
+    },
+    {
+      "category": "Meatle Gear",
+      "name": "MG_Special_Support",
+      "appearance": "Green pants",
+      "weapons": " Minigun",
+      "note": ""
+    },
+    {
+      "category": "Meatle Gear",
+      "name": "MG_Special_Telekine",
+      "appearance": "Black bodysuit and gasmask",
+      "weapons": " SPAS-12",
+      "note": ""
+    },
+    {
+      "category": "Mountain Meats",
+      "name": "MountainMeat_Melee",
+      "appearance": "Civilian clothes (rarely wears Tier 1 Armor)",
+      "weapons": " 2 Melee Weapons (Crowbar or Tomahawk or Tanto)",
+      "note": ""
+    },
+    {
+      "category": "Mountain Meats",
+      "name": "MountainMeat_Pistol",
+      "appearance": "Civilian clothes (rarely wears Tier 1 Armor)",
+      "weapons": " Pistol (M1911 or Revolver or C1903 or Desert Eagle or Glock or Colt Army or Colt Navy) and Melee Weapon (Crowbar or Tomahawk or Tanto)",
+      "note": ""
+    },
+    {
+      "category": "Mountain Meats",
+      "name": "MountainMeat_Rifle",
+      "appearance": "Civilian clothes (rarely wears Tier 1 Armor)",
+      "weapons": " Rifle (M1 Garand or Trapdoor Rifle or Lever Actionor AKM or M16 or M1 Carbine) and Melee Weapon (Crowbar or Tomahawk or Tanto)",
+      "note": ""
+    },
+    {
+      "category": "Mountain Meats",
+      "name": "MountainMeat_Shotgun",
+      "appearance": "Civilian clothes (rarely wears Tier 1 Armor)",
+      "weapons": " Shotgun( Double Barrel or 1887 Shotgun or 1897 Shotgun or 870 Shotgun) and Melee Weapon (Crowbar or Tomahawk or Tanto)",
+      "note": ""
+    },
+    {
+      "category": "Mountain Meats",
+      "name": "MountainMeat_SMG",
+      "appearance": "Civilian clothes (rarely wears Tier 1 Armor)",
+      "weapons": " SMG (Thompson or Uzi or Mac-11) and Melee Weapon (Crowbar or Tomahawk or Tanto)",
+      "note": ""
+    },
+    {
+      "category": "Rotwieners",
+      "name": "RW_Beefkicker",
+      "appearance": "Green Football Gear",
+      "weapons": " Melee Weapon",
+      "note": " Football armor may block melee attacks"
+    },
+    {
+      "category": "Rotwieners",
+      "name": "RW_Boner",
+      "appearance": "Gladiator Armor on all body segments",
+      "weapons": " Sword and Shield",
+      "note": " Resistant to all attacks except blunt damage"
+    },
+    {
+      "category": "Rotwieners",
+      "name": "RW_Driller",
+      "appearance": "Mining Helmet and Tier 3 Armor",
+      "weapons": " Jackhammer",
+      "note": ""
+    },
+    {
+      "category": "Rotwieners",
+      "name": "RW_Floater",
+      "appearance": "Black Cap",
+      "weapons": " Fishing Spears and Paddle",
+      "note": " Floater will throw fishing spears before closing in to attack"
+    },
+    {
+      "category": "Rotwieners",
+      "name": "RW_FunGuy",
+      "appearance": "Purple with mushroom hat",
+      "weapons": " Grenades",
+      "note": " Resistant to all attacks except for pustules on its body"
+    },
+    {
+      "category": "Rotwieners",
+      "name": "RW_HamFister",
+      "appearance": "Red Football Gear",
+      "weapons": " Melee Weapon",
+      "note": " Football armor may block melee attacks"
+    },
+    {
+      "category": "Rotwieners",
+      "name": "RW_Lemonhead",
+      "appearance": "Yellow growth on head",
+      "weapons": " Melee Weapon",
+      "note": " Will explode on death or in proximity to player"
+    },
+    {
+      "category": "Rotwieners",
+      "name": "RW_OldSmokey",
+      "appearance": "Black and on fire",
+      "weapons": " Flamethrower",
+      "note": ""
+    },
+    {
+      "category": "Rotwieners",
+      "name": "RW_Pig",
+      "appearance": "Gasmask and Tier 1 Armor",
+      "weapons": " Shield and Tonfa",
+      "note": ""
+    },
+    {
+      "category": "Rotwieners",
+      "name": "RW_Prick",
+      "appearance": "Green Cactus",
+      "weapons": " Darts",
+      "note": " Resistant to firearms but weak to blunt melee and fire"
+    },
+    {
+      "category": "Rotwieners",
+      "name": "RW_Rot",
+      "appearance": "Any civilian clothes",
+      "weapons": " Melee Weapon",
+      "note": " Rarely wears Tier 1 armor"
+    },
+    {
+      "category": "Rotwieners",
+      "name": "RW_Spurter",
+      "appearance": "Beer Hat and White Tank Top",
+      "weapons": " Vomit Attack",
+      "note": " Vomit attack is very deadly at close range"
+    },
+    {
+      "category": "Rotwieners",
+      "name": "RW_TheHung",
+      "appearance": "Cloth mask and Noose around its neck",
+      "weapons": " Melee Weapon or Torch",
+      "note": " Immune to headshots and weak to torso shots."
+    },
+    {
+      "category": "Pacification Squad",
+      "name": "RWP_Cultist",
+      "appearance": "Black Robes and Faceplate",
+      "weapons": " Rusty Sword and secondary weapon (Rusty Sword or Rusty Torch or Roman Shield)",
+      "note": ""
+    },
+    {
+      "category": "Pacification Squad",
+      "name": "RWP_PacSquad_Commander",
+      "appearance": "Black with Tier 3 Armor",
+      "weapons": " Pacification Suppressed Glock and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Pacification Squad",
+      "name": "RWP_PacSquad_Flanker",
+      "appearance": "Black with Tier 1 Armor",
+      "weapons": " Pacification MP5D and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Pacification Squad",
+      "name": "RWP_PacSquad_Sniper",
+      "appearance": "Black with Tier 1 Armor",
+      "weapons": " Pacification Scout and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Pacification Squad",
+      "name": "RWP_PacSquad_Trooper",
+      "appearance": "Black with Tier 2 Armor",
+      "weapons": " Pacification M16 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Pacification Squad",
+      "name": "RWP_Prospector_Bar",
+      "appearance": "Goggles and Mask and Cloak and Tier 3 Armor",
+      "weapons": " M1918 BAR and Rusty Sword",
+      "note": ""
+    },
+    {
+      "category": "Pacification Squad",
+      "name": "RWP_Prospector_Pistol",
+      "appearance": "Goggles and Mask and Cloak and Tier 3 Armor",
+      "weapons": " Desert Eagle and Rusty Sword",
+      "note": ""
+    },
+    {
+      "category": "Pacification Squad",
+      "name": "RWP_Prospector_Rifle",
+      "appearance": "Goggles and Mask and Cloak and Tier 3 Armor",
+      "weapons": " M1 Garand and Rusty Sword",
+      "note": ""
+    },
+    {
+      "category": "Pacification Squad",
+      "name": "RWP_Prospector_Shotgun",
+      "appearance": "Goggles and Mask and Cloak and Tier 3 Armor",
+      "weapons": " 1887 Lever Action and Rusty Sword",
+      "note": ""
+    },
+    {
+      "category": "Pacification Squad",
+      "name": "RWP_Skulker_Pistol",
+      "appearance": "Hood and Night Vision Goggles and Tier 1 Armor",
+      "weapons": " M1911 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Pacification Squad",
+      "name": "RWP_Skulker_Rifler",
+      "appearance": "Hood and Night Vision Goggles and Tier 1 Armor",
+      "weapons": " M1911 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "Pacification Squad",
+      "name": "RWP_Skulker_Shotgun",
+      "appearance": "Hood and Night Vision Goggles and Tier 1 Armor",
+      "weapons": " M1897 and Tanto",
+      "note": ""
+    },
+    {
+      "category": "WWII Sosiki",
+      "name": "W_Brown_Antitank",
+      "appearance": "Helmet",
+      "weapons": " M1 Bazooka and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Sosiki",
+      "name": "W_Brown_Flamewiener",
+      "appearance": "Helmet and Gasmask and Fuel Tank",
+      "weapons": " Flamethrower and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Sosiki",
+      "name": "W_Brown_Grenadier",
+      "appearance": "Helmet",
+      "weapons": " M1897 shotgun or Mk 2 and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Sosiki",
+      "name": "W_Brown_Guard",
+      "appearance": "Patrol Cap",
+      "weapons": " M1911 or C1903 or Revolver",
+      "note": ""
+    },
+    {
+      "category": "WWII Sosiki",
+      "name": "W_Brown_HeavyRiflewiener",
+      "appearance": "Helmet",
+      "weapons": " M1918 BAR and pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Sosiki",
+      "name": "W_Brown_Machinegunner",
+      "appearance": "Helmet",
+      "weapons": " M1917 Machinegun and pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Sosiki",
+      "name": "W_Brown_Officer",
+      "appearance": "Officer's Cap",
+      "weapons": " M1 Carbine or C1903",
+      "note": ""
+    },
+    {
+      "category": "WWII Sosiki",
+      "name": "W_Brown_Patrol",
+      "appearance": "Helmet",
+      "weapons": " M1A1 Thompson and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Sosiki",
+      "name": "W_Brown_Riflewiener",
+      "appearance": "Helmet",
+      "weapons": " M1 Garand Rifle and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Franks",
+      "name": "W_Green_Antitank",
+      "appearance": "Helmet",
+      "weapons": " M1 Bazooka and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Franks",
+      "name": "W_Green_Flamewiener",
+      "appearance": "Helmet and Gasmask and Fuel Tank",
+      "weapons": " Flamethrower and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Franks",
+      "name": "W_Green_Grenadier",
+      "appearance": "Helmet",
+      "weapons": " M1897 shotgun or Mk 2 and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Franks",
+      "name": "W_Green_Guard",
+      "appearance": "Patrol Cap",
+      "weapons": " M1911 or C1903 or Revolver",
+      "note": ""
+    },
+    {
+      "category": "WWII Franks",
+      "name": "W_Green_HeavyRiflewiener",
+      "appearance": "Helmet",
+      "weapons": " M1918 BAR and pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Franks",
+      "name": "W_Green_Machinegunner",
+      "appearance": "Helmet",
+      "weapons": " M1917 Machinegun and pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Franks",
+      "name": "W_Green_Officer",
+      "appearance": "Officer's Cap",
+      "weapons": " M1 Carbine or C1903",
+      "note": ""
+    },
+    {
+      "category": "WWII Franks",
+      "name": "W_Green_Patrol",
+      "appearance": "Helmet",
+      "weapons": " M1A1 Thompson and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Franks",
+      "name": "W_Green_Riflewiener",
+      "appearance": "Helmet",
+      "weapons": " M1 Garand Rifle and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Bangers",
+      "name": "W_Grey_Antitank",
+      "appearance": "Helmet",
+      "weapons": " M1 Bazooka and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Bangers",
+      "name": "W_Grey_Flamewiener",
+      "appearance": "Helmet and Gasmask and Fuel Tank",
+      "weapons": " Flamethrower and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Bangers",
+      "name": "W_Grey_Grenadier",
+      "appearance": "Helmet",
+      "weapons": " M1897 shotgun or Mk 2 and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Bangers",
+      "name": "W_Grey_Guard",
+      "appearance": "Patrol Cap",
+      "weapons": " M1911 or C1903 or Revolver",
+      "note": ""
+    },
+    {
+      "category": "WWII Bangers",
+      "name": "W_Grey_HeavyRiflewiener",
+      "appearance": "Helmet",
+      "weapons": " M1918 BAR and pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Bangers",
+      "name": "W_Grey_Machinegunner",
+      "appearance": "Helmet",
+      "weapons": " M1917 Machinegun and pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Bangers",
+      "name": "W_Grey_Officer",
+      "appearance": "Officer's Cap",
+      "weapons": " M1 Carbine or C1903",
+      "note": ""
+    },
+    {
+      "category": "WWII Bangers",
+      "name": "W_Grey_Patrol",
+      "appearance": "Helmet",
+      "weapons": " M1A1 Thompson and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Bangers",
+      "name": "W_Grey_Riflewiener",
+      "appearance": "Helmet",
+      "weapons": " M1 Garand Rifle and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Wurst",
+      "name": "W_Tan_Antitank",
+      "appearance": "Helmet",
+      "weapons": " M1 Bazooka and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Wurst",
+      "name": "W_Tan_Flamewiener",
+      "appearance": "Helmet and Gasmask and Fuel Tank",
+      "weapons": " Flamethrower and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Wurst",
+      "name": "W_Tan_Grenadier",
+      "appearance": "Helmet",
+      "weapons": " M1897 shotgun or Mk 2 and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Wurst",
+      "name": "W_Tan_Guard",
+      "appearance": "Patrol Cap",
+      "weapons": " M1911 or C1903 or Revolver",
+      "note": ""
+    },
+    {
+      "category": "WWII Wurst",
+      "name": "W_Tan_HeavyRiflewiener",
+      "appearance": "Helmet",
+      "weapons": " M1918 BAR and pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Wurst",
+      "name": "W_Tan_Machinegunner",
+      "appearance": "Helmet",
+      "weapons": " M1917 Machinegun and pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Wurst",
+      "name": "W_Tan_Officer",
+      "appearance": "Officer's Cap",
+      "weapons": " M1 Carbine or C1903",
+      "note": ""
+    },
+    {
+      "category": "WWII Wurst",
+      "name": "W_Tan_Patrol",
+      "appearance": "Helmet",
+      "weapons": " M1A1 Thompson and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    },
+    {
+      "category": "WWII Wurst",
+      "name": "W_Tan_Riflewiener",
+      "appearance": "Helmet",
+      "weapons": " M1 Garand Rifle and Pistol (M1911 or C1903 or Revolver)",
+      "note": ""
+    }
+  ],
+ "GunBlacklist": [
 		"HeavyFlintlock18thCentury",
 		"HeavyFlintlock18thCenturyRamrod",
 		"BrownBess",
@@ -241,12 +1341,23 @@
 		"PanzerSchreck54",
 		"RemoteMissileLauncher",
 		"RPG7",
-		"Whizzbanger"
+		"Whizzbanger",
+		"MF_Flamethrower",
+		"MF_PetiteLiasion",
+		"MF_Revolver",
+		"MF_LongShot",
+		"MF_Signaler",
+		"MF_StickyLauncher",
+		"P6Twelve"
 		
 
 	],
-		"FileLocations": [
-		"C:\\Users\\john.somers\\Documents\\src\\Sandbox\\GunGameProgressionMaker\\GunGameProgressionMaker\\bin\\Debug"
+		"FileLocations": [ 
 
-	]
+	],
+	"MaxCategories":250,
+	"GameResourcesPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\H3VR\\h3vr_Data\\resources.assets",
+	"GameManagedPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\H3VR\\h3vr_Data\\managed",
+	"ModsDirectory": null,
+	"ManuallyLoadedMods": [	]	
 }
