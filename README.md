@@ -1,4 +1,4 @@
-# MODS ARE CURRENTLY NOT BEING DETECTED CORRECTLY 
+# Limited mod support
 
 # GunGameProgressionMaker
 A GUI Application for creating progressions for Kodeman's GunGame. To begin you will need to update `Config.json`to define where you want to save progressions and place the following files alongside the `GunGameProgressionMaker.exe`. :
@@ -15,6 +15,10 @@ By default game assets are located, if this is not where your game is installed 
 C:\\Program Files (x86)\\Steam\\steamapps\\common\\H3VR\\h3vr_Data\\resources.assets
 
 By default game managed path is located, if this is not where your game is installed edit `config.json` `GameManagedPath` :
+
+# Mods
+
+Note: based on detected mod meta data some mods may not load at all or may load with incorrect magazine data
 
 To have the application detect modded weapons edit `config.json` `ModsDirectory` to define the path to where modes are stored typically location, again note the double slash:
 C:\\Users\\XXXX\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\H3VR\\profiles\\john\\BepInEx\\plugins
