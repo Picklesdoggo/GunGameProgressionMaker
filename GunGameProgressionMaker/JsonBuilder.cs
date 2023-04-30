@@ -204,6 +204,10 @@ namespace GunGameProgressionMaker
             {
                 var baseField = manager.GetBaseField(afileInst, goInfo.PathId);
                 var scriptType = manager.GetExtAsset(afileInst, baseField["m_Script"]).baseField;
+                if (scriptType == null)
+                {
+                    continue;
+                }
                 var scriptName = scriptType.Get("m_Name").Value.ToString();
 
 
@@ -686,7 +690,13 @@ namespace GunGameProgressionMaker
                 }
 
                 gun.Categories.Sort();
-                gunJson.guns.Add(gun);
+
+                if (gun.CompatableAmmo.Count != 0)
+                {
+                    gunJson.guns.Add(gun);
+                }
+
+                
             }
             List<string> tempSubCategories = new List<string>();
             // add attachments
