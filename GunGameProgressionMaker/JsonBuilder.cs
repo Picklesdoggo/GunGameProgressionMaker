@@ -158,9 +158,14 @@ namespace GunGameProgressionMaker
             {
                 if (file.Contains("late_"))
                 {
-
+                    
                     string assetFile = file.Replace("late_", "");
-                    paths.Add(assetFile);
+                    string ext = Path.GetExtension(assetFile);
+                    if (ext == String.Empty)
+                    {
+                        paths.Add(assetFile);
+                    }
+                    
                 }
             }
             return paths;
@@ -254,11 +259,24 @@ namespace GunGameProgressionMaker
 
         private static void createFVRObject(AssetTypeValueField baseField, string modName, AssetsFileInstance afileInst, AssetsManager manager)
         {
+
+            var usesRoundType = baseField["UsesRoundTypeFlag"];
+            if (usesRoundType.Value == null)
+            {
+                return;
+            }
+            if (usesRoundType.Value.AsBool == false)
+            {
+                return;
+            }
+
             ObjectID item = new ObjectID();
             item.ItemID = baseField["ItemID"].AsString;
 
             
             var magazineType = baseField["MagazineType"];
+            
+
             if (magazineType.Value != null)
             {
                 item.MagazineType = magazineType.AsInt;
@@ -361,17 +379,35 @@ namespace GunGameProgressionMaker
 
             }
 
+
+
+
             List<AssetTypeValueField> compatibleSpeedLoaders = baseField["CompatibleSpeedLoaders"].Children.ToList();
-
-            if (compatibleSpeedLoaders.Count != 0)
+            foreach (AssetTypeValueField sls in compatibleSpeedLoaders)
             {
-                item.UsesSpeedloader = true;
+                foreach (var sl in sls.Children)
+                {
+                    int slFileID = sl["m_FileID"].AsInt;
+                    int slPathID = sl["m_PathID"].AsInt;
+                    AssetExternal slExt = manager.GetExtAsset(afileInst, slFileID, slPathID, true);
+
+
+                    if (slExt.file == null || slExt.info == null)
+                    {
+                        continue;
+                    }
+
+                    item.UsesSpeedloader = true;
+
+
+                }
 
             }
-            else
-            {
-                item.UsesSpeedloader = false;
-            }
+
+
+           
+
+        
 
             item.FirearmRoundPower = (ETagFirearmRoundPower)baseField["TagFirearmRoundPower"].AsInt;
             item.CountryOfOrigin = (ETagFirearmCountryOfOrigin)baseField["TagFirearmCountryOfOrigin"].AsInt;
